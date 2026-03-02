@@ -1,0 +1,53 @@
+project_id,text,type,source
+cctns.pdf,"The Registration module shall provide an interface for citizens to register complaints with the police.",Functional,PURE
+cctns.pdf,"The Registration module shall facilitate information exchange between police and complainants.",Functional,PURE
+cctns.pdf,"The Investigation module shall automate tasks performed after initial registration entries to facilitate the investigation process.",Functional,PURE
+cctns.pdf,"The Prosecution module shall provide a platform for police personnel to record entries of court interactions.",Functional,PURE
+cctns.pdf,"The Search module shall allow police personnel to execute basic and advanced searches on cases using criteria including person, type of crime, modus operandi, and property.",Functional,PURE
+cctns.pdf,"The Search module shall allow users to customize result views by criminal, accused, or case.",Functional,PURE
+cctns.pdf,"The Citizen Interface module shall provide a conduit for information exchange and acknowledgements between citizens and police units.",Functional,PURE
+cctns.pdf,"The Navigation module shall provide role-based landing pages reflecting assigned cases, alerts, and pending tasks.",Functional,PURE
+cctns.pdf,"The Configuration module shall allow authorized users to create, update, and delete state-specific data including acts, sections, castes, tribes, and property information.",Functional,PURE
+cctns.pdf,"The system shall provide detailed context-sensitive help material for all user interfaces in both offline and online modes.",NonFunctional,PURE
+cctns.pdf,"The system shall provide an interface for users to log and track defects or enhancement requests.",NonFunctional,PURE
+cctns.pdf,"The system shall send automated alerts via email or SMS to the user when actions are taken on reported alerts.",NonFunctional,PURE
+cctns.pdf,"The system shall provide help-desk users with reports on defects categorized by status and age.",NonFunctional,PURE
+cctns.pdf,"The system shall maintain an unalterable audit trail capturing all create, read, update, and delete actions on critical entities including cases, suspects, and property.",NonFunctional,PURE
+cctns.pdf,"The audit trail shall automatically record the identity of the initiating user and the date and time of the event.",NonFunctional,PURE
+cctns.pdf,"The system shall maintain audit trail data for at least the life of the case to which it refers.",NonFunctional,PURE
+cctns.pdf,"The system shall allow authorized users to export audit trails for specified cases without affecting the stored data.",NonFunctional,PURE
+cctns.pdf,"The system shall capture and store unauthorized access attempts in the audit trail.",NonFunctional,PURE
+cctns.pdf,"The system shall provide audit reports organized by case, user, and chronological sequence.",NonFunctional,PURE
+cctns.pdf,"The system shall restrict case access to specified users or user groups.",NonFunctional,PURE
+cctns.pdf,"The system shall implement role-based access control for all internal functionalities.",NonFunctional,PURE
+cctns.pdf,"The system shall restrict the setup of user profiles and group allocations to administrative users only.",NonFunctional,PURE
+cctns.pdf,"The system shall restrict changes to security attributes and password management to super-users only.",NonFunctional,PURE
+cctns.pdf,"The system shall exclude records from search results if the user does not have the required access rights.",NonFunctional,PURE
+cctns.pdf,"The system shall provide meaningful error messages accompanied by explanatory text and suggested user actions.",NonFunctional,PURE
+cctns.pdf,"The system shall employ a consistent set of user interface rules to provide a common look and feel.",NonFunctional,PURE
+cctns.pdf,"The user interface shall be compatible with specialist software and guidelines for users with special needs.",NonFunctional,PURE
+cctns.pdf,"The system shall support user-definable persistent defaults for data entry fields.",NonFunctional,PURE
+cctns.pdf,"The system shall allow users to customize the graphical user interface including menus, screen layouts, colors, and fonts.",NonFunctional,PURE
+cctns.pdf,"The user interface shall comply with ISO 9241 standards for ergonomics and accessibility.",NonFunctional,PURE
+cctns.pdf,"The system shall provide alternative textual descriptions for all non-text media objects.",NonFunctional,PURE
+cctns.pdf,"The system shall provide clear navigation indicators showing the user's current position within the application structure.",NonFunctional,PURE
+cctns.pdf,"The system shall minimize the number of navigation steps required to reach specific content.",NonFunctional,PURE
+cctns.pdf,"The system shall minimize vertical scrolling and avoid horizontal scrolling.",NonFunctional,PURE
+cctns.pdf,"The system shall be designed for input device independence to allow operation via keyboard.",NonFunctional,PURE
+cctns.pdf,"The application shall be designed to achieve acceptable download times across the expected range of network bandwidths.",NonFunctional,PURE
+cctns.pdf,"The system shall support input and output of information using localized units of measurement, currency, and date formats.",NonFunctional,PURE
+cctns.pdf,"The system shall provide a printer-friendly version for documents that are long or use complex layouts.",NonFunctional,PURE
+cctns.pdf,"The system shall provide a site map showing the structure of the application.",NonFunctional,PURE
+cctns.pdf,"The system shall be available to users during specified hours and weekdays with planned downtime not exceeding a defined threshold per three-month period.",NonFunctional,PURE
+cctns.pdf,"The system shall be restorable within a specified number of hours following a software or hardware failure.",NonFunctional,PURE
+cctns.pdf,"The system shall return search results for a simple search within 5-8 seconds.",NonFunctional,PURE
+cctns.pdf,"The system shall return search results for an advanced search within 10-15 seconds.",NonFunctional,PURE
+cctns.pdf,"The system shall be designed using a 3-tier architecture that separates presentation, business, and data-access logic.",NonFunctional,PURE
+cctns.pdf,"The system shall support a multilingual user interface.",NonFunctional,PURE
+cctns.pdf,"The system shall maintain operational data integrity in the event of equipment or communication network failure.",NonFunctional,PURE
+cctns.pdf,"The system shall allow critical functionality to operate in offline mode.",NonFunctional,PURE
+cctns.pdf,"The system shall use Open Standards and Service Oriented Architecture (SOA) principles.",NonFunctional,PURE
+cctns.pdf,"The system shall use HTTPS over SSL for all network communications.",NonFunctional,PURE
+cctns.pdf,"The system shall prevent SQL injection and cross-site scripting through input validation and parameterized queries.",NonFunctional,PURE
+cctns.pdf,"The system shall perform only soft deletes by tagging rows for deletion instead of hard deletes.",NonFunctional,PURE
+cctns.pdf,"The system shall fetch search results from the database in batches of 10 or 20 records.",NonFunctional,PURE
