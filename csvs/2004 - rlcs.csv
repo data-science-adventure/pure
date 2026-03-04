@@ -1,0 +1,27 @@
+project_id,text,type,source
+2004 - rlcs.pdf,The RLCS software shall send to and receive data from the field device I/O cards through I/O driver software. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS status for use by external systems shall be updated on the external server data store once per minute. ,Not Functional,PURE
+2004 - rlcs.pdf,"The RLCS shall provide a Graphical User Interface (GUI) that allows the operator to view system status, issue commands, configure the system, export log data, and generate reports. ",Functional,PURE
+2004 - rlcs.pdf,"The RLCS GUI shall indicate the current date and time, user name, and workstation location name. ",Functional,PURE
+2004 - rlcs.pdf,The RLCS GUI shall display information about active overrides and devices with no active rules protection. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS GUI shall issue an audible alarm and change the device icon color when an alarm status is detected. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall update status information on the workstation display every 2 seconds. ,Not Functional,PURE
+2004 - rlcs.pdf,The RLCS shall provide a configuration option accessible only by users with System Administrative privileges. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall analyze modified database table data for conflicting or redundant entries before storage. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall display information logs and provide the capability to export logs in ASCII text format. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall request confirmation of a command via a separate window upon receipt of a manual or scheduled command. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall report any change in device state on the screen no later than 2 seconds from the time of occurrence. ,Not Functional,PURE
+2004 - rlcs.pdf,The RLCS shall abort a device control command if any closure control device status is unknown. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall generate critical alarms if a closure device changes from a known state to an unknown state. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall generate a warning alarm upon security sensor activation at either the FCU or DCU. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall validate each control command against secured safety rules stored in non-volatile memory. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall execute stored operational control command sequences based on the system mode and schedule. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall halt an opening or closing sequence if a device fails to report completion within the allotted response time window. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall employ the MD5 algorithm to secure application data and software in the controllers and application server. ,Not Functional,PURE
+2004 - rlcs.pdf,The RLCS must function continuously without a reset or reboot due to software error for at least 30 consecutive days. ,Not Functional,PURE
+2004 - rlcs.pdf,"The RLCS must be available 24 hours per day, 7 days per week, 365 days per year. ",Not Functional,PURE
+2004 - rlcs.pdf,The RLCS recovery time after a failure must be no greater than 10 minutes. ,Not Functional,PURE
+2004 - rlcs.pdf,The RLCS shall support remote system administration and maintenance. ,Functional,PURE
+2004 - rlcs.pdf,The RLCS shall utilize an open architecture that is modular and scaleable. ,Not Functional,PURE
+2004 - rlcs.pdf,The RLCS shall provide a secure remote dial-in interface through a firewall via a dial-up modem. ,Functional,PURE
+2004 - sprat.pdf,The system shall support an administrator level.,Functional,PURE

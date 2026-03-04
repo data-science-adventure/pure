@@ -1,6 +1,4 @@
 project_id,text,type,source
-**CSV sin comas vacías al final**
-
 TACHOnet,The system shall allow a member of the network to send requests to a particular or all the other members about possible delivery of a driver's smart card to a similar person.,Functional,PURE
 TACHOnet,The system shall allow a member of the network to send a bulk request on all or a large part of its driver's smart card holders to a particular or all members of the network.,Functional,PURE
 TACHOnet,The system shall allow a member to perform statistics on messages issued and received from or to its system.,Functional,PURE

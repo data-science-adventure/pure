@@ -1,0 +1,34 @@
+project_id,text,type,source
+2004 - watcom gui.pdf,"The GUI library shall be ported to the Linux platform using the GTK toolkit for the X Window System.",Functional,PURE
+2004 - watcom gui.pdf,"The ported library should be capable of being linked statically if the target distribution uses incompatible toolkit versions.",Not Functional,PURE
+2004 - watcom gui.pdf,"The GUI library shall implement a widget hierarchy of Window-Vertical Box-Scrolled Window-View Port-Fixed to replicate coordinate-based placement.",Functional,PURE
+2004 - watcom gui.pdf,"The HWND type shall be defined as GtkWidget*.",Functional,PURE
+2004 - watcom gui.pdf,"The HBRUSH type shall be defined as GdkStyle*.",Functional,PURE
+2004 - watcom gui.pdf,"The GUIWinMessageLoop function shall start the program message loop using gtk_main().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIWndInit function shall use gdk_screen_get_width() and gdk_screen_get_height() to retrieve screen dimensions.",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_setdoubleclicktime function shall set the double click time using gdk_set_double_click_time().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIInitDialogFunc function shall retrieve the dialog box font from the style returned by gtk_widget_get_default_style().",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_enddialog function shall dismiss a dialog by emitting a delete event to the window via g_signal_emit().",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_createsolidbrush function shall create a GtkStyle structure with the specified parameters.",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_create_window_ex function shall initialize a new window using gtk_window_new().",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_setredraw function shall enable or disable window updates via gdk_window_thaw_updates() and gdk_window_freeze_updates().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIMaximizeWindow function shall maximize the specified window using gtk_window_maximize().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIMinimizeWindow function shall minimize the specified window using gtk_window_minimize().",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_showwindow function shall show or hide widgets using gtk_widget_show() and gtk_window_hide().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIFreeWindowMemory function shall destroy the window and its children using gtk_object_destroy().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIDialogFunc function shall process resize-request and close events.",Functional,PURE
+2004 - watcom gui.pdf,"The GUIGetText function shall duplicate strings retrieved via gtk_label_get_label() or gtk_button_get_label().",Functional,PURE
+2004 - watcom gui.pdf,"The GUISendMessage function shall send messages to windows using g_signal_emit().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIWndDirty function shall trigger a window repaint using gdk_window_process_updates().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIGetMetrics function shall retrieve font metrics using the Pango library.",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_mapwindowpoints function shall translate coordinates using gtk_widget_translate_coordinates().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIXDrawText function shall render text using pango_layout_set_text() and gtk_paint_layout().",Functional,PURE
+2004 - watcom gui.pdf,"The _wpi_enablewindow function shall set widget sensitivity using gtk_widget_set_sensitive().",Functional,PURE
+2004 - watcom gui.pdf,"The GUISetText function shall set widget text using gtk_entry_set_text() or gtk_label_set_label().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIDisplayMessage function shall display a message dialog using gtk_message_new().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIDrawStatusText function shall push text to the status window using gtk_status_push().",Functional,PURE
+2004 - watcom gui.pdf,"The GUISetWindowText function shall set the window caption using gtk_set_window_title().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIFontsSupported function shall return TRUE for the GTK port.",Functional,PURE
+2004 - watcom gui.pdf,"The GUISetMouseCursor function shall change the mouse cursor using gdk_window_set_cursor().",Functional,PURE
+2004 - watcom gui.pdf,"The GUISetIcon function shall set the window icon using gtk_window_set_icon().",Functional,PURE
+2004 - watcom gui.pdf,"The GUIHookF1 function shall set the F1 key hook using gtk_key_snooper_install().",Functional,PURE

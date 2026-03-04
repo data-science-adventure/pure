@@ -1,0 +1,32 @@
+project_id,text,type,source
+2004 - jse.doc,The JSE ASD department shall develop a program for the automatic issuance of ISINs for money market instruments.,Functional,PURE
+2004 - jse.doc,The system shall provide a program to unstring MT 598 User Defined SWIFT messages for ISIN requests.,Functional,PURE
+2004 - jse.doc,The system shall provide a program to string MT 598 User Defined SWIFT messages for ISIN notifications.,Functional,PURE
+2004 - jse.doc,The system shall automatically provide ISINs in response to an electronic SWIFT request.,Functional,PURE
+2004 - jse.doc,The system shall use the ISIN prefix ZAM to distinguish money market instruments from equities and bonds.,Functional,PURE
+2004 - jse.doc,"The system shall support the ""Request New"" SWIFT message type from STRATE to JSE to request a new ISIN.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Reject New"" SWIFT message type from JSE to STRATE for duplicate or invalid requests.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Accept New"" SWIFT message type from JSE to STRATE to include the new ISIN.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Request Cancellation"" SWIFT message type from STRATE to JSE for an existing ISIN.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Reject Cancellation"" SWIFT message type from JSE to STRATE for duplicate or invalid cancellation requests.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Accept Cancellation"" SWIFT message type from JSE to STRATE to confirm ISIN cancellation.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Request Deregistration"" SWIFT message type from STRATE to JSE for matured instruments.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Reject Deregistration"" SWIFT message type from JSE to STRATE.",Functional,PURE
+2004 - jse.doc,"The system shall support the ""Accept Deregistration"" SWIFT message type from JSE to STRATE to confirm deregistration of matured instruments.",Functional,PURE
+2004 - jse.doc,"The system shall store Issuer, MMI Type, Short Description, and MMI Generic Category for all categories of money market instruments.",Functional,PURE
+2004 - jse.doc,"The system shall store Maturity Date for instrument categories 1,2, and 3.",Functional,PURE
+2004 - jse.doc,"The system shall store Coupon Rate and Coupon Interval for instrument categories 2,3, and 4.",Functional,PURE
+2004 - jse.doc,The system shall validate that MT 598 messages conform to the Interface Specification Volume A.,Functional,PURE
+2004 - jse.doc,The system shall include a Preparation date and time in the MT598-150 message if the optional field is used.,Functional,PURE
+2004 - jse.doc,"The system shall ensure the MMI Type field contains 4 alpha characters, padding with Xs if necessary.",Functional,PURE
+2004 - jse.doc,The system shall provide a BCP screen to allow Clearing & Settlement to input manual ISINs.,Functional,PURE
+2004 - jse.doc,The system shall provide a screen to update issuer codes manually.,Functional,PURE
+2004 - jse.doc,The system shall provide a screen reflecting rejections from JSE to STRATE for the previous day including error codes and TRN references.,Functional,PURE
+2004 - jse.doc,The system shall send a real-time email to Clearing & Settlement when a message is rejected.,Functional,PURE
+2004 - jse.doc,"The system shall provide a lookup screen to view ISIN status, date issued, participant code, and instrument details.",Functional,PURE
+2004 - jse.doc,"The system shall provide a screen to view and print ISINs issued, cancelled, or de-registered during the previous day.",Functional,PURE
+2004 - jse.doc,"The system shall allow filtering of active ISIN reports by issuer, instrument category, issue date, and maturity date.",Functional,PURE
+2004 - jse.doc,The system shall archive cancelled and de-registered ISIN data for a period of 12 months.,Not Functional,PURE
+2004 - jse.doc,The system shall use the branch code ISN (XJSEZAJJXISN) for routing and message identification.,Not Functional,PURE
+2004 - jse.doc,The system shall handle an estimated issuance volume of 200 to 500 ISINs per day.,Not Functional,PURE
+2004 - jse.doc,The system shall process ISIN issuance with immediacy to enable same-day (T+0) trading and settlement.,Not Functional,PURE

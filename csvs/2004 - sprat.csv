@@ -1,0 +1,58 @@
+project_id,text,type,source
+2004 - sprat.pdf,The system shall support an administrator level.,Functional,PURE
+2004 - sprat.pdf,The administrator shall have the ability to create user groups.,Functional,PURE
+2004 - sprat.pdf,"The administrator shall have the ability to create project managers, analysts, and guests.",Functional,PURE
+2004 - sprat.pdf,The administrator shall have the ability to reset user passwords.,Functional,PURE
+2004 - sprat.pdf,"The administrator shall have the ability to disable access for old project managers, analysts, and guests while preserving their entered information.",Functional,PURE
+2004 - sprat.pdf,The system shall support a project manager level.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to insert a new privacy policy to the repository.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to delete a privacy policy from the repository.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to create a new domain of privacy policies.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to assign analysts to user groups.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to assign user groups and individual analysts to projects.,Functional,PURE
+2004 - sprat.pdf,The project manager shall set restrictions on access to information for guests.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to export data from a project to an XML file.,Functional,PURE
+2004 - sprat.pdf,The project manager shall have the ability to save the current version of the repository for evolution analysis.,Functional,PURE
+2004 - sprat.pdf,The system shall support an analyst level.,Functional,PURE
+2004 - sprat.pdf,The analyst shall have the ability to select assigned privacy policies.,Functional,PURE
+2004 - sprat.pdf,"The analyst shall have the ability to add, delete, and update goals.",Functional,PURE
+2004 - sprat.pdf,"The analyst shall have the ability to add, delete, and update scenarios.",Functional,PURE
+2004 - sprat.pdf,"The analyst shall have the ability to view goal and scenario details including ID, description, and source.",Functional,PURE
+2004 - sprat.pdf,The analyst shall have the ability to update personal profile information.,Functional,PURE
+2004 - sprat.pdf,"The analyst shall have the ability to add, delete, and update requirements.",Functional,PURE
+2004 - sprat.pdf,"The analyst shall have the ability to add, delete, and update access control policies.",Functional,PURE
+2004 - sprat.pdf,The analyst shall have the ability to view access control policies.,Functional,PURE
+2004 - sprat.pdf,The system shall support a guest level.,Functional,PURE
+2004 - sprat.pdf,The guest shall have the ability to view repository information subject to project manager restrictions.,Functional,PURE
+2004 - sprat.pdf,The system shall allow all users to have different access levels to projects.,Not Functional,PURE
+2004 - sprat.pdf,The system shall provide secure storage of passwords in the database.,Not Functional,PURE
+2004 - sprat.pdf,The system shall provide a secure method for users to log onto the system.,Not Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to add a new goal.,Functional,PURE
+2004 - sprat.pdf,"The system shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.",Functional,PURE
+2004 - sprat.pdf,The system shall allow multiple subject classifications for each goal.,Functional,PURE
+2004 - sprat.pdf,The system shall provide the ability to dynamically add a new classification type of goals.,Functional,PURE
+2004 - sprat.pdf,The system shall provide the ability to update an existing goal.,Functional,PURE
+2004 - sprat.pdf,The system shall provide the ability to delete a goal.,Functional,PURE
+2004 - sprat.pdf,The system shall automatically propagate associated policy information upon deletion or replacement of a goal.,Functional,PURE
+2004 - sprat.pdf,The system shall maintain traceability links between a goal and its source policy.,Functional,PURE
+2004 - sprat.pdf,The system shall display the number of occurrences of a goal in policies and domains.,Functional,PURE
+2004 - sprat.pdf,The system shall display the context of a goal as the original statement from the policy.,Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to create and update goal keyword definitions.,Functional,PURE
+2004 - sprat.pdf,The system shall provide the ability to lock and unlock keyword definitions.,Functional,PURE
+2004 - sprat.pdf,The system shall allow users to search goals according to chosen attributes.,Functional,PURE
+2004 - sprat.pdf,The system shall provide a template to express goals in BNF grammar.,Functional,PURE
+2004 - sprat.pdf,The system shall support conflict identification and resolution between requirements and privacy policies.,Functional,PURE
+2004 - sprat.pdf,The system shall allow project managers to add analysis documents and assign domains.,Functional,PURE
+2004 - sprat.pdf,The system shall support automatic multi-user analysis results comparison.,Functional,PURE
+2004 - sprat.pdf,The system shall calculate the Flesch Readability Score and Flesch-Kincaid Grade Level for textual documents.,Functional,PURE
+2004 - sprat.pdf,"The system shall provide the ability to add, edit, and delete scenarios within a project.",Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to reuse existing scenarios.,Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to specify requirements.,Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to add new objects including names and types for RACAF.,Functional,PURE
+2004 - sprat.pdf,The system shall support association of privacy preferences with objects.,Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to specify data hierarchies.,Functional,PURE
+2004 - sprat.pdf,The system shall allow graphical view of data structures.,Functional,PURE
+2004 - sprat.pdf,The system shall support the definition of roles and actor relationships.,Functional,PURE
+2004 - sprat.pdf,The system shall support role delegation from project managers to analysts.,Functional,PURE
+2004 - sprat.pdf,The system shall allow analysts to invoke the Ponder policy editor.,Functional,PURE
+2004 - sprat.pdf,"The system shall generate an access log for every add, delete, and edit action.",Functional,PURE

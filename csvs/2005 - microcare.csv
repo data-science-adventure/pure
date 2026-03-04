@@ -1,0 +1,30 @@
+project_id,text,type,source
+2005 - microcare.pdf,The system shall be developed on the Oracle 9i platform.,Not Functional,PURE
+2005 - microcare.pdf,The front end of the system shall be developed in Visual Basic.,Not Functional,PURE
+2005 - microcare.pdf,The system shall use Crystal Reports 9 for reporting.,Not Functional,PURE
+2005 - microcare.pdf,The database shall use sequential links with surrogate keys.,Not Functional,PURE
+2005 - microcare.pdf,The system shall interface with a bar-code reader to verify voucher numbers.,Functional,PURE
+2005 - microcare.pdf,The system shall interface with a thumb-print reader for verifying client claim forms.,Functional,PURE
+2005 - microcare.pdf,The system shall generate unique voucher identification numbers with in-built security protocols.,Functional,PURE
+2005 - microcare.pdf,The system shall provide a provision to amend the voucher validity date.,Functional,PURE
+2005 - microcare.pdf,The system shall permit an authorized user to with-hold any voucher number.,Functional,PURE
+2005 - microcare.pdf,The system shall capture master details for every distributor including unique code and address.,Functional,PURE
+2005 - microcare.pdf,The system shall display a warning message upon entry of a duplicate distributor name.,Functional,PURE
+2005 - microcare.pdf,The system shall capture salesman master information including name and contact number.,Functional,PURE
+2005 - microcare.pdf,The system shall automatically calculate the invoice amount as the number of vouchers multiplied by the wholesale price.,Functional,PURE
+2005 - microcare.pdf,The system shall automatically allocate relevant voucher numbers from available stock during distribution.,Functional,PURE
+2005 - microcare.pdf,The system shall generate an automatic Distribution Invoice Number.,Functional,PURE
+2005 - microcare.pdf,The system shall capture Voucher Service Provider (VSP) master information including facility level and registration body.,Functional,PURE
+2005 - microcare.pdf,The system shall automatically change a VSP status to In-active if more than two fraud entries are found.,Functional,PURE
+2005 - microcare.pdf,The system shall capture VSP payment terms including bank account details and payment frequency.,Functional,PURE
+2005 - microcare.pdf,The system shall automatically generate a Staff Code using a suffix of the VSP Code plus a 3-digit sequence.,Functional,PURE
+2005 - microcare.pdf,The system shall print a receipt document upon claim submission.,Functional,PURE
+2005 - microcare.pdf,"The system shall capture claim data including patient name, age, gender, and doctor notes.",Functional,PURE
+2005 - microcare.pdf,The system shall automatically generate a Claim Number using the Hospital Code plus an 8-digit sequence.,Functional,PURE
+2005 - microcare.pdf,The system shall calculate the claim amount based on the MSIU treatment matrix.,Functional,PURE
+2005 - microcare.pdf,The system shall compare the captured thumb impression with previous visits for the same voucher number.,Functional,PURE
+2005 - microcare.pdf,The system shall check if a returned voucher was sold to the specific distributor before accepting a sales return.,Functional,PURE
+2005 - microcare.pdf,The system shall automatically populate client address and syndrome details based on the Voucher Number during feedback entry.,Functional,PURE
+2005 - microcare.pdf,The system shall restrict access to modules and screens based on User Group privileges.,Not Functional,PURE
+2005 - microcare.pdf,The system shall require the Password and Verify Password fields to be equal before saving user information.,Functional,PURE
+2005 - microcare.pdf,The system shall prevent the creation of User Groups or individual users with existing names.,Functional,PURE

@@ -1,0 +1,34 @@
+project_id,text,type,source
+2004 - colorcast.pdf,The system shall migrate ABC Paint to a new paint numbering scheme.,Functional,PURE
+2004 - colorcast.pdf,The system shall provide a conversion mechanism from old paints and collections to new paints and collections.,Functional,PURE
+2004 - colorcast.pdf,The application shall be integrated into the current ABC Paint website.,Functional,PURE
+2004 - colorcast.pdf,The system shall be composed of modularized features where each module fits on a single webpage.,Functional,PURE
+2004 - colorcast.pdf,The application shall provide a theme and styling mechanism for web design integration.,Functional,PURE
+2004 - colorcast.pdf,"The system shall provide documentation for website users, paint distributors, and IT setup.",Functional,PURE
+2004 - colorcast.pdf,The system shall include an old to new product-line translator.,Functional,PURE
+2004 - colorcast.pdf,The system shall include a graphical color chooser.,Functional,PURE
+2004 - colorcast.pdf,The system shall include a color search engine for all collections or specific collections.,Functional,PURE
+2004 - colorcast.pdf,The system shall include a session-persistent user color palette.,Functional,PURE
+2004 - colorcast.pdf,The system shall include an administrative interface.,Functional,PURE
+2004 - colorcast.pdf,The system shall provide a pointing device driven color selection utility.,Functional,PURE
+2004 - colorcast.pdf,The system shall find a specified number of colors near a given color.,Functional,PURE
+2004 - colorcast.pdf,"The system shall allow administrative users to update, add, and delete colors.",Functional,PURE
+2004 - colorcast.pdf,The system shall allow level 3 administrative users to create other administrative users at any level.,Functional,PURE
+2004 - colorcast.pdf,The system shall allow level 2 administrative users to create administrative users up to level 2.,Functional,PURE
+2004 - colorcast.pdf,The system shall allow level 1 administrative users to create administrative users at level 1 only.,Functional,PURE
+2004 - colorcast.pdf,The server shall require at least a 1GHz processor for each group of 50 users.,Not Functional,PURE
+2004 - colorcast.pdf,The server shall require at least 512 MB of system memory for each group of 50 users.,Not Functional,PURE
+2004 - colorcast.pdf,"The client shall be compatible with Internet Explorer 4.01, Netscape 6.0, or Mozilla 1.0 or later.",Not Functional,PURE
+2004 - colorcast.pdf,The application shall retain full usability with a keyboard input device only where possible.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall provide a utility to report errors automatically.,Functional,PURE
+2004 - colorcast.pdf,The system shall attempt full recovery after an error occurs.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall provide on-line help and an online tutorial within the client application.,Functional,PURE
+2004 - colorcast.pdf,The databases shall respond to queries in sub-second time.,Not Functional,PURE
+2004 - colorcast.pdf,The interface shall use accelerator keys to allow limited keyboard-only use.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall provide a task-pane in all workflow scenarios for help and navigation.,Functional,PURE
+2004 - colorcast.pdf,The client computer shall have a display device capable of displaying 16.7 million colors or greater.,Not Functional,PURE
+2004 - colorcast.pdf,The product shall communicate via Hyper Text Transfer Protocol (HTTP) version 1.0 or 1.1.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall process color searches in sub-second time on the server.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall process changes to paint and collection information in real-time.,Not Functional,PURE
+2004 - colorcast.pdf,The system shall remove user color palette data from the server after 30 days.,Functional,PURE
+2004 - colorcast.pdf,The system shall protect access to administrative features and permissions using a username and pass phrase.,Not Functional,PURE

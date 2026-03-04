@@ -1,0 +1,33 @@
+project_id,text,type,source
+2004 - philips.doc,"The MSN messenger xlet shall allow the end user to see online friends.",Functional,PURE
+2004 - philips.doc,"The MSN messenger xlet shall allow the end user to chat with online friends.",Functional,PURE
+2004 - philips.doc,"The MSN messenger xlet shall allow the end user to see which TV program their buddies are watching.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to login to the messenger using an existing Passport account.",Functional,PURE
+2004 - philips.doc,"The application shall allow the end user to change and maintain their presence status.",Functional,PURE
+2004 - philips.doc,"The application shall provide a list of statuses for the end user to select from.",Functional,PURE
+2004 - philips.doc,"The application shall display the presence status of the end user's buddies.",Functional,PURE
+2004 - philips.doc,"The application shall update a buddy's status when that buddy changes it.",Functional,PURE
+2004 - philips.doc,"The application shall allow the end user to change their own nickname.",Functional,PURE
+2004 - philips.doc,"The application shall display the nicknames of buddies on the buddy list.",Functional,PURE
+2004 - philips.doc,"The application shall update a buddy's nickname in the contact list when the buddy changes it.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to assign a preferred nickname to a specified buddy.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to add a buddy to the buddy list.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to delete a buddy from the buddy list.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to block specific buddies.",Functional,PURE
+2004 - philips.doc,"The application shall provide a visible notification when an incoming message is received.",Functional,PURE
+2004 - philips.doc,"The application shall display incoming messages on the screen.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to create and send a message to a buddy.",Functional,PURE
+2004 - philips.doc,"The application shall display emoticons in incoming and outgoing messages.",Functional,PURE
+2004 - philips.doc,"The application shall provide a list of emoticons for the user to select from during message composition.",Functional,PURE
+2004 - philips.doc,"The application shall display the message history for the current chat session.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to participate in group conversations with multiple buddies.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to request the TV program or channel currently being watched by an online buddy.",Functional,PURE
+2004 - philips.doc,"The application shall show a notification when new e-mail is received in the user's Hotmail inbox.",Functional,PURE
+2004 - philips.doc,"The application shall display the user's Hotmail account inbox.",Functional,PURE
+2004 - philips.doc,"The application shall display Hotmail e-mails on the screen.",Functional,PURE
+2004 - philips.doc,"The application shall allow the user to play games with online buddies.",Functional,PURE
+2004 - philips.doc,"The application shall use the .NET messenger service protocol for communication.",Not Functional,PURE
+2004 - philips.doc,"The application shall utilize MSNPv8 as the communication protocol version.",Not Functional,PURE
+2004 - philips.doc,"The application shall support a Remote Control as an input device.",Not Functional,PURE
+2004 - philips.doc,"The application shall use the TV screen as the output device.",Not Functional,PURE
+2004 - philips.doc,"The application shall be an MHP version of the MSN Messenger application.",Not Functional,PURE

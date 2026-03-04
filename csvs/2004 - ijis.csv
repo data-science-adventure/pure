@@ -1,0 +1,36 @@
+project_id,text,type,source
+2004 - ijis.doc,"The Detention Facility Officer shall capture Defendant, Incident, and Financial Information.",Functional,PURE
+2004 - ijis.doc,The Defendant shall swear to and sign the Financial Affidavit.,Functional,PURE
+2004 - ijis.doc,The Detention Facility Officer shall witness and sign the Financial Affidavit.,Functional,PURE
+2004 - ijis.doc,The Detention Facility Officer shall schedule an Indigency Hearing.,Functional,PURE
+2004 - ijis.doc,The Magistrate shall inform the Defendant of the right to request appointment of counsel and determine if the Defendant wants a Court Appointed Attorney.,Functional,PURE
+2004 - ijis.doc,The Defendant shall sign a Request for Appointed Counsel if indigent status is determined.,Functional,PURE
+2004 - ijis.doc,The Magistrate shall submit the Request for Appointed Counsel to the Office of Attorney Appointments.,Functional,PURE
+2004 - ijis.doc,The Defendant shall sign a Waiver of Appointed Counsel if they waive the right to counsel.,Functional,PURE
+2004 - ijis.doc,The Magistrate shall submit the Waiver of Appointed Counsel to the Office of Attorney Appointments.,Functional,PURE
+2004 - ijis.doc,The Magistrate shall submit a notice of indigency determination to the Office of Attorney Appointments if the Defendant is determined to be not indigent.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall process requests for counsel no later than the end of the first working day after receipt.,Functional,PURE
+2004 - ijis.doc,The system shall notify law enforcement agencies of denied requests for counsel within 24 hours of denial.,Functional,PURE
+2004 - ijis.doc,The system shall notify the appointed attorney and Defendant of an appointment within 24 hours of the appointment.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall research Defendant and Incident information in the Court Case Management System.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall confirm the Defendant has not been released from custody before appointment.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall confirm the Defendant does not have a Defense Attorney already appointed on a pending case.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall select the next Defense Attorney in the appropriate appointment rotation list.,Functional,PURE
+2004 - ijis.doc,The system shall notify the Defendant and Defense Attorney of appointment via facsimile or electronic mail.,Functional,PURE
+2004 - ijis.doc,The system shall capture the date and type of first contact with the defendant by the appointed attorney.,Functional,PURE
+2004 - ijis.doc,The Defense Attorney shall notify the Office of Attorney Appointments of the date and time of initial contact within one working day.,Functional,PURE
+2004 - ijis.doc,The system shall notify the Office of Attorney Appointments when first contact by an appointed attorney is not made within one working day.,Functional,PURE
+2004 - ijis.doc,The District Attorney shall notify the Office of Attorney Appointments of charges accepted for prosecution.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall enter the Defense Attorney appointment into the Court Case Management System.,Functional,PURE
+2004 - ijis.doc,The Court Coordinator shall enter setting information into the Court Case Management System.,Functional,PURE
+2004 - ijis.doc,The system shall notify the Defendant and Defense Attorney of court settings.,Functional,PURE
+2004 - ijis.doc,The Defense Attorney shall submit itemized requests for payment for services performed to the Office of Attorney Appointments.,Functional,PURE
+2004 - ijis.doc,The Judge shall provide a written finding for approved payment amounts that differ from the requested amount.,Functional,PURE
+2004 - ijis.doc,The Auditor shall remit payment to the Defense Attorney after Commissioners Court approval.,Functional,PURE
+2004 - ijis.doc,The Office of Attorney Appointments shall add Defense Attorneys to the appropriate rotation list upon approval by Judges.,Functional,PURE
+2004 - ijis.doc,The system shall produce reports on the number of appointments made by date range and appointment type.,Functional,PURE
+2004 - ijis.doc,The system shall calculate the average number of hours between arrest and magistration.,Functional,PURE
+2004 - ijis.doc,The system shall integrate with the District Attorney Electronic Case Filing System.,Not Functional,PURE
+2004 - ijis.doc,The system shall integrate with the Court Case Management System.,Not Functional,PURE
+2004 - ijis.doc,The system shall comply with the Texas Uniform Electronic Transactions Act (UETA).,Not Functional,PURE
+2004 - ijis.doc,The system shall implement the Global Justice XML Data Model (GJXDM) for technical integration.,Not Functional,PURE

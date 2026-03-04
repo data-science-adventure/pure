@@ -1,0 +1,138 @@
+project_id,text,type,source
+2005 - clarus low.pdf,"The Clarus system shall implement quality checking processes as soon as data become available.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure schedules for executing QChS.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall record the methods applied when deriving quality checking information.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall record the quality checking methods used.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall implement quality checking rules for each environmental parameter.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure the quality checking rules for each environmental parameter.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall enable administrators to manage quality checking rules.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall implement quality checking rules for specific environmental situations.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure quality checking rules for specific environmental situations.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall implement quality checking rules specific to observation locations.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure quality checking rules specific to observation locations.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall base its quality checking process on historical environmental data.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure historical environmental data to be used by quality checking processes.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall use multiple algorithms for its quality checking process.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall configure multiple algorithms to be used in the quality checking process.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall allow access to new surface transportation-related environmental data.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall be configurable to allow new observation types to be implemented.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall enable administrators to manage security groups.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall enable administrators to manage security group members.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall include an administrator security group.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall include a quality manager security group.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall restrict environmental data publication based on source.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall record data sharing restrictions.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall record statistics about its operation.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall record statistics about the system operation.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall log data transactions.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall log data transactions.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall acquire environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall process environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall disseminate environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage contributor metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage collector metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage quality checking schedules.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage environmental data collection schedules.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage ESS metadata.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall manage environmental data and metadata according to the Clarus data sharing agreements.",Functional,PURE
+2005 - clarus low.pdf,"The CAS shall manage data sharing rules based on contributor data sharing agreements.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall initiate Collector Services on demand.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall provide environmental data quality flags.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable a quality manager to apply manual flags to a set of observations from an individual ESS.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable a quality manager to apply manual flags to a set of observations over a fixed time range.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable a quality manager to apply manual flags to a set of observations over a time range with an open ended future time.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall allow human quality checks of environmental data.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable quality checking rules to be configured specific to each environmental parameter.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage security group members.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to acquire environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall provide a user interface for administration.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage contributor metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage collector metadata.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage quality checking schedules.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage environmental data collection schedules.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to manage contributor data sharing agreements.",Functional,PURE
+2005 - clarus low.pdf,"The CAUI shall enable administrators to assign system privileges.",Functional,PURE
+2005 - clarus low.pdf,"The Collector Services shall receive environmental data.",Functional,PURE
+2005 - clarus low.pdf,"The Collector Services shall convert environmental data into a standard format.",Functional,PURE
+2005 - clarus low.pdf,"The Collector Services shall store environmental data in the Qualified Environmental Data Cache.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall collect environmental data based on its configured schedule.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall transform extracted environmental data into the internal storage format.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall store transformed environmental data in the QEDC.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall convert observation units into the Clarus standard unit specification.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall be initiated on a schedule.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall be initiated on demand.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall detect data submission errors.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall log when a data submission error occurs.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall access in-situ environmental observations from data collectors.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall access remotely sensed environmental observations from data collectors.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall receive roadway weather measurements derived from VII data.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall collect new observation types as they become available.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data derived from images.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall accept surface condition data derived from surface images.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall accept atmospheric condition data derived from atmospheric images.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall retrieve environmental data directly from environmental sensor station collectors.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall minimize the time for data acquisition.",Not Functional,PURE
+2005 - clarus low.pdf,"The CS shall adjust its retrieval schedules when environmental data is expected but temporarily delayed.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall process data as they are received.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall collect pavement-related observations.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from railway systems.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from railroad vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from roadway vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from maintenance and construction vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from service patrol vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from transit vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept environmental data from emergency vehicles.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall receive weather data from weather service providers.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall create a log entry when a data set is invalid.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system baseline data types shall be defined by the NTCIP ESS 1204 standard.",Not Functional,PURE
+2005 - clarus low.pdf,"The Clarus system data definitions shall be consistent with the ITE TM 1.03 TMDD standard.",Not Functional,PURE
+2005 - clarus low.pdf,"The CS shall accept environmental data described by CMML version 2 definitions.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept only observations that include location, timestamp, and source metadata.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall accept only observations of identified measurement types and units.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall acquire environmental data from across North America.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall implement the Clarus standard interface.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall process NTCIP ESS 1204 data.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall transfer data concurrently.",Not Functional,PURE
+2005 - clarus low.pdf,"The CS shall request collector environmental data on demand.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall accept environmental data pushed from collectors.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall extract environmental data from an XML message conforming to Clarus standards.",Functional,PURE
+2005 - clarus low.pdf,"The CS shall extract environmental data from netCDF version 3.6 messages.",Functional,PURE
+2005 - clarus low.pdf,"The DOG shall monitor new environmental data services as they are added.",Functional,PURE
+2005 - clarus low.pdf,"The DOG shall record its activities.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall automatically recover from an unexpected shutdown.",Not Functional,PURE
+2005 - clarus low.pdf,"The watchdog service shall monitor the overall Clarus system state.",Functional,PURE
+2005 - clarus low.pdf,"The watchdog service shall restart unresponsive Clarus system services.",Functional,PURE
+2005 - clarus low.pdf,"The EMC shall process environmental metadata.",Functional,PURE
+2005 - clarus low.pdf,"The EMC shall uniquely identify each contributor, collector, and station sensor.",Functional,PURE
+2005 - clarus low.pdf,"The EMC shall maintain contact info for each contributor, collector, and station sensor.",Functional,PURE
+2005 - clarus low.pdf,"The EMC shall maintain latitude, longitude, and elevation for stations.",Functional,PURE
+2005 - clarus low.pdf,"The EMS shall disseminate environmental metadata in response to polling.",Functional,PURE
+2005 - clarus low.pdf,"The EMS shall disseminate metadata using standard Internet protocols.",Functional,PURE
+2005 - clarus low.pdf,"The EMS shall provide sensor equipment metadata in response to a request.",Functional,PURE
+2005 - clarus low.pdf,"The EMS shall respond to queries for metadata within five minutes.",Not Functional,PURE
+2005 - clarus low.pdf,"The EMS shall accept location queries based on a bounding latitude/longitude coordinate pair.",Functional,PURE
+2005 - clarus low.pdf,"The QEDC shall keep the results of each quality test for each observation for the life of the observation.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall maintain a dynamic library of data for at least seven days.",Not Functional,PURE
+2005 - clarus low.pdf,"The QEDC shall support queries for its observations.",Functional,PURE
+2005 - clarus low.pdf,"The QEDC shall support 470 million current observations.",Not Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall disseminate data in response to a scheduled environmental data request.",Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall disseminate data in response to an immediate environmental data request.",Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall provide notification of data quality conditions to data contributors.",Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall respond to environmental data queries within one minute.",Not Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall disseminate data based on spatial queries.",Functional,PURE
+2005 - clarus low.pdf,"The QEDS shall disseminate NWS watches, warnings, and advisories.",Functional,PURE
+2005 - clarus low.pdf,"The QChS shall quality check environmental data.",Functional,PURE
+2005 - clarus low.pdf,"The QChS processing order shall be configurable.",Functional,PURE
+2005 - clarus low.pdf,"Each QChS shall produce a unique quality flag value.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall not modify original observations.",Not Functional,PURE
+2005 - clarus low.pdf,"The QChS shall implement a manual override to set quality flags.",Functional,PURE
+2005 - clarus low.pdf,"The QChS shall complete an automated quality check within ten seconds of data receipt.",Not Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall publish new data within twenty minutes of data receipt.",Not Functional,PURE
+2005 - clarus low.pdf,"The SS shall initiate QEDS responses.",Functional,PURE
+2005 - clarus low.pdf,"The SS shall initiate QChS.",Functional,PURE
+2005 - clarus low.pdf,"The SS shall initiate Collector Services.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall track its constituent hosts.",Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall use Coordinated Universal Time (UTC) for all timestamps.",Not Functional,PURE
+2005 - clarus low.pdf,"The Clarus system shall support six hundred concurrent users.",Not Functional,PURE
+2005 - clarus low.pdf,"The Clarus program shall maintain continuous 24x7 operations.",Not Functional,PURE

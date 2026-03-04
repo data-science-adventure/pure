@@ -1,0 +1,52 @@
+project_id,text,type,source
+Grid-BGC Application Version 1.0,The system shall use the Daymet surface weather interpolation engine for generating gridded surface weather datasets.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall use the Biome-BGC model to perform bio-geo-chemical modeling activities.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide a graphical user interface to all functions of the system.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall use Grid technologies to provide secure and reliable communications to remote computing resources.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall integrate web portal components into the Dataportal Web Server at NCAR.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall use the Globus toolkit for implementation.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall adhere to NCAR Security policies and constraints.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall use the NCAR Mass Storage System (MSS) for all file based storage.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall require valid NCAR Gatekeeper accounts for user access.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall retrieve all user information from the Gatekeeper account system.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall support User and Administrator roles.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide a web portal for users to apply for accounts.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall notify portal administrators via e-mail of new account requests.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to view their account details excluding passwords.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide a means for users to request account deletion.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall require a username and password for system login.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall protect all login actions using secure data channels.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall lock a user account after 3 failed login attempts.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow portal administrators to control template submission rights.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow portal administrators to list all user accounts.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow portal administrators to lock and unlock user accounts.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow portal administrators to terminate any running jobs.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall assign the scientist role to all new user accounts by default.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall prevent users from changing object or project values once used in a model run.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall support unlocked, locked, and invalidated states for objects.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall support List, Grid, and Parameterization object types.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to share specific objects with other users.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to create new datasets by merging existing objects of the same type.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to specify a project type as either List or Grid during setup.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall restrict project references to datasets of the same type (List or Grid).,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide templates to share expert knowledge within the portal.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow any user to use an existing template.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall prevent the editing of a template once it has been submitted.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall support Geographic, UTM, Albers Conical Equal Area, Lambert Conformal Conic, Lambert Azimuthal Equal Area, Interrupted Goode Homolosine, and Interrupted Mollweide projection types.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to upload NetCDF data files for Surface Observation Objects.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to extract subsets of data from existing Site Data Objects.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide a user interface to manage all Daymet parameterization values.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to start, monitor, and control model runs.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall display a list of available computational resources for model execution.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide an approximate execution time estimate for selected resources.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall monitor Daymet model runs on a tile by tile basis.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall capture and display Stdout and Stderr messages for each model tile.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall automatically create output objects for completed simulation runs.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to download output data files on a tile by tile basis.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to hand enter Plant Functional Type values.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide a graphical user interface to manage approximately 700 Biome-BGC output variables.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall support Fire and Deforestation event types in Disturbance Objects.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall allow users to define simulation topologies ranging from 1 Site x 1 PFT to All Sites x All PFTs.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall provide portal administrators with functions to validate that file references correspond to actual files on the storage system.,Functional,PURE
+Grid-BGC Application Version 1.0,The system shall be usable in Internet Explorer 6.0, Netscape 7.1, and Safari 1.2.1.,Not Functional,PURE
+Grid-BGC Application Version 1.0,The system shall require users to enable cookies.,Not Functional,PURE

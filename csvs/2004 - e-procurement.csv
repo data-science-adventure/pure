@@ -1,0 +1,32 @@
+project_id,text,type,source
+2004 - e-procurement.rtf,The eProcurement system shall support the procurement cycle from catalogue through to remittance.,Functional,PURE
+2004 - e-procurement.rtf,"All electronic documents shall be marked-up using eXtensible Markup Language (XML) and validated using XML schema, in compliance with the e-Government Interoperability Framework (e-GIF).",Not Functional,PURE
+2004 - e-procurement.rtf,All documents shall include a mandatory status attribute with values of 'original' 'copy' 'revision' or 'cancellation'.,Functional,PURE
+2004 - e-procurement.rtf,The system shall provide a Catalogue document from the Seller to the Buyer to provide Item price and other information.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Request for Quotation (RFQ) to the Seller to request supply terms.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a Quotation to the Buyer to set out terms and conditions for supplying goods or services.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Purchase Order to the Seller to communicate the intent to purchase.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a PO Response to the Buyer to acknowledge receipt and intent to fulfill a Purchase Order.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a Fulfilment Notification to the Buyer to inform that goods have been despatched or delivered.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Receipt Advice to the Seller to acknowledge receipt and describe discovered variances.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a Rectification Advice to the Buyer to inform of action regarding goods or services at variance.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send an Invoice to the Buyer to request payment for goods or services.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Self Billed Invoice to the Seller for self-billing arrangements.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a Credit Note to the Buyer to confirm that the Seller owes money.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Debit Note to the Seller to state that the Buyer has deducted amounts from an Invoice.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Buyer to send a Remittance Advice to the Seller to notify payment and state accounted documents.,Functional,PURE
+2004 - e-procurement.rtf,The system shall enable the Seller to send a Statement to the Buyer summarizing the status of the Buyer's account.,Functional,PURE
+2004 - e-procurement.rtf,The system shall assign a mandatory Universally Unique Identifier (UUID) to every Document instance.,Functional,PURE
+2004 - e-procurement.rtf,The system shall assign a mandatory Universally Unique Identifier (UUID) to every Line instance.,Functional,PURE
+2004 - e-procurement.rtf,Every Document shall include a mandatory Document ID assigned by the sender's system.,Functional,PURE
+2004 - e-procurement.rtf,Every Document shall include a mandatory Document Date using the format CCYYMMDDhhmmss.,Functional,PURE
+2004 - e-procurement.rtf,Every Document shall include a mandatory Test Status boolean attribute.,Functional,PURE
+2004 - e-procurement.rtf,Every Document shall include the mandatory URI of the Sender Software Manufacturer.,Functional,PURE
+2004 - e-procurement.rtf,Every Document shall include the mandatory version of the XML schema with which it complies.,Functional,PURE
+2004 - e-procurement.rtf,Every Document Line shall include a mandatory Line Number starting with 1 up to a maximum of 9999.,Functional,PURE
+2004 - e-procurement.rtf,Every Document Line shall include a mandatory Line Status attribute with values 'original' 'revision' or 'deletion'.,Functional,PURE
+2004 - e-procurement.rtf,Every Item shall include a mandatory Item Name limited to 70 characters.,Functional,PURE
+2004 - e-procurement.rtf,Every Item shall include a mandatory Unit of Measure code based on UN Recommendation No. 20.,Functional,PURE
+2004 - e-procurement.rtf,Every Priced Item shall include a mandatory Unit Price with a 3-character ISO 4217 currency code.,Functional,PURE
+2004 - e-procurement.rtf,Every Priced Item shall include a mandatory Commodity Class using UNSPSC or an OGC-approved classification.,Functional,PURE
+2004 - e-procurement.rtf,The system shall support a Digital Signature as the final element of the XML payload if the sender system is capable.,Not Functional,PURE

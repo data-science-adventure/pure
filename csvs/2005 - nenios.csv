@@ -1,0 +1,52 @@
+project_id,text,type,source
+2005 - nenios.html,"The NCCM system shall require an employee to enter their user name and password for access.",Functional,PURE
+2005 - nenios.html,"The system shall provide two levels of access: one for teachers and assistants and one for administrators.",Functional,PURE
+2005 - nenios.html,"Teachers and assistants shall only be allowed to enter or edit child comments and child arrival or departure times.",Functional,PURE
+2005 - nenios.html,"Administrators shall be allowed to enter or edit all data.",Functional,PURE
+2005 - nenios.html,"Only administrators shall be allowed to view or print reports.",Functional,PURE
+2005 - nenios.html,"Only administrators shall be allowed to view or print invoices.",Functional,PURE
+2005 - nenios.html,"The system shall allow all employees to use the Daily Reminders feature.",Functional,PURE
+2005 - nenios.html,"The system shall require each user to log on with a unique user name.",Functional,PURE
+2005 - nenios.html,"The system shall assign a password to each user.",Functional,PURE
+2005 - nenios.html,"The password shall contain 6 to 8 alphanumeric characters.",Not Functional,PURE
+2005 - nenios.html,"The system shall lock out a user after three unsuccessful password attempts.",Functional,PURE
+2005 - nenios.html,"The system shall assign a new password if a user forgets their current one.",Functional,PURE
+2005 - nenios.html,"The system shall log off the user if there is no activity for 10 minutes.",Not Functional,PURE
+2005 - nenios.html,"The system shall allow users to set daily reminders only for themselves.",Functional,PURE
+2005 - nenios.html,"The system shall provide a calendar for selecting the date of a reminder.",Functional,PURE
+2005 - nenios.html,"The system shall allow the user to enter a reminder message up to 50 characters.",Functional,PURE
+2005 - nenios.html,"The system shall display a popup window with the reminder message upon user login on the specified date.",Functional,PURE
+2005 - nenios.html,"A child record shall contain the dates that their required immunizations were received.",Functional,PURE
+2005 - nenios.html,"The system shall display a message when a teacher logs on if a child is within two weeks of a required immunization.",Functional,PURE
+2005 - nenios.html,"A child record shall contain the date of their last physical examination.",Functional,PURE
+2005 - nenios.html,"Administrators shall be able to enter the type and schedule of required immunizations.",Functional,PURE
+2005 - nenios.html,"The system shall print a notification for required immunizations on the monthly invoice.",Functional,PURE
+2005 - nenios.html,"The system shall bill a parent $90 at the end of each month if only a single child is enrolled.",Functional,PURE
+2005 - nenios.html,"The system shall bill a parent $157.50 at the end of each month if only two children are enrolled.",Functional,PURE
+2005 - nenios.html,"The system shall bill a parent $157.50 for the first two children plus $45 for each additional child if more than two are enrolled.",Functional,PURE
+2005 - nenios.html,"The system shall maintain an account history for each customer containing all activity by date.",Functional,PURE
+2005 - nenios.html,"The system shall provide itemized customer invoices for printing.",Functional,PURE
+2005 - nenios.html,"The system shall bill customers $10 an hour per child for late pick ups.",Functional,PURE
+2005 - nenios.html,"The system shall make all invoices available for printing at the end of each month.",Functional,PURE
+2005 - nenios.html,"The Customer Directory Report shall list customers alphabetically by last name and include address and phone number.",Functional,PURE
+2005 - nenios.html,"The Daily Classroom & Center Enrollment Report shall list children alphabetically by classroom and indicate presence or absence.",Functional,PURE
+2005 - nenios.html,"The Birthday Lists & Child Age Report shall list children alphabetically by last name with their birthday and age.",Functional,PURE
+2005 - nenios.html,"The Parent/Child Cross Reference Report shall list parents alphabetically by last name with their children's first names.",Functional,PURE
+2005 - nenios.html,"The Family Registration Information Report shall list customer names alphabetically with address and home telephone number.",Functional,PURE
+2005 - nenios.html,"The Immunization Due & History Report shall list children alphabetically with required remaining immunizations and previous dates.",Functional,PURE
+2005 - nenios.html,"The Child Enrollment/Withdrawal Report shall list children alphabetically and their registration status.",Functional,PURE
+2005 - nenios.html,"The Child Notes & Comments Report shall list children alphabetically with attached notes.",Functional,PURE
+2005 - nenios.html,"The Account Activity Report shall list a selected customer's account activity by date.",Functional,PURE
+2005 - nenios.html,"The system shall record the user ID, date, time, and description of change when an account is edited.",Functional,PURE
+2005 - nenios.html,"The Parent record shall contain name, address, home phone, work phone, email, emergency contact, and authorized pick up.",Functional,PURE
+2005 - nenios.html,"The Child record shall contain name, date of birth, gender, classroom name, special needs, photo, teacher comments, and immunization dates.",Functional,PURE
+2005 - nenios.html,"The software shall support the entry, storage, and update of parent, child, and billing information.",Functional,PURE
+2005 - nenios.html,"Customer log notes shall store the date and comments regarding correspondence with a parent.",Functional,PURE
+2005 - nenios.html,"Each classroom shall accept a maximum of 20 children.",Not Functional,PURE
+2005 - nenios.html,"Each student shall belong to only one class.",Functional,PURE
+2005 - nenios.html,"The system shall assign one teacher and one assistant to each class.",Functional,PURE
+2005 - nenios.html,"The waiting list shall store the names and phone numbers of up to 100 potential customers.",Functional,PURE
+2005 - nenios.html,"The system shall provide a Web based interface compatible with Internet Explorer and Netscape Navigator.",Not Functional,PURE
+2005 - nenios.html,"The background color of all windows shall be blue.",Not Functional,PURE
+2005 - nenios.html,"The system shall respond to all user requests within 20 seconds.",Not Functional,PURE
+2005 - nenios.html,"The NCCM system must be hosted on a Web server supporting Microsoft ASP.NET technology.",Not Functional,PURE
