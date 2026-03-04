@@ -1,0 +1,40 @@
+project_id,text,type,source
+**CSV sin comas vacías al final**
+
+TACHOnet,The system shall allow a member of the network to send requests to a particular or all the other members about possible delivery of a driver's smart card to a similar person.,Functional,PURE
+TACHOnet,The system shall allow a member of the network to send a bulk request on all or a large part of its driver's smart card holders to a particular or all members of the network.,Functional,PURE
+TACHOnet,The system shall allow a member to perform statistics on messages issued and received from or to its system.,Functional,PURE
+TACHOnet,The system shall provide automatic reply to the sender of the request through a standard interface to the Member systems.,Functional,PURE
+TACHOnet,The system shall track the workflow between senders and related replies.,Functional,PURE
+TACHOnet,The system shall automatically transmit alert messages to senders or administrators when a constraint on delay for reply is not fulfilled.,Functional,PURE
+TACHOnet,"The system shall allow the administrator to extract statistics of use, standard delay of reply by member, and percentage of unsuccessful transactions.",Functional,PURE
+TACHOnet,The system shall provide the management of user rights and permissions.,Functional,PURE
+TACHOnet,"The system shall define and manage message types for pre-delivery check, stolen/lost cards, renewals, exchanges, and duplicates.",Functional,PURE
+TACHOnet,The system shall allow the inclusion of new members in the network through administrative tasks.,Functional,PURE
+TACHOnet,The system shall automate repetitive and tedious tasks to relieve the users.,Functional,PURE
+TACHOnet,The system shall provide application-level security and encryption policy including non-repudiation.,Functional,PURE
+TACHOnet,"The system shall prevent any Member of the network, including the administrator, from technically reconstructing a consolidated European database.",Functional,PURE
+TACHOnet,The system shall allow a Member State to request card status from the corresponding Card Issuing Authority of the Member State having issued the card.,Functional,PURE
+TACHOnet,The system shall allow a Member State to send card status modification requests to the corresponding Card Issuing Authority of the Member State having issued the card.,Functional,PURE
+TACHOnet,The system shall allow enforcement authorities to request driver card status based on card number or driver identity data.,Functional,PURE
+TACHOnet,The system shall allow enforcement authorities to request workshop card status based on workshop card number and issuing Member State code.,Functional,PURE
+TACHOnet,The system shall guide users through an interface based on end-user concepts.,Not Functional,PURE
+TACHOnet,The system shall be easy to learn and not obstruct the thematic understanding of the users.,Not Functional,PURE
+TACHOnet,The system shall provide mechanisms to correct user mistakes easily.,Not Functional,PURE
+TACHOnet,The system shall be designed as a robust system that is tolerant to operator errors and recovers cleanly from power cuts or disasters.,Not Functional,PURE
+TACHOnet,The system shall function reliably with minimum interruptions during its first operational year.,Not Functional,PURE
+TACHOnet,The system shall provide stable and reproducible results.,Not Functional,PURE
+TACHOnet,The system shall support more than one contact point per country and work in a multi-hierarchical environment.,Not Functional,PURE
+TACHOnet,The system shall have no restriction in time or place for the use of the software.,Not Functional,PURE
+TACHOnet,The system shall establish and maintain dialogue with Member systems despite varying technical environments and technologies.,Not Functional,PURE
+TACHOnet,The system shall be designed so that background tasks continue while the user performs foreground tasks.,Not Functional,PURE
+TACHOnet,The system shall respond to user requests within 1 minute for enforcement authorities regardless of background tasks.,Not Functional,PURE
+TACHOnet,The system shall support different message structures to cover future networks such as driving licenses.,Not Functional,PURE
+TACHOnet,The system shall be maintainable and extensible.,Not Functional,PURE
+TACHOnet,The system shall be designed to migrate to upgraded hardware or new versions of operating systems.,Not Functional,PURE
+TACHOnet,The system shall be able to migrate to network types other than TESTA-II.,Not Functional,PURE
+TACHOnet,The system shall provide solutions for data encoding problems including different character sets and name matching rules.,Not Functional,PURE
+TACHOnet,The system shall be designed and documented for an operational lifetime of many years.,Not Functional,PURE
+TACHOnet,The system shall use the network facilities supplied by the TESTA-II network.,Not Functional,PURE
+TACHOnet,The system shall base software algorithms on existing techniques without requiring new research.,Not Functional,PURE
+TACHOnet,The system shall depend on pre-existing or commercially available software for most of its functionality.,Not Functional,PURE

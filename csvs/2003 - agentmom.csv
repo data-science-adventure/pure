@@ -1,0 +1,32 @@
+project_id,text,type,source
+agentMom,The agentMom framework shall enable agents to broadcast a message to all agents within the same local network.,Functional,PURE
+agentMom,The agentMom framework shall enable agents to multicast a message to all agents within the same multicast address.,Functional,PURE
+agentMom,The agentMom framework shall enable agents to unicast a message to other agents within the organization.,Functional,PURE
+agentMom,"The agentMom framework shall allow agents to choose among unicast, multicast, and broadcast communication.",Functional,PURE
+agentMom,The agentMom framework shall allow agents to join and leave a multicast group.,Functional,PURE
+agentMom,The agentMom framework shall provide message encryption and decryption techniques for secured communication.,Functional,PURE
+agentMom,The agentMom framework shall allow agents to choose whether or not to encrypt a message.,Functional,PURE
+agentMom,The agentMom framework shall deliver multicast and broadcast packets with best effort.,Not Functional,PURE
+agentMom,The network environment shall support multicast protocol to enable multicast messaging.,Not Functional,PURE
+agentMom,The agentMom framework shall support the ability to receive unicast messages.,Functional,PURE
+agentMom,Unicast messages shall only be received by the specified address.,Functional,PURE
+agentMom,Unicast messages shall arrive at the specified address and in order.,Not Functional,PURE
+agentMom,The agentMom framework shall support the ability to send request to join a multicast group.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to send request to leave a multicast group.,Functional,PURE
+agentMom,The agentMom framework shall not allow receiving a multicast message from a group before joining that group.,Functional,PURE
+agentMom,The agentMom framework shall not allow receiving a multicast message from a group after leaving that group.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to set time-to-live for multicast messages.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to set multicast address and port for sending and receiving multicast messages.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to receive multicast messages from multiple groups.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to receive broadcast messages.,Functional,PURE
+agentMom,Broadcast messages shall be sent to all possible hosts under the same local network.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to decrypt unicast messages.,Functional,PURE
+agentMom,The agentMom framework shall automatically decrypt encrypted messages.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to encrypt multicast messages.,Functional,PURE
+agentMom,The agentMom framework shall support the ability to decrypt multicast messages.,Functional,PURE
+agentMom,The agentMom framework shall support an architecture where the agent directly controls conversations.,Not Functional,PURE
+agentMom,The agentMom framework shall support an architecture where agent components control conversations.,Not Functional,PURE
+agentMom,The new agentMom framework shall be compatible with agentMom version 1.2.,Not Functional,PURE
+agentMom,The software shall require Java version 1.4.0 for operation.,Not Functional,PURE
+agentMom,The framework shall use TCP/IP for sending unicast messages.,Not Functional,PURE
+agentMom,The framework shall use UDP for sending broadcast messages.,Not Functional,PURE

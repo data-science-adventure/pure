@@ -1,0 +1,65 @@
+project_id,text,type,source
+2000-nasa x38.doc,"The TCS shall support 5 levels of UAV interaction: Level 1 (secondary imagery/data receipt), Level 2 (direct imagery/data receipt), Level 3 (payload control), Level 4 (AV control less launch/recovery), and Level 5 (full control).",Functional,PURE
+2000-nasa x38.doc,"The TCS shall consist of workstation Hardware Configuration Items (HWCIs), Computer Software Configuration Items (CSCIs), and additional support HWCIs and CSCIs.",Functional,PURE
+2000-nasa x38.doc,All TCS HWCIs and CSCIs shall be Year 2000 compliant.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall meet the applicable capability and characteristic criteria established by the Operational Requirements Document (ORD) for the RQ-1A Predator and the Close Range-Tactical Unmanned Aerial Vehicle (CR-TUAV).,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide software capabilities and hardware configurations necessary to fulfill operational tasking across the 5 levels of interaction.,Functional,PURE
+2000-nasa x38.doc,The TCS shall be interoperable with Electro-Optic/Infrared (EO/IR) and Synthetic Aperture Radar (SAR) payloads as identified in the Interoperable TCS Payloads table.,Functional,PURE
+2000-nasa x38.doc,"The TCS states of operation shall include Startup, Operation, and Shutdown.",Functional,PURE
+2000-nasa x38.doc,The TCS states shall not exist concurrently.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall enter the Startup State upon application of power.,Functional,PURE
+2000-nasa x38.doc,The Startup State shall comprise the Normal Startup Mode and the Recovery Startup Mode.,Functional,PURE
+2000-nasa x38.doc,The TCS shall enter Normal Startup Mode when the software is terminated normally.,Functional,PURE
+2000-nasa x38.doc,The TCS shall enter Recovery Startup Mode when the software is halted due to unplanned power interruption or abnormal termination.,Functional,PURE
+2000-nasa x38.doc,The TCS shall determine which of the 5 levels of interaction are achievable by the configuration during startup.,Functional,PURE
+2000-nasa x38.doc,The TCS shall prohibit levels of interaction higher than those achievable by a particular configuration.,Functional,PURE
+2000-nasa x38.doc,The TCS shall inform the operator if they attempt to execute a function prohibited by the determined level of interaction.,Functional,PURE
+2000-nasa x38.doc,The TCS shall initialize the system to enter the Operations State within 60 seconds from the time power is supplied and the application is launched in Normal Startup Mode.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall provide functionality to resume the Operations State within 45 seconds in Recovery Startup Mode.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall automatically record system state data and interface communications to support event reconstruction.,Functional,PURE
+2000-nasa x38.doc,The TCS shall prompt the operator to select the type of recovery to be executed after abnormal termination.,Functional,PURE
+2000-nasa x38.doc,"The Operations State shall include three modes: normal operations, training operations, and maintenance operations.",Functional,PURE
+2000-nasa x38.doc,The Operations State modes shall not exist concurrently.,Not Functional,PURE
+2000-nasa x38.doc,The operator shall be able to command the system to the Shutdown State from all Operations State modes.,Functional,PURE
+2000-nasa x38.doc,The TCS hardware and software shall execute periodic Fault Detection/Location (FD/L) while in Normal Operations and Training Modes.,Functional,PURE
+2000-nasa x38.doc,"The TCS shall support the concurrent operation of Mission Planning, Mission Control/Monitoring, Payload Product Management, Targeting, and C4I Systems Interface functions during Normal Operations.",Functional,PURE
+2000-nasa x38.doc,The TCS shall enter the Shutdown State upon selection of a shutdown command to allow power removal without impacting operations or damaging the system.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide functionality for the operator to generate a UAV mission plan.,Functional,PURE
+2000-nasa x38.doc,"The TCS shall receive and process UAV mission plans from service-specific mission planning systems including TAMPS, AMPS, and AFMSS.",Functional,PURE
+2000-nasa x38.doc,The TCS shall be capable of storing a minimum of 500 mission plans under unique names.,Not Functional,PURE
+2000-nasa x38.doc,The TCS mission planning function shall provide a graphical user interface to define waypoints on a map display using a pointing device with full keyset redundancy.,Functional,PURE
+2000-nasa x38.doc,The TCS shall compute range and bearing between two geographic positions on the map display.,Functional,PURE
+2000-nasa x38.doc,"The TCS shall automatically check the validity of mission plans (altitude, fuel, data link constraints) prior to being uploaded.",Functional,PURE
+2000-nasa x38.doc,The TCS shall notify the operator of discrepancies found during mission plan validation checks.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide the capability to override validation faults after operator acknowledgment.,Functional,PURE
+2000-nasa x38.doc,The TCS shall allow up to 500 waypoints in each flight route plan.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall compute the Air Vehicle (AV) flight range based on remaining fuel at every waypoint and every 5 minutes.,Functional,PURE
+2000-nasa x38.doc,"The TCS shall provide the capability of displaying overlays containing 100 simultaneous icons for fire support, airspace control, and threat systems.",Functional,PURE
+2000-nasa x38.doc,"The TCS shall display icon positions in Lat/Lon, Universal Transverse Mercator (UTM), and Military Grid Reference System (MGRS) formats.",Functional,PURE
+2000-nasa x38.doc,The TCS shall transmit command and control information to the AV and receive telemetry and payload data via the data link.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide control functionality for two MAE air vehicles flying Beyond Line of Sight (BLOS).,Functional,PURE
+2000-nasa x38.doc,The TCS shall notify the operator when AV performance parameters are out of limits.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide the capability to pass control of an AV to another TCS and receive control from another TCS.,Functional,PURE
+2000-nasa x38.doc,The TCS shall display a Loss of Link (LOL) timer to the operator and compute estimated AV position during LOL.,Functional,PURE
+2000-nasa x38.doc,"The TCS shall process payload product data from Electro-Optical (EO), Infrared (IR), and Synthetic Aperture Radar (SAR) payloads.",Functional,PURE
+2000-nasa x38.doc,The TCS shall be able to store up to 24 hours of payload data.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall be in compliance with National Imagery Transmission Format (NITF) Version 2.0 and United States Imagery Standards (USIS) when processing payload imagery.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall have a built-in text entry capability to annotate textual information on imagery.,Functional,PURE
+2000-nasa x38.doc,The TCS shall compute range and bearing between two geographic positions located on the payload imagery display.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide functionality to determine target locations within the payload field of view and express them in military coordinates.,Functional,PURE
+2000-nasa x38.doc,The TCS shall provide functionality to develop an estimate of the error in computed target coordinates.,Functional,PURE
+2000-nasa x38.doc,The TCS shall be capable of entering DII-COE compliant C4I networks.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall automatically check digital messages for errors and flag uncorrectable messages to the operator.,Functional,PURE
+2000-nasa x38.doc,The TCS shall restrict operator access to software upgrades and programmable parameter modification via password protection.,Not Functional,PURE
+2000-nasa x38.doc,"The TCS shall interface with standard DoD tactical radios (VHF , UHF) and military/commercial satellite communications equipment.",Functional,PURE
+2000-nasa x38.doc,The TCS shall incorporate an intercom system compatible with service-specific voice communication systems for verbal operator communication.,Functional,PURE
+2000-nasa x38.doc,The TCS shall comply with MIL-STD-882C for system safety program requirements.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall provide appropriate cautions and warnings to the operator if the air vehicle deviates into an unsafe flight regime.,Functional,PURE
+2000-nasa x38.doc,The TCS shall be designed such that no single hardware failure or software error results in an unsafe command being transmitted to the air vehicle.,Not Functional,PURE
+2000-nasa x38.doc,The TCS hardware shall be scaleable or modular to meet varying service needs.,Not Functional,PURE
+2000-nasa x38.doc,The TCS throughput shall not exceed 50% of the throughput capability delivered over any 10 second period.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall be capable of providing a 50% spare memory storage capacity over delivered storage used.,Not Functional,PURE
+2000-nasa x38.doc,The TCS software shall be non-proprietary and have unlimited data rights.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall provide functionality to have a maximum delay time of 1 second from operator command to system acknowledgment and response.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall be capable of operating continuously in functional Operation Mode for a minimum of 72 hours.,Not Functional,PURE
+2000-nasa x38.doc,The TCS shall be configurable for sea ground or air transport in 2 hours or less.,Not Functional,PURE

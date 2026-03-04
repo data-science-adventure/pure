@@ -1,0 +1,63 @@
+project_id,text,type,source
+1999 - tcs.pdf,"The TCS shall consist of the TCS workstation Hardware Configuration Items (HWCIs), TCS Computer Software Configuration Items (CSCIs), and additional TCS Support HWCIs and CSCIs.",Functional,PURE
+1999 - tcs.pdf,All TCS HWCIs and CSCIs shall be Year 2000 compliant.,Not Functional,PURE
+1999 - tcs.pdf,"The TCS shall provide command and control of the payload Air Vehicle (AV), and data link.",Functional,PURE
+1999 - tcs.pdf,The TCS shall interface with and export payload data to military supported units via external tactical communications systems and C4I systems.,Functional,PURE
+1999 - tcs.pdf,The TCS shall support five levels of UAV interaction ranging from secondary imagery receipt to full function control from takeoff to landing.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide software capabilities and hardware configurations necessary to fulfill operational tasking requirements across the five levels of interaction.,Functional,PURE
+1999 - tcs.pdf,"The TCS states of operation shall include Startup, Operation, and Shutdown.",Functional,PURE
+1999 - tcs.pdf,The TCS states shall not exist concurrently.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall enter the Startup State upon application of power.,Functional,PURE
+1999 - tcs.pdf,"The Startup State shall be comprised of Normal Startup Mode and Recovery Startup Mode.",Functional,PURE
+1999 - tcs.pdf,The TCS shall enter the Normal Startup Mode when the TCS software is terminated normally.,Functional,PURE
+1999 - tcs.pdf,The TCS shall enter the Recovery Startup Mode when the software is halted due to an unplanned power interruption or abnormal program termination.,Functional,PURE
+1999 - tcs.pdf,The TCS shall determine which of the five levels of interaction are achievable by the TCS configuration during startup.,Functional,PURE
+1999 - tcs.pdf,The TCS shall prohibit levels of interaction higher than those achievable by a particular configuration.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall inform the operator if the operator attempts to execute a function prohibited as a result of the determined level of interaction.,Functional,PURE
+1999 - tcs.pdf,The TCS shall initialize the system to place it in the Operations State within 60 seconds from the time power is supplied and the application is launched during Normal Startup Mode.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the system functionality to resume the Operations State within 45 seconds during Recovery Startup Mode.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of automatically recording system state data and interface communications to support event reconstruction.,Functional,PURE
+1999 - tcs.pdf,The TCS shall prompt the operator to select the type of recovery to be executed following an abnormal termination.,Functional,PURE
+1999 - tcs.pdf,"The Operations State shall consist of three modes: normal operations, training operations, and maintenance operations.",Functional,PURE
+1999 - tcs.pdf,The Operations State modes shall not exist concurrently.,Not Functional,PURE
+1999 - tcs.pdf,The operator shall have the capability to command the system to the Shutdown State from all modes under the Operations State.,Functional,PURE
+1999 - tcs.pdf,The TCS hardware and software shall execute periodic Fault Detection/Location (FD/L) while in the Normal Operations Mode and Training Mode.,Functional,PURE
+1999 - tcs.pdf,The TCS shall support concurrent operation of Mission Planning and Mission Control functions during Normal Operations Mode.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be placed in a condition where power can be removed without impacting operations or causing damage to the system upon selection of a shutdown command.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the functionality to allow the operator to generate a UAV mission plan.,Functional,PURE
+1999 - tcs.pdf,The TCS shall have the functionality to receive and process UAV mission plans from service specific mission planning systems.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of storing a minimum of 500 mission plans under unique names.,Functional,PURE
+1999 - tcs.pdf,The Mission Planning function shall provide a graphical user interface that allows defining waypoints on a map based display using a pointing device.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the capability to compute the range and bearing between two geographic positions on the map display.,Functional,PURE
+1999 - tcs.pdf,The TCS shall permit dynamic mission and payload retasking during all phases of operational mission execution.,Functional,PURE
+1999 - tcs.pdf,The TCS shall automatically check the validity of the intended mission plan prior to being uploaded.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the capability for the operator to define the desired AV route in waypoint format.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the capability to include up to 500 waypoints in each flight route plan.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the capability to display mission waypoints and flight path graphically.,Functional,PURE
+1999 - tcs.pdf,The TCS shall present the estimated time of arrival and fuel status at each programmed waypoint to the operator.,Functional,PURE
+1999 - tcs.pdf,The algorithmic accuracy of all flight planning calculations shall not deviate by more than 10% when compared with a validated 6 degree-of-freedom air vehicle simulator.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the operator with a clearly indicated map scale.,Functional,PURE
+1999 - tcs.pdf,The TCS shall display an icon indicating AV position when receiving downlink from the desired AV.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of displaying the positions of icons in Lat/Lon and Military Grid Reference System (MGRS) formats.,Functional,PURE
+1999 - tcs.pdf,The TCS shall transmit command and control information to the AV via the uplink.,Functional,PURE
+1999 - tcs.pdf,The TCS shall receive AV telemetry and payload information via downlink from the AV.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the capability to pass control of an AV to another TCS.,Functional,PURE
+1999 - tcs.pdf,The TCS shall notify the operator when AV performance parameters are out of limits.,Functional,PURE
+1999 - tcs.pdf,The TCS shall support operation of the AV via all flight modes including manual controls.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the functionality to control the Air Data Terminal (ADT) antenna and transmitter.,Functional,PURE
+1999 - tcs.pdf,The TCS shall compute the estimated position of the AV during Loss of Link (LOL) based upon the last known position.,Functional,PURE
+1999 - tcs.pdf,The TCS shall display a LOL timer to the operator upon initiation of a LOL onset.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the system functionality necessary to record data obtained via the data link.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of automatically selecting the proper mode of operation for the selected data terminal.,Functional,PURE
+1999 - tcs.pdf,The TCS shall have the functionality to process payload product data from Electro Optical (EO) and Infrared (IR) payloads.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be able to store up to 24 hours of payload data.,Functional,PURE
+1999 - tcs.pdf,The TCS shall provide an interface between the TCS and an external hard copy printer.,Functional,PURE
+1999 - tcs.pdf,The TCS shall implement an AV Standard Interface to ensure communications with the selected AV.,Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of restoring power in sufficient time to avoid loss of air vehicle control during power outages.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall be designed such that no single hardware failure or software error results in an unsafe command being transmitted to the air vehicle.,Not Functional,PURE
+1999 - tcs.pdf,The TCS throughput shall not exceed 50% of the throughput capability delivered over any 10 second period.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall provide a 50% spare memory storage capacity over delivered storage used.,Not Functional,PURE
+1999 - tcs.pdf,The TCS software shall provide a windows based graphic operator interface.,Functional,PURE
+1999 - tcs.pdf,The TCS software shall be non-proprietary and have unlimited data rights.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall provide the functionality to have a maximum delay time of 1 second from operator command to system acknowledgement.,Not Functional,PURE
+1999 - tcs.pdf,The TCS shall be capable of operating continuously in functional Operation Mode for a minimum of 72 hours.,Not Functional,PURE

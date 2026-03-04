@@ -1,0 +1,41 @@
+project_id,text,type,source
+1995 - gemini,The software shall maintain all components under a version control system.,Non Functional,PURE
+1995 - gemini,The software shall include facilities for nearly automatic inclusion into the Gemini software environment.,Non Functional,PURE
+1995 - gemini,The software shall restrict access to the system according to the current operational level.,Functional,PURE
+1995 - gemini,The software shall provide monitoring access as a read-only case that does not affect the performance of ongoing observations.,Non Functional,PURE
+1995 - gemini,The software shall support remote operations through a distributed environment.,Functional,PURE
+1995 - gemini,The software shall support team observing with multiple observers at different sites.,Functional,PURE
+1995 - gemini,The software shall restrict specific operations to specific remote sites.,Functional,PURE
+1995 - gemini,The software shall ensure that no single point of control for the telescope exists for observing astronomers.,Non Functional,PURE
+1995 - gemini,The software shall provide an automatic sequencer for observing operations.,Functional,PURE
+1995 - gemini,The software shall support the sorting and resequencing of the observation queue.,Functional,PURE
+1995 - gemini,The software shall provide a telescope simulator for testing science programs.,Functional,PURE
+1995 - gemini,The software shall support a command syntax that is consistent across workstation and IOC software.,Non Functional,PURE
+1995 - gemini,The software shall respond to a common set of commands for status testing and version inquiries.,Functional,PURE
+1995 - gemini,The software shall adopt a uniform ACK/NAK protocol across all systems.,Non Functional,PURE
+1995 - gemini,The software shall support command timeouts at approximately 500 msec.,Non Functional,PURE
+1995 - gemini,The software shall ensure that handshaking of commands between IOCs occurs within 100-200 msec.,Non Functional,PURE
+1995 - gemini,The LAN shall support a transfer rate of 20-40 Mbits/second.,Non Functional,PURE
+1995 - gemini,The software shall store astronomical data using a standard compressed format.,Non Functional,PURE
+1995 - gemini,The software shall retain 7 days of data produced by the largest instrument.,Non Functional,PURE
+1995 - gemini,The software shall transmit rough video images every 0.5 sec.,Non Functional,PURE
+1995 - gemini,The software shall implement an Access Mode Allocation system to protect against accidental interference.,Non Functional,PURE
+1995 - gemini,The software shall accept or reject every command within 2 sec.,Non Functional,PURE
+1995 - gemini,The software shall update local status displays within 4 sec.,Non Functional,PURE
+1995 - gemini,The software shall log and fix all software bugs after detection.,Non Functional,PURE
+1995 - gemini,The software shall provide built-in test (BIT) facilities to verify system performance.,Functional,PURE
+1995 - gemini,The software shall notify users of specific faults including origin and problem description.,Functional,PURE
+1995 - gemini,The software shall allow control transfer between user stations via a software reconfiguration procedure.,Functional,PURE
+1995 - gemini,The software shall be written as machine-independent portable code for non-hardware-specific tasks.,Non Functional,PURE
+1995 - gemini,The software shall verify the consistency of all software component versions at boot time.,Non Functional,PURE
+1995 - gemini,The software shall support a total system downtime of no more than 2%.,Non Functional,PURE
+1995 - gemini,The software shall perform range and validity checking before executing any input command.,Non Functional,PURE
+1995 - gemini,The software shall recover or reconfigure within 5 minutes of an error condition.,Non Functional,PURE
+1995 - gemini,The software shall bring the system to a safe state upon notification of danger.,Functional,PURE
+1995 - gemini,The software shall provide a network gateway acting as a firewall for the astronomical database.,Non Functional,PURE
+1995 - gemini,The software shall support database access times in the range of 2-3 msec.,Non Functional,PURE
+1995 - gemini,The software shall use the Ward/Mellor approach for real-time systems development.,Non Functional,PURE
+1995 - gemini,The development operating system shall be POSIX-compliant UNIX System V Release 4.,Non Functional,PURE
+1995 - gemini,The software shall use Tcl/Tk as the principle language for developing Graphical User Interfaces.,Non Functional,PURE
+1995 - gemini,The IOCs shall use the VxWorks real-time operating system.,Non Functional,PURE
+1995 - gemini,The software shall use the DARPA TCP/IP communication protocol over LANs and the WAN.,Non Functional,PURE

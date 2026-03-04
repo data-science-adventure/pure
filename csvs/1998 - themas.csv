@@ -1,0 +1,39 @@
+project_id,text,type,source
+THEMAS,"The THEMAS system shall read the initialization file and derive definitions from the initialization data in the file.",Functional,PURE
+THEMAS,"The THEMAS system shall use the information contained in the initialization data file to determine which heating and cooling units are part of the system.",Functional,PURE
+THEMAS,"Each thermostat shall have a unique identifier by which that thermostat is identified in the THEMAS system.",Functional,PURE
+THEMAS,"The THEMAS system shall read thermostat identifiers from the initialization file and load them into the system during the initialization process.",Functional,PURE
+THEMAS,"The THEMAS system shall read the maximum number of concurrently running units from the initialization file and store it in the system.",Functional,PURE
+THEMAS,"The THEMAS system shall read the initialization file and establish the trigger value from the data in that file.",Functional,PURE
+THEMAS,"The THEMAS system shall ensure the temperature reported by a given thermostat does not exceed a maximum deviation value of 3 degrees Fahrenheit.",Functional,PURE
+THEMAS,"The THEMAS system shall read the initialization file and establish the overtemperature value from the data in that file.",Functional,PURE
+THEMAS,"The THEMAS system shall read the initialization file and establish the valid temperature range from the data in it.",Functional,PURE
+THEMAS,"The THEMAS system shall turn off all heating and cooling units when initialized.",Functional,PURE
+THEMAS,"The THEMAS system shall read the current temperature values and current temperature settings of each thermostat during initialization.",Functional,PURE
+THEMAS,"The THEMAS system shall issue a request to turn on the appropriate unit if initialization settings reflect a need for heating or cooling.",Functional,PURE
+THEMAS,"The THEMAS system shall identify a current temperature value as an invalid temperature and output an invalid temperature status if the value is strictly less than the lower value or strictly greater than the upper value of the valid temperature range.",Functional,PURE
+THEMAS,"The THEMAS system shall output a valid temperature status if the current temperature value is within the valid temperature range.",Functional,PURE
+THEMAS,"The THEMAS system shall identify a temperature setting as an invalid temperature and output an invalid temperature status if the setting value is strictly less than the lower value or strictly greater than the upper value of the valid temperature range.",Functional,PURE
+THEMAS,"The THEMAS system shall report temperatures that exceed the overtemperature limits.",Functional,PURE
+THEMAS,"The THEMAS system shall recognize a temperature limit has been exceeded if the temperature is less than the Lower Overtemperature Value or greater than the Upper Overtemperature Value.",Functional,PURE
+THEMAS,"The THEMAS system shall activate the appropriate heating or cooling unit when the current temperature value exceeds the current temperature setting by a pre-defined amount.",Functional,PURE
+THEMAS,"The THEMAS system shall output a request to turn off both the heating unit and the cooling unit if the current temperature is between the Lower Trigger Value and the Upper Trigger Value inclusive.",Functional,PURE
+THEMAS,"The THEMAS system shall output a request to turn on the heating unit if the temperature is between the Lower Overtemperature Value and the Lower Trigger Value.",Functional,PURE
+THEMAS,"The THEMAS system shall output a request to turn on the cooling unit if the temperature is between the Upper Trigger Value and the Upper Overtemperature Value.",Functional,PURE
+THEMAS,"The THEMAS system shall limit the number of heating or cooling units that run simultaneously.",Functional,PURE
+THEMAS,"The THEMAS system shall maintain the ON/OFF status of each heating and cooling unit.",Functional,PURE
+THEMAS,"The THEMAS system shall add a request to turn on a unit to a LIFO queue if the maximum number of heating or cooling units is already running.",Functional,PURE
+THEMAS,"The THEMAS system shall remove one request from the LIFO queue and check the thermostat state when a request to turn off a unit is received and the queue is not empty.",Functional,PURE
+THEMAS,"The THEMAS system shall record an event when a request for a heating or cooling unit to be turned on is denied.",Functional,PURE
+THEMAS,"The THEMAS system shall generate a control signal for a heating or cooling unit once a request to turn it on or off is approved.",Functional,PURE
+THEMAS,"The THEMAS system shall generate an event each time a change is made to the status of a heating or cooling unit.",Functional,PURE
+THEMAS,"The THEMAS system shall output a continuous series of alternating 500 Hz and 700 Hz beeps if an invalid temperature is detected.",Functional,PURE
+THEMAS,"The THEMAS system shall output a continuous series of alternating 1000 Hz and 1500 Hz beeps if a temperature limit has been exceeded.",Functional,PURE
+THEMAS,"The THEMAS system shall continue alarm beeps until the supervisor manually resets the alarm through the interface window.",Functional,PURE
+THEMAS,"The THEMAS system shall record an alarm event each time an alarm is requested.",Functional,PURE
+THEMAS,"The THEMAS system shall record each event by a description and the current system time in a Microsoft Access database.",Functional,PURE
+THEMAS,"The THEMAS system shall provide the supervisor a mechanism to change the temperature setting of any thermostat.",Functional,PURE
+THEMAS,"The THEMAS system shall provide the supervisor a mechanism to select between an operational history report and a statistical summary report.",Functional,PURE
+THEMAS,"The THEMAS system shall provide reports in the form of an ASCII file.",Functional,PURE
+THEMAS,"The THEMAS system shall run on the Microsoft Windows NT operating system.",Not Functional,PURE
+THEMAS,"The THEMAS system shall provide a prototype of a simulated thermostat for verification and validation of system reliability.",Not Functional,PURE

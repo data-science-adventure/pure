@@ -1,0 +1,47 @@
+project_id,text,type,source
+2001 - hats.pdf,The HATS-GUI shall provide the user the ability to prepare applications.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall facilitate the parsing of transformation language programs and target programs.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall facilitate the execution of transformation language programs.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall facilitate the examination of SDT and pretty-printed output from transformations.,Functional,PURE
+2001 - hats.pdf,"The HATS-GUI shall facilitate the creation, deletion, and modification of the files related to an application.",Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall manage file associations within an application.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall capture data written to debugging and error streams and make that data available to the user.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall associate saved files with the application.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to select files for display.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall provide an interface for the user to search for text strings and sub-trees.,Functional,PURE
+2001 - hats.pdf,The system shall be platform independent and function properly on any operating system.,Not Functional,PURE
+2001 - hats.pdf,"The system shall be tested under Sun Solaris,Windows 2000,and Linux.",Not Functional,PURE
+2001 - hats.pdf,The system shall be designed to minimize the number of windows opened by the application.,Not Functional,PURE
+2001 - hats.pdf,The system shall be developed using the Java programming language.,Not Functional,PURE
+2001 - hats.pdf,The system shall be completed by December 2001.,Not Functional,PURE
+2001 - hats.pdf,Any operation requiring the user to supply a file name shall allow the user either to select the files from a list or to key in a file name.,Functional,PURE
+2001 - hats.pdf,The user shall be able to cancel any operation where the user is prompted to select from a list.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall overwrite any file whose name is generated automatically when collecting output files.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall prompt the user for a file name for the file to be saved.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall prompt the user to overwrite the existing file if a file with the given name already exists.,Functional,PURE
+2001 - hats.pdf,Output pretty-printed text files and SDTs shall only be displayed when the user requests.,Functional,PURE
+2001 - hats.pdf,The main interface shall be menu driven.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to specify the number of levels of nodes to expand during SDT viewing.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to select the colors and shapes for types of displayed nodes.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall provide an interface for the user to enter implementation-dependent information for starting HATS-SML processes.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall notify the user if it fails to start a HATS-SML program.,Functional,PURE
+2001 - hats.pdf,"The HATS-GUI shall be able to communicate with Sun Solaris,Linux,and Windows 2000.",Not Functional,PURE
+2001 - hats.pdf,"The HATS-GUI shall interact with the HOST OS file services to create,delete,open,read,write,and close files.",Functional,PURE
+2001 - hats.pdf,All files associated with a given application shall be stored in one directory named with the application name.,Not Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall suggest a file name for the user whenever it prompts the user to enter a file name.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall display output written to the standard output and standard error streams in a tab-selectable window.,Functional,PURE
+2001 - hats.pdf,The system shall open a new window when the user selects to display output.,Functional,PURE
+2001 - hats.pdf,Each active display window shall have a mouse cursor and a keyboard cursor.,Functional,PURE
+2001 - hats.pdf,The keyboard cursor shall be movable by the arrow keys.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to import a file into the selected application by copying it into the application directory.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to continue working while transformations are taking place.,Not Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall allow the user to execute a script file containing a linear sequence of HATS-SML programs.,Functional,PURE
+2001 - hats.pdf,The user shall be able to select an arbitrary set of displayed nodes in a displayed graph.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall provide for the navigation of the SDT using a navigation window and scroll bars.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall provide for the copying of text from the text display area to a system buffer.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall display SDTs as directed acyclic graphs with nodes and edges.,Functional,PURE
+2001 - hats.pdf,The HATS-GUI shall provide the function to fully expand a sub-tree.,Functional,PURE
+2001 - hats.pdf,"The HATS-GUI shall display an SDT with 10,000 nodes in five seconds or less.",Not Functional,PURE
+2001 - hats.pdf,The complexity of the text and tree search algorithms shall not exceed O(n^2) for n nodes.,Not Functional,PURE
+2001 - hats.pdf,The user shall not be required to log in or authenticate his/her identity.,Not Functional,PURE
+2001 - hats.pdf,The system shall be implemented in the Java 1.3 programming language.,Not Functional,PURE

@@ -1,0 +1,31 @@
+project_id,text,type,source
+2002 - sce api.pdf,The SCE-MI infrastructure shall provide multiple communication channels between software models and a device under test (DUT).,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall present channel end points as message ports to the DUT model.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall present channel end points as message port proxies to the software models.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI shall support both untimed and RTL modeling environments.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall provide message-oriented communication where a single message can trigger multiple clocked events in hardware.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall provide clock and reset generation to the hardware side.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall provide a service loop function to service communication channels.,Functional,PURE
+2002 - sce api.pdf,The service loop function shall be capable of being called from a dedicated thread in multi-threaded environments.,Functional,PURE
+2002 - sce api.pdf,The transactors shall decompose messages from input channels into sequences of cycle-accurate events for the DUT.,Functional,PURE
+2002 - sce api.pdf,The transactors shall recompose sequences of events from the DUT into messages for output channels.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall allow any transactor to freeze controlled time by stopping the controlled clock.,Functional,PURE
+2002 - sce api.pdf,The infrastructure linker shall analyze parameters from interface macros to establish the dimensions of the interface.,Functional,PURE
+2002 - sce api.pdf,The software models shall bind to message port proxies using specific API calls.,Functional,PURE
+2002 - sce api.pdf,The SceMiMessageInPort macro shall present messages arriving from the software side to the transactor.,Functional,PURE
+2002 - sce api.pdf,The SceMiMessageOutPort macro shall allow transactors to send messages to the software side.,Functional,PURE
+2002 - sce api.pdf,The SceMiClockPort macro shall supply a controlled clock and a controlled reset to the DUT.,Functional,PURE
+2002 - sce api.pdf,The SceMiClockControl macro shall allow a transactor to control a DUT clock.,Functional,PURE
+2002 - sce api.pdf,The hardware side message port macros shall use a dual-ready handshake protocol.,Not Functional,PURE
+2002 - sce api.pdf,The SCE-MI software side shall provide a C++ API for infrastructure access.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI software side shall provide an ANSI standard C API.,Functional,PURE
+2002 - sce api.pdf,The software side shall provide an error handling facility for irrecoverable errors via a registered error handler.,Functional,PURE
+2002 - sce api.pdf,The SceMiMessageData object shall represent the vector of message data transferred between software and hardware.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall support cycle stamping for output messages sent to the software side.,Functional,PURE
+2002 - sce api.pdf,The infrastructure shall notify the software side when the hardware is ready for more input if an input ready callback is registered.,Functional,PURE
+2002 - sce api.pdf,The controlled reset shall remain asserted for a minimum duration specified by the ResetCycles parameter.,Not Functional,PURE
+2002 - sce api.pdf,The SceMiParameters class shall provide an API to access the interface parameter set.,Functional,PURE
+2002 - sce api.pdf,The SCE-MI infrastructure shall delete objects constructed by the API during shutdown.,Not Functional,PURE
+2002 - sce api.pdf,The infrastructure linker shall uniquely distinguish transactor instances by their hierarchical path names.,Not Functional,PURE
+2002 - sce api.pdf,The SceMiClockPort macro shall support user-defined clock ratios relative to the highest frequency controlled clock.,Functional,PURE
+2002 - sce api.pdf,The SceMiClockControl macro shall provide signals to indicate when a controlled clock edge occurs on the next uclock posedge.,Functional,PURE

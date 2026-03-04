@@ -1,0 +1,39 @@
+project_id,text,type,source
+2001 - telescope.pdf,The XCP Flight Software shall process science data from the camera.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall relay science data to the Spacecraft Control Unit in the form of CCSDS Source Packets.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall receive commands from the Spacecraft Control Unit that establish the current instrument state and camera mode.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transmit detailed housekeeping data to the Spacecraft Control Unit in the form of CCSDS Source Packets.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall receive a time message from the Spacecraft Control Unit.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall synchronize the XCP local copy of the spacecraft clock using the received time message.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall control the heaters on the telescope tube.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall control the heaters on the thermal baffles.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall read data from the Telescope Alignment Monitor.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall maintain primary and alternate configurations in EEPROM.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall autonomously switch to the alternate configuration if the primary configuration fails to boot.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall include a Memory Scrubber task to repair single bit errors in DRAM.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall reset the processor via the watchdog timer upon detection of multiple bit errors.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall report errors in the housekeeping telemetry.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transmit a heartbeat message to the Spacecraft Control Unit to indicate instrument aliveness.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transition to the RED state upon receipt of a commanded transition from the MANUAL state.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transition from the RED state to the MANUAL state after the execution of a RED command.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall reject any non-RED command received while in the RED state.,Functional,PURE
+2001 - telescope.pdf,"The XCP Flight Software shall support Automatic, ""Preplanned"", and Target of Opportunity observation sequences.",Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall perform a centroid calculation on the image when a source is detected.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transmit an XRT Centroid Error message if the centroid calculation fails.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall transmit an XRT Position message if the centroid calculation is successful.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall switch from fast timing mode to normal timing mode when the lit pixel rate falls below 40 cps.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall switch to photon counting mode when the pixel rate falls below 2 cps.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall perform Built-In Test Stage 1 during the boot process.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall perform Built-In Test Stage 2 during the initialization process.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall provide an application interface to the MIL-STD-1553B data bus hardware.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall provide an application interface to the RS-422 hardware interface.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall provide an application interface to the Analog/Digital and Digital/Analog Converters.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall provide a file system compatible with the Microsoft Disk Operating System.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall manage communications with the SCU over the 1553 interface at the application data protocol level.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall be capable of loading a sequencer program from the EEPROM File System.,Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall use the VxWorks 5.3 real-time multi-tasking operating system.,Not Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall restrict real-time HK packets to a maximum size of 230 bytes.,Not Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software must not segment any packet that requires processing by the ITOS ground system.,Not Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software must not compress any packet that requires processing by the ITOS ground system.,Not Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software should be allocated at least 10MB of memory for observation buffers to meet the science telemetry rate.,Not Functional,PURE
+2001 - telescope.pdf,The XCP Flight Software shall be developed in accordance with the Software Engineering Department Standard Software Process.,Not Functional,PURE

@@ -1,0 +1,96 @@
+project_id,text,type,source
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to create a new LNP NPA-NXX for a Service Provider.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall only send updates for subscription versions that are not filtered on the Local SMS for a mass update request.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to select Subscription Versions for mass update based on user defined criteria.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall require at least one selection criteria for a mass update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall create an old Subscription Version with a new version id for an active Subscription Version involved in a mass update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall broadcast no data to Local SMSs due to the creation of an old Subscription Version during a mass update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall log an exception and proceed with Mass Update processing upon finding a subscription version in sending status.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall produce an exception report for NPAC Personnel listing Subscription Versions not processed during Mass Update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall require NPAC personnel to specify a Service Provider ID when entering Selection Criteria for a Mass Update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall identify all Subscription Versions affected by mass changes and carry out updates to Local SMSs.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC Personnel to update block holder default routing information via mass update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject a mass update request if the TN Range intersects an existing 1K Block.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject a mass update request to a Block if the status is NOT active.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall download Number Pooling Block Information for mass updates when the Service Provider EDR Indicator is TRUE.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall download Number Pooling Block Information using Subscription Versions when the Service Provider EDR Indicator is FALSE.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall create an old Block with a new version id for an active Block involved in a mass update.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall support an off-line batch download to update Local SMSs with network and subscription data.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall communicate creation or deletion of NPA-NXX and LRN data to Local SMSs and SOAs.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall inform all Service Providers about the availability of NPA-NXXs for porting via specified interfaces.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall post new Service Providers and LRNs on the Web bulletin board.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow Service Providers to add NPA-NXX data via specified interfaces.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow Service Providers to delete NPA-NXX data via specified interfaces.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall provide a mechanism for Service Providers to indicate download preferences for NPA-NXX and LRN data.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall periodically perform database extracts of active Subscription Versions to an ASCII file.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall store database extract files at the NPAC SMS FTP site.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to specify an NPA-NXX for database extract file creation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall prevent the entry of pipe characters as part of text strings.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to create a new LRN for a service provider.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall synchronize its system clock using NTP to a Stratum 1 host.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall support a permissive dialing period during NPA splits.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall verify that new and old NPA-NXXs involved in an NPA Split exist upon data entry.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall prevent an NPA-NXX involved in an NPA split from being deleted during permissive dialing.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall retain the Subscription Version Id of Versions involved in an NPA Split.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall update all non-archived Subscription Versions with the new NPA at the start of permissive dialing.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall automatically delete the old NPA-NXX upon reaching the end of the permissive dialing period.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall automatically create a new NPA-NXX-X when a valid request is made to add an NPA Split.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject an NPA-NXX-X addition if the NPA-NXX is scheduled for an NPA Split.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall support definition of long and short business hours for business time calculation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC operations personnel to add or delete business holidays.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to store a primary service provider id with an associated service provider id.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject any SOA association attempt by a Service Provider Id associated with a primary ID.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall support recovery of notifications for associated Service Providers via the primary association.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall provide a mechanism to indicate if a Service Provider supports receiving NPA-NXX-X data.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC Personnel to manage NPA-NXX-X Holder information via the Administrative Interface.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall validate that the effective date of an NPA-NXX-X is not before the NPA-NXX effective date.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall apply NPA-NXX Filters to NPA-NXX-X downloads.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall require NPAC personnel to specify NPA-NXX-X Holder SPID and Effective Date during creation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject NPA-NXX-X creation if pending-like no-active Subscription Versions exist for the range.,Functional,PURE
+2001 - npac.doc,"NPAC SMS shall provide output destination options for reports including print, fax, and e-mail.",Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to modify the effective date for an NPA-NXX-X.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject NPA-NXX-X deletion if the associated Block contains a status other than Active.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall verify the Block Holder SPID matches the accessControl SPID for SOA Block Activation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall set the status of a Block to Active if all Local SMSs respond successfully to creation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel and the SOA interface to create a Subscription Version.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall prohibit a Subscription Version in conflict from being activated.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall notify SOAs and Local SMSs when an NPA-NXX is first used for a Subscription Version.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall verify that the due date is not in the past upon Subscription Version creation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall verify that an input LRN is associated with the new Service Provider.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall notify Service Providers when a Subscription Version is set to pending.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow only NPAC personnel and the current Service Provider to modify their own active Subscription Versions.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall send an error message to the SOA if no cause code is specified when setting conflict.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel and SOA/Local SMS users to query Subscription data.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall return an error message if no data is found for a query.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall reject a message to manually create a Subscription Version with LNP Type POOL.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall verify that 1000 individual TNs exist for a Block upon successful creation.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall provide a secure NPAC SOA Low-tech Interface.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall provide a tunable parameter for the number of message retry attempts.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall support recovery of all CMIP notifications emitted over defined interfaces.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall recover missed network data downloads in time sequence order.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall require unique user identification codes to identify all personnel.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall store passwords in a one-way encrypted form.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall enforce password aging with a default of 90 days.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall display the date and time of the user last successful access upon login.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall only allow the NPAC Security Administrator to authorize users.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall protect service provider data from access by unauthorized users.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall use SNMP to monitor system resources and detect error conditions.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall generate a security audit log sufficient for after-the-fact investigation.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall maintain security audit data online for a minimum of 90 days.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall ensure that no service provider action causes the system to be unavailable to others.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall have documented procedures for software and data backup.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall support data origin authentication for each incoming message.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall support detection of message replay and modification.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall use a public key crypto system to provide digital signatures.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall ensure that notifications are sent in confirmed mode.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall be responsible for ensuring the system clock is accurate to within two minutes of GMT.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall record all audit results in an audit log.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall allow NPAC personnel to view all audit requests including those from Service Providers.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall support on-line file transfer capabilities for report files.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall maintain an Error Log to track transaction and transmission errors.,Functional,PURE
+2001 - npac.doc,NPAC SMS shall be available 24 hours a day with defined exceptions.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall be 99.9 percent reliable.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall support a mean time to repair of less than or equal to 1 hour.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall support duplexing of major hardware components.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall ensure transaction response time is less than 3 seconds for 95% of transactions.,Not Functional,PURE
+2001 - npac.doc,NPAC SMS shall measure and record resource usage on a per Service Provider basis.,Functional,PURE

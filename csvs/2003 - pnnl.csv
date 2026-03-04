@@ -1,0 +1,68 @@
+project_id,text,type,source
+2003 - pnnl.pdf,"The automated diagnostic tool shall detect and identify performance and operational faults in chiller and cooling tower subsystems of HVAC units using sensed data acquired from the unit, unit specifications, unit installation data, configuration data, and unit operation data.",Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall provide the user with a visual indication of faults.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall provide descriptive information concerning faults and their causes.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall provide suggested corrective actions for identified faults.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall store the results of diagnostics for subsequent retrieval and use.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall automate diagnostic processes through an analysis of data without the need for human expert input.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall display diagnostic results to the user.,Functional,PURE
+2003 - pnnl.pdf,The data-preprocessing component shall obtain data describing the subsystem under diagnosis.,Functional,PURE
+2003 - pnnl.pdf,The data-preprocessing component shall prepare the data for input to the diagnostic component by reducing and filtering the data.,Functional,PURE
+2003 - pnnl.pdf,The output component shall display results output from the diagnostic component in a simple graphical and textual format.,Functional,PURE
+2003 - pnnl.pdf,The output component shall record results output from the diagnostic component to permanent storage.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must support a variety of users with respect to computer expertise.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must provide a capability to manually input and edit fixed data.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must store fixed data for subsequent use and review.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool should provide for configuration management of fixed data.,Functional,PURE
+2003 - pnnl.pdf,The user must have the capability to configure the tool for continuous diagnostic analysis over an indefinite period of time.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall record diagnostic results for subsequent review when in continuous analysis mode.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must print screen images of diagnostic results and historical data at user request.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must provide long term storage of diagnostic results.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool must permit the user to supply metadata relevant to diagnostic results.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall provide diagnostic results in a simple and definitive manner.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool may provide the user the capability to adjust the sensitivity of the diagnostic algorithms.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall be capable of obtaining sensed data from real-time data acquisition devices and data files containing previously acquired data.,Functional,PURE
+2003 - pnnl.pdf,The design of the software should support the incorporation of diagnostic algorithms for additional HVAC subsystems.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool should support modification or replacement of existing diagnostic algorithms.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall be restricted to Microsoft Windows-compatible operating systems.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall classify users into general user and administrator types.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall permit the general user to utilize only a limited set of capabilities including browsing current and historical diagnostics.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall permit the administrator to utilize all general user privileges plus system configuration and diagnostic setting modification.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall input sensed data in real time from data acquisition devices and HVAC units.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall input sensed data from data files containing previously acquired data.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall not input sensed data from real-time devices and files simultaneously.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall input fixed data provided by the user.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall store sensed and fixed data to permanent storage.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall associate the absolute time of input with each sensed data item for its complete lifecycle.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall permit sensed data to be input from a single ASCII text file in batch mode.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall qualify each sensed data item as to its certitude during the acquisition process.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall deem sensed data in doubt if acquisition is not possible or data is outside the range of possible values.,Functional,PURE
+2003 - pnnl.pdf,The administrator shall have the capability to modify the number of successive failed samples that indicate a sensor data acquisition problem.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall indicate the occurrence of missing data in permanent storage using a unique place holder.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall store sensed data to permanent storage with a precision of three significant figures.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall validate sensed data with respect to its expected range of values.,Functional,PURE
+2003 - pnnl.pdf,The administrator shall have the capability to modify the expected range of sensed data used for validation.,Functional,PURE
+2003 - pnnl.pdf,The engineering units of sensed data input to the tool shall comply with the required units for the associated physical parameter.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall provide the capability to convert sensed data to the required engineering units.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall associate one or more tolerances with each continuous parameter corresponding to different sensitivity levels.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall log all errors associated with obtaining and validating sensed data.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall report selected errors to the user.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall monitor performance and operational parameters to identify specific faults in chillers and cooling towers.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall associate text describing the possible problem and recommended fix with each identified fault.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall not process a diagnostic algorithm if any input data to the algorithm is missing.,Not Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall notify the user if a diagnostic algorithm cannot process due to missing data.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall log all errors associated with failures of the diagnostic algorithms.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall monitor the unit under diagnosis for an indefinite period of time and log diagnostic results as they are determined.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall accompany saved diagnostic results with the absolute time of occurrence and identity of the unit and diagnostic.,Functional,PURE
+2003 - pnnl.pdf,The administrator user shall have the capability to adjust the sensitivity of the diagnostic analysis.,Functional,PURE
+2003 - pnnl.pdf,The administrator shall have the ability to specify which diagnostic results will not be reported.,Functional,PURE
+2003 - pnnl.pdf,The display of each diagnostic result for fault conditions shall include a description of the fault and potential causes.,Functional,PURE
+2003 - pnnl.pdf,The display of each diagnostic result for fault conditions shall include the location of the fault and the absolute time of occurrence.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall deploy a scroll bar in windows listing diagnostic results once the window reaches maximum height.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall display the current time in building and subsystems windows during real-time operation.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall display an animated graphical feature in each window indicating the status of diagnostic processing.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall log significant errors in software operation to permanent storage with detail sufficient to guide rectifying the error.,Functional,PURE
+2003 - pnnl.pdf,Logged software errors shall include the absolute time of occurrence and the name of the software module and function.,Functional,PURE
+2003 - pnnl.pdf,The user interface shall consist of six windows organized in a hierarchy enforcing a navigational order.,Not Functional,PURE
+2003 - pnnl.pdf,The configuration window shall permit the administrator user to modify buildings and subsystems to be monitored.,Functional,PURE
+2003 - pnnl.pdf,The automated diagnostic tool shall log the occurrence of changes to fixed data to permanent storage.,Functional,PURE

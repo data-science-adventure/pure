@@ -1,0 +1,20 @@
+project_id,text,type,source
+2001 - space fractions.pdf,The umbrella shall be a web-based menu system allowing the user to choose between the games.,Functional,PURE
+2001 - space fractions.pdf,The program shall require a web browser capable of running Flash movies.,Not Functional,PURE
+2001 - space fractions.pdf,The product shall include an introductory movie to set up the storyline.,Functional,PURE
+2001 - space fractions.pdf,The product shall provide an option to skip the introductory movie.,Functional,PURE
+2001 - space fractions.pdf,The product shall include a main menu including a brief help section.,Functional,PURE
+2001 - space fractions.pdf,The product shall present a series of multiple-choice fraction questions including arithmetic and equivalence.,Functional,PURE
+2001 - space fractions.pdf,The product shall provide a friendly robotic sidekick to assist with usability issues and hints.,Functional,PURE
+2001 - space fractions.pdf,The product shall provide an ending scene where the user score is calculated and ranked.,Functional,PURE
+2001 - space fractions.pdf,The product shall provide an option to quit the game or try again at the ending scene.,Functional,PURE
+2001 - space fractions.pdf,The product shall include a web-accessible component to allow an administrator to update fraction questions.,Functional,PURE
+2001 - space fractions.pdf,The question updater shall require a password for administrative access.,Functional,PURE
+2001 - space fractions.pdf,The product shall save administrator-defined custom questions in a file on the web server.,Functional,PURE
+2001 - space fractions.pdf,The product shall keep the user score as local data within the game.,Functional,PURE
+2001 - space fractions.pdf,The product shall accept user input via mouse clicks for choosing answer options and setting preferences.,Functional,PURE
+2001 - space fractions.pdf,The product shall produce sound and animation outputs through Flash movies to acknowledge answer success or failure.,Functional,PURE
+2001 - space fractions.pdf,The product shall run on an Internet-accessible computer with a web browser supporting JavaScript and Macromedia Flash 5.,Not Functional,PURE
+2001 - space fractions.pdf,The product shall open specified S2S products in a separate window through the Math Umbrella.,Functional,PURE
+2001 - space fractions.pdf,The main game movie size shall be between 1MB and 2MB.,Not Functional,PURE
+2001 - space fractions.pdf,The product shall use appropriate sub-scenes in the main Flash game to ensure maintainability.,Not Functional,PURE

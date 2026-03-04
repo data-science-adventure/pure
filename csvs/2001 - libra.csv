@@ -1,0 +1,26 @@
+project_id,text,type,source
+libra,The Libra Scheduler shall manage sequential and embarrassingly parallel batch jobs.,Functional,PURE
+libra,The Libra Scheduler shall run on a homogenous Linux cluster.,Not Functional,PURE
+libra,The Libra Scheduler shall prioritize jobs based on user-specified budget and deadline constraints.,Functional,PURE
+libra,The Libra Scheduler shall allocate CPU time according to user utility.,Functional,PURE
+libra,The Libra Scheduler shall enforce resource allocations proportional to user priority using the stride scheduling algorithm.,Functional,PURE
+libra,The Libra Scheduler shall allow dynamic reallocation of resources for urgent jobs.,Functional,PURE
+libra,The Libra Scheduler shall support at least four Pentium-III workstations with 128 MB RAM.,Not Functional,PURE
+libra,The Libra Scheduler shall provide administrative security to prevent unauthorized alteration of scheduling criteria.,Not Functional,PURE
+libra,The Libra Scheduler shall provide a basic level of job accounting.,Functional,PURE
+libra,The Libra Scheduler shall interface with Sun Grid Engine version 5.3.,Not Functional,PURE
+libra,The Libra Scheduler shall use PVM and MPI libraries for embarrassingly parallel jobs.,Not Functional,PURE
+libra,The Libra Scheduler shall maintain a maximum bug rate of 1 bug per KLOC.,Not Functional,PURE
+libra,The system shall provide a maximum response time of 1 minute for job submission.,Not Functional,PURE
+libra,The Libra Scheduler shall ensure all jobs are completed within a 10% error allowance of the submitted statistics.,Not Functional,PURE
+libra,The Libra Scheduler shall limit the maximum cost charged to the user to the maximum cost submitted by the user.,Not Functional,PURE
+libra,The Libra Scheduler shall be written in standard C code.,Not Functional,PURE
+libra,The Libra Scheduler shall follow the Hungarian Naming Convention for all code.,Not Functional,PURE
+libra,The Libra Scheduler shall include a command-line interface for submitting jobs with deadline and cost parameters.,Functional,PURE
+libra,The Libra Scheduler shall allow administrators to cancel or resume any job.,Functional,PURE
+libra,The Libra Scheduler shall update the cluster status every time a job is scheduled or removed.,Functional,PURE
+libra,The Libra Scheduler shall select the execution host with the lowest CPU load.,Functional,PURE
+libra,The Libra Scheduler shall retrieve and parse job details including Job Id and Standalone Execution time.,Functional,PURE
+libra,The system shall verify if a user is valid before accepting job submissions.,Functional,PURE
+libra,The Libra Scheduler shall notify the user if a job is accepted or rejected based on feasibility.,Functional,PURE
+libra,The Libra Scheduler shall provide a Linux man page for on-line user documentation.,Not Functional,PURE

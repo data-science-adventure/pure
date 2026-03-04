@@ -1,0 +1,51 @@
+project_id,text,type,source
+2001 - elsfork.pdf,The communication system shall assist operators and users in performing tasks by provision of services.,Functional,PURE
+2001 - elsfork.pdf,The communication system shall be based on open and widely accepted methods with a high degree of interface possibilities.,Not Functional,PURE
+2001 - elsfork.pdf,The communication system shall be robust and reliable.,Not Functional,PURE
+2001 - elsfork.pdf,Faults in the communication system shall not cause malfunction of an individual wind turbine.,Not Functional,PURE
+2001 - elsfork.pdf,The communication system shall be designed such that faults of a sub-system interferes as little as possible with functions of the communication system as a whole.,Not Functional,PURE
+2001 - elsfork.pdf,The condition monitoring system shall provide status and analysis reports for components.,Functional,PURE
+2001 - elsfork.pdf,The system shall make values available for display on operator HMI and for storage in databases.,Functional,PURE
+2001 - elsfork.pdf,The system shall allow updating of values to be selectable down to an interval of 1 second.,Functional,PURE
+2001 - elsfork.pdf,The plant controller shall store all data for transmission on demand.,Functional,PURE
+2001 - elsfork.pdf,The system shall control access to operational functions by a set of rules to restrict authenticated clients to pre-determined services and objects.,Functional,PURE
+2001 - elsfork.pdf,The system shall provide local or remote monitoring of the status and changes of states for operational devices.,Functional,PURE
+2001 - elsfork.pdf,The system shall allow an operator or automatic function to operate equipment via control functions.,Functional,PURE
+2001 - elsfork.pdf,The system shall generate an alarm when data takes a value representing an abnormal state.,Functional,PURE
+2001 - elsfork.pdf,The alarm management functions shall allow an operator to visualise and acknowledge alarms.,Functional,PURE
+2001 - elsfork.pdf,The system shall scan devices for alarms and operator control actions and record events chronologically with date and time information.,Functional,PURE
+2001 - elsfork.pdf,The system shall provide services to retrieve all parameter names and values or only those that differ from default values.,Functional,PURE
+2001 - elsfork.pdf,The system shall provide network management functions to identify communication objects and devices.,Functional,PURE
+2001 - elsfork.pdf,The system shall provide time synchronisation of devices within the communication system.,Functional,PURE
+2001 - elsfork.pdf,The system shall perform self-checking to detect if an object or device is operational.,Functional,PURE
+2001 - elsfork.pdf,The system shall support software management including version control and download.,Functional,PURE
+2001 - elsfork.pdf,The system shall allow an authorised operator to start and stop functions or objects within the system.,Functional,PURE
+2001 - elsfork.pdf,The communication system shall provide basic services for connection establishment and release.,Functional,PURE
+2001 - elsfork.pdf,The communication system shall provide authentication services.,Functional,PURE
+2001 - elsfork.pdf,The communication system shall provide identification of functional objects and devices.,Functional,PURE
+2001 - elsfork.pdf,The communication system shall provide reliable communication over a network.,Not Functional,PURE
+2001 - elsfork.pdf,The system shall support periodic data transfer.,Functional,PURE
+2001 - elsfork.pdf,The system shall support data transfer on demand.,Functional,PURE
+2001 - elsfork.pdf,The system shall support event driven spontaneous data transfer.,Functional,PURE
+2001 - elsfork.pdf,The system shall support command and set point transfer.,Functional,PURE
+2001 - elsfork.pdf,The system shall transmit alarm data from the wind turbine immediately upon occurrence.,Functional,PURE
+2001 - elsfork.pdf,The system shall time stamp all data using UTC time.,Functional,PURE
+2001 - elsfork.pdf,The accuracy and resolution of the timestamp shall be at least 10 ms.,Not Functional,PURE
+2001 - elsfork.pdf,The system shall provide signal quality and scanning rate properties for all analogue measured values.,Functional,PURE
+2001 - elsfork.pdf,The system shall allow grouping of analogue and binary values for reading in a single transaction.,Functional,PURE
+2001 - elsfork.pdf,The system shall provide server and client authentication.,Functional,PURE
+2001 - elsfork.pdf,The system shall deliver data from its originator to its destination with an acceptable residual error rate to ensure data integrity.,Not Functional,PURE
+2001 - elsfork.pdf,The system shall allow for encryption of transferred data items to ensure confidentiality.,Not Functional,PURE
+2001 - elsfork.pdf,The delay in execution of system management functions shall not exceed 2 seconds.,Not Functional,PURE
+2001 - elsfork.pdf,The overall transfer time for services in time critical functions shall not exceed 0.5 seconds.,Not Functional,PURE
+2001 - elsfork.pdf,The communication system shall allow for redundant communication channels.,Not Functional,PURE
+2001 - elsfork.pdf,The system shall include functionality to transfer stored data to central storage after restoration of communication.,Functional,PURE
+2001 - elsfork.pdf,The system shall manage naming of objects and variables in a hierarchical naming system.,Functional,PURE
+2001 - elsfork.pdf,All analogue process values shall be accessible in standard SI-units or other physical units.,Functional,PURE
+2001 - elsfork.pdf,The system shall require a confirmation for all set point updates.,Functional,PURE
+2001 - elsfork.pdf,The system shall store and display binary values at level shift with a corresponding date and time tag.,Functional,PURE
+2001 - elsfork.pdf,The system shall use a handshake procedure for commands that start or stop a mechanical component or change software.,Functional,PURE
+2001 - elsfork.pdf,The system shall store operational events in an event log for transmission on demand.,Functional,PURE
+2001 - elsfork.pdf,The plant controller shall provide an alarm log buffer depth of at least one year.,Not Functional,PURE
+2001 - elsfork.pdf,The plant controller shall provide an event log buffer depth of at least one year.,Not Functional,PURE
+2001 - elsfork.pdf,The system shall operate on TCP/IP standards and procedures.,Not Functional,PURE

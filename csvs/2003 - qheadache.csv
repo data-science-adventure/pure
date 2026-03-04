@@ -1,0 +1,41 @@
+project_id,text,type,source
+Qheadache,The product shall run as a stand-alone application.,Not Functional,PURE
+Qheadache,The product shall use the Qt graphical library.,Not Functional,PURE
+Qheadache,The hardware shall provide a graphical display of at least 800x600 resolution.,Not Functional,PURE
+Qheadache,The product shall interface with the user via a keyboard and a mouse.,Functional,PURE
+Qheadache,The system shall allow the user to undo and redo the last thousand actions.,Functional,PURE
+Qheadache,The product shall count and display the time that the user uses to play.,Functional,PURE
+Qheadache,The product shall count and display the number of actions performed by the user.,Functional,PURE
+Qheadache,The product shall record the player score consisting of time and action count associated with a user name.,Functional,PURE
+Qheadache,The product shall display a window containing all recorded player scores.,Functional,PURE
+Qheadache,The main window shall include a board and a menu bar.,Functional,PURE
+Qheadache,The board height shall be 5x and its width shall be 4x where x is between 50 and 100 pixels.,Functional,PURE
+Qheadache,The system shall separate blocks on the board by a margin of 0.1x.,Functional,PURE
+Qheadache,The board shall contain four square blocks with a side of x.,Functional,PURE
+Qheadache,The board shall contain four rectangular blocks with a height of 2x and a width of x.,Functional,PURE
+Qheadache,The board shall contain one block with a height of x and a width of 2x.,Functional,PURE
+Qheadache,The board shall contain one square block with a side of 2x.,Functional,PURE
+Qheadache,The board color shall be black and the block colors shall be yellow.,Functional,PURE
+Qheadache,The system shall change the game state to Block deplacement when a block is left-clicked down.,Functional,PURE
+Qheadache,The system shall change the game state to Block selection when a selected block is left-clicked up.,Functional,PURE
+Qheadache,The selected block shall follow mouse movement without overlapping other blocks or exiting the game zone.,Functional,PURE
+Qheadache,The selected block shall maintain a distance of at least 0.05x from other blocks during movement.,Functional,PURE
+Qheadache,The system shall display the block positions as they were before the last movement when the Undo action is selected.,Functional,PURE
+Qheadache,The system shall disable the Undo action if no previous movement exists.,Functional,PURE
+Qheadache,The system shall display the block positions as they were before a canceled movement when the Redo action is selected.,Functional,PURE
+Qheadache,The system shall disable the Redo action if the previous action was not an Undo action.,Functional,PURE
+Qheadache,The system shall freeze all player statistics when the great square block is moved to the bottom of the board.,Functional,PURE
+Qheadache,The system shall display the Finish Window with Statistics if the current player movement count is lower than the record in the statistic file.,Functional,PURE
+Qheadache,The system shall display the Simple Finish Window if the current movement count is not lower than the record in the statistic file.,Functional,PURE
+Qheadache,"The Finish Window with Statistics shall contain the text ""You win! Enter your name:"" and an edit box for 20 characters.",Functional,PURE
+Qheadache,The system shall record player statistics in the statistic file when the OK button is clicked in the Finish Window with Statistics.,Functional,PURE
+Qheadache,The system shall display an error message if the statistic file cannot be updated due to permissions or disk space.,Functional,PURE
+Qheadache,The system shall maintain a maximum of 10 player statistics in the game statistic file.,Functional,PURE
+Qheadache,The system shall erase the record with the greatest number of movements if a new record is added when 10 statistics already exist.,Functional,PURE
+Qheadache,The system shall erase all data in the statistic file when the Erase menu option is selected.,Functional,PURE
+Qheadache,"The Statistic Window shall display a listbox of 10 lines containing player name, movement count, and time.",Functional,PURE
+Qheadache,The system shall open a dialog box to allow the user to select and open a previously saved game file.,Functional,PURE
+Qheadache,The system shall redraw the board and set player statistics according to the data in the opened file.,Functional,PURE
+Qheadache,"The system shall save the current block positions, the last 10000 previous positions, action count, and time into the current file.",Functional,PURE
+Qheadache,The system shall prompt the user to save the game via a dialog box if the user selects Exit and the game is not saved.,Functional,PURE
+Qheadache,The software shall be portable to the Windows operating system.,Not Functional,PURE

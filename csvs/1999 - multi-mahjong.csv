@@ -1,0 +1,53 @@
+project_id,text,type,source
+1999 - multi-mahjong.html,"The MultiMahjong system shall consist of a MultiMahjongServer and a MultiMahjongClient program.",Functional,PURE
+1999 - multi-mahjong.html,"The MultiMahjong system shall allow up to 4 players to play Mahjong over a TCP/IP network.",Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient program shall allow 1 player to play in a stand-alone mode.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong system shall provide computer opponents to ensure every game has 4 players.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall reside on a central computer connected to a TCP/IP network with a unique IP address.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall allow and communicate with connections from MultiMahjongClients using IP.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall relay data received from one MultiMahjongClient to other requesting MultiMahjongClients.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to create a new multi-player game.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to create a new single-player game.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to join an existing multi-player game.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to quit the program when no game is in progress.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall require the user to enter a name and choose an icon when creating or joining a game.,Functional,PURE
+1999 - multi-mahjong.html,"The MultiMahjongClient shall limit the total number of players to 4, including human and computer opponents.",Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to set the score limit for winning a hand.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall send game initialization and join information to the MultiMahjongServer.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall perform the processing for any required Computer Opponents.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall retrieve a list of available games from the MultiMahjongServer.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall retrieve player names and seating positions from the MultiMahjongServer.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow moves only according to the Chinese rules of Mahjong.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall inform the user when it is their turn to pick up a tile.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall display when another player picks up a tile from the wall.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall display when another player exposes a set of tiles.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall display when another player discards a tile.,Functional,PURE
+1999 - multi-mahjong.html,"The MultiMahjongClient shall inform the user when they are eligible to Chow, Pung, Kong, or Mahjong.",Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to pick up a tile from the wall if it is their turn.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to discard a tile after picking one up.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall inform the user if another player is fishing for Mahjong.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall inform the user if another player goes Mahjong.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall inform the user if the hand ends in a draw.,Functional,PURE
+1999 - multi-mahjong.html,The game shall end when all 4 rounds have been played or if the user chooses to end the game.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall inform all connected MultiMahjongClients when a game has ended.,Functional,PURE
+1999 - multi-mahjong.html,The Computer Opponent shall not have access to concealed tiles in other players' hands or tiles in the wall.,Functional,PURE
+1999 - multi-mahjong.html,The Computer Opponent shall have access to the number of tiles remaining in the wall and in players' hands.,Functional,PURE
+1999 - multi-mahjong.html,The Computer Opponent shall be able to read all exposed or revealed hands.,Functional,PURE
+1999 - multi-mahjong.html,"The Computer Opponent shall be able to pick up tiles, discard tiles, reveal Kongs, and perform Chow, Pung, or Mahjong actions.",Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall provide a dialogue box reporting the nature of the error when a nonfatal error occurs.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall allow the user to continue the current game after a nonfatal error.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall display a dialogue box and terminate execution when a fatal error occurs.,Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong system shall be written using JDK 1.2.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong system shall follow the Sun Microsystems Java coding standard.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong software shall run on machines capable of running a Java Virtual Machine supporting JDK 1.2.,Not Functional,PURE
+1999 - multi-mahjong.html,The Computer Opponent shall respond within 1 minute in both single and multi-player modes.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall handle requests for up to 10 simultaneous games.,Not Functional,PURE
+1999 - multi-mahjong.html,"The MultiMahjongClient shall calculate possible Chow, Pung, Kong, or Mahjong moves within 5 seconds of a discard.",Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongServer shall be operated via a command prompt without a graphical user interface.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient shall provide a graphical user interface interactable via mouse and keyboard.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient GUI shall be contained within a screen resolution of 800 x 600 pixels.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient GUI shall display all graphics in 16-bit color.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient Main Window shall display the user's tiles and the tile wall.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjongClient Main Window shall display buttons for game actions and grey them out when inactive.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong product shall include an administrator's manual for the server in electronic format.,Not Functional,PURE
+1999 - multi-mahjong.html,The MultiMahjong product shall include a user's manual for the client in both hard copy and electronic format.,Not Functional,PURE

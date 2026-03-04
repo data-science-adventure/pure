@@ -1,0 +1,39 @@
+project_id,text,type,source
+EVLA Correlator Backend,The Correlator Backend System shall receive data from the Correlator in real-time.,Functional,PURE
+EVLA Correlator Backend,The Correlator Backend System shall assemble time-series from the Correlator lag output.,Functional,PURE
+EVLA Correlator Backend,The Correlator Backend System shall perform Fourier Transforms of the assembled time series.,Functional,PURE
+EVLA Correlator Backend,The Correlator Backend System shall deliver formatted results to the End-to-End System.,Functional,PURE
+EVLA Correlator Backend,The Correlator Backend System shall perform basic data assembly formatting and processing services.,Functional,PURE
+EVLA Correlator Backend,The Correlator Backend System shall support real-time inspection of the astronomical data stream.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall replace all invalid data with zero values.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall keep track of data invalid counts.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall notify M&C of any detected interruptions of data delivery from the Correlator.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall verify successful delivery of output to the e2e.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall acknowledge receipt of all data received from M&C.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall guarantee safe delivery of all internal messages.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall be able to handle lag sets up to a maximum size of 262144 values.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall store input data records in a memory buffer.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall update internal parameter tables to synchronize with new operational conditions.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall apply normalizations based on reported data invalid counts.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall apply coarse quantization corrections based on state count or quantizer power measurement data.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall perform windowing operations prior and subsequent to Fourier Transform.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall perform power-of-two complex-to-complex Fast Fourier Transforms.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall sum the frequency domain spectral results.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall store formatted output data records in a memory buffer with backup disk buffering.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall monitor data transfer rates from the Correlator and to the e2e.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall monitor the overall data processing rate.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall trap flag and repair computation errors including infinities and NaNs.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall check Backend physical processors to ensure they are responding.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall provide the ability to initiate a reboot of any Backend physical processor.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall redistribute internal workload among its processors.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall be capable of accepting an aggregate data input stream of a minimum of 1.6 Gbytes/sec.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall be capable of delivering an output data stream of a minimum of 25 MBytes/sec.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall maintain input data fidelity and dynamic range across all processing functions.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall be self-monitoring to detect processor hardware failures and operating system hangs.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall continue to operate during the temporary loss of the e2e System.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall allow all software processes to be killable restartable and debuggable.,Not Functional,PURE
+EVLA Correlator Backend,All users of the Backend System shall login using a unique identification.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall log all attempts to access the system.,Not Functional,PURE
+EVLA Correlator Backend,The Backend System shall provide an administrator with unrestricted access to all aspects of the system.,Functional,PURE
+EVLA Correlator Backend,The Backend System shall employ modular design principles to the maximum extent possible.,Not Functional,PURE
+EVLA Correlator Backend,The original raw uncorrected data must be recoverable from the processing output.,Not Functional,PURE

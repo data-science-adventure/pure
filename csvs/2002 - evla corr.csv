@@ -1,0 +1,36 @@
+project_id,text,type,source
+2002 - evla corr.pdf,The CMCS shall provide the physical link between the WIDAR Correlator hardware and the EVLA monitor and control system.,Functional,PURE
+2002 - evla corr.pdf,The MCCC shall receive configuration information from the EVLA M&C system.,Functional,PURE
+2002 - evla corr.pdf,The MCCC shall translate EVLA M&C configuration information into a physical correlator hardware configuration.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall process and transfer dynamic control data including models and filter parameters.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall monitor correlator subsystem health.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall take autonomous corrective action to recover from hardware and computing system faults.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall provide tools to collect and display auto correlation products.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall provide system wide access to all correlator system states.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall provide error and status messages in a concise time and location referenced format.,Functional,PURE
+2002 - evla corr.pdf,The MCCC shall accept external data feeds for models and time standards.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall issue an alert notice if a CMIB subsystem fails to respond to reboot requests.,Functional,PURE
+2002 - evla corr.pdf,The CPCC shall activate the backup MCCC system automatically upon non-recoverable failure of the primary MCCC.,Functional,PURE
+2002 - evla corr.pdf,The interface between the CMIB and MCCC shall be Ethernet compliant with IEEE 802.3.,Not Functional,PURE
+2002 - evla corr.pdf,The CMCS network data rate shall be 100 Mbits/sec or better.,Not Functional,PURE
+2002 - evla corr.pdf,The MCCC-CMIB and MCCC-EVLA M&C networks shall reside on separate physical interfaces.,Not Functional,PURE
+2002 - evla corr.pdf,There shall be a redundant serial RS-232c communication path between the MCCC and CPCC.,Not Functional,PURE
+2002 - evla corr.pdf,The CMIB shall read a 16-bit identifier from the host correlator board to form a unique IP address.,Functional,PURE
+2002 - evla corr.pdf,The CMIB shall read the contents of all writeable hardware control registers.,Functional,PURE
+2002 - evla corr.pdf,The CMIB shall execute hardware warm boots upon external command from the MCCC.,Functional,PURE
+2002 - evla corr.pdf,The CMIB carrier board shall provide an externally visible LED indicating operational status.,Not Functional,PURE
+2002 - evla corr.pdf,The CMCS computers shall be powered through UPS devices with capacity for coordinated system shutdown.,Not Functional,PURE
+2002 - evla corr.pdf,Each computer system in the CMCS shall have a hardware-based watchdog timer to trigger a reboot upon system hang.,Not Functional,PURE
+2002 - evla corr.pdf,The CMIB shall conform to PC104+ electrical and physical standards.,Not Functional,PURE
+2002 - evla corr.pdf,The CMIB shall contain 64 Mbytes or greater of SDRAM.,Not Functional,PURE
+2002 - evla corr.pdf,The MCCC shall be a high availability general-purpose computer supporting multiple Ethernet interfaces.,Not Functional,PURE
+2002 - evla corr.pdf,The MCCC shall have local disk and file systems to allow standalone operation without external communication.,Not Functional,PURE
+2002 - evla corr.pdf,The CMCS processors shall meet all data processing deadlines.,Not Functional,PURE
+2002 - evla corr.pdf,All system error and debug messages shall be present at the MCCC layer.,Functional,PURE
+2002 - evla corr.pdf,All messages passed between CMCS layers shall include UTC and wall clock time stamps.,Not Functional,PURE
+2002 - evla corr.pdf,The CMCS shall provide a Graphical User Interface for remote testing and debugging through the VCI.,Functional,PURE
+2002 - evla corr.pdf,The CMCS shall detect and report operating system crashes and temperature deviations.,Functional,PURE
+2002 - evla corr.pdf,All users of the CMCS shall login using unique identification and encrypted passwords.,Not Functional,PURE
+2002 - evla corr.pdf,The system administrator shall have unrestricted access to all aspects of the system.,Not Functional,PURE
+2002 - evla corr.pdf,The CMCS shall maintain operations on unaffected resources during partial shutdowns for maintenance.,Not Functional,PURE
+2002 - evla corr.pdf,Software system code shall be written in no more than two generally familiar languages.,Not Functional,PURE

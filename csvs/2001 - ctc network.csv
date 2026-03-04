@@ -1,0 +1,82 @@
+project_id,text,type,source
+2001 - ctc network.pdf,The Center shall provide the network identifier for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the network name for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the number of links in the network for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the number of nodes in the network for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the list of link data for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the list of node data for each roadway network it maintains.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the link identifier for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the link name for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the road number for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the link type for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the link type description for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the start node for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the end node for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the direction for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the length for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the capacity for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the speed limit for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the speed limit truck for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the number of lanes for each link.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the node identifier for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the node name for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the node jurisdiction for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the owner for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the latitude and longitude for each node.,Functional,PURE
+2001 - ctc network.pdf,"The Center shall provide the type of node (e.g., intersection or bridge) for each node.",Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the node type description for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the number of links for each node.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition delay for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition travel time for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition volume for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition speed for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition density for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide traffic condition occupancy for each link defined within the Center.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the incident description for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the roadway information for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the cross street information for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the latitude and longitude for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the status for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the affected lanes for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the incident type and incident type description for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the confirmed date and time for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the cleared date and time for each incident.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the starting roadway for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the latitude and longitude of the starting location for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the ending roadway for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the latitude and longitude of the ending location for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the days closed for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the start time of day and end time of day for each lane closure.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide sign geometry (row/column) status information about each DMS.,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the current message (MULTI string) status information about each DMS.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the immediate message (MULTI string) device control command for a DMS.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the signal pattern device control command for a Lane Control Signal (LCS).,Functional,PURE
+2001 - ctc network.pdf,The Center shall provide the current pan/tilt/zoom/focus/iris status information for each CCTV.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support a CCTV lock camera control request.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support a CCTV set absolute (pan/tilt/zoom/focus/iris) control request.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support a video snapshot in JPEG format for each CCTV.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support a video channel input and output identifier switching command.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the plan and duration device control command for a ramp meter.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the message and message text device control command for a Highway Advisory Radio (HAR).,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the traffic signal plan identifier device control command for a Traffic Signal.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the reading and units status information for each Environmental Sensor Station (ESS).,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the occupants status information for each High Occupancy Vehicle (HOV) lane.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the capacity and utilization status information for each Parking Lot.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the estimated time for a train to clear an intersection for each Railroad Crossing.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the indicator status and direction status information for each Reversible Lane.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the schedule adherence status information for each Bus Location.,Functional,PURE
+2001 - ctc network.pdf,The Center shall support the priority request status information for each Vehicle Priority.,Functional,PURE
+2001 - ctc network.pdf,The Data Collector shall be designed to support the storage of TMDD data elements and message set information.,Functional,PURE
+2001 - ctc network.pdf,The C2C Project shall utilize the TMDD standard to transmit information.,Not Functional,PURE
+2001 - ctc network.pdf,DATEX/ASN shall be used to transmit the TMDD message sets.,Not Functional,PURE
+2001 - ctc network.pdf,TCP/IP shall be used to transmit the DATEX/ASN data.,Not Functional,PURE
+2001 - ctc network.pdf,The web map shall display interstates and state highways on the graphical map.,Functional,PURE
+2001 - ctc network.pdf,The map user shall be able to alter the current magnification (zoom level) of the map.,Functional,PURE
+2001 - ctc network.pdf,The map user shall be able to pan the map in North South East or West directions.,Functional,PURE
+2001 - ctc network.pdf,The map shall display the current incidents as icons.,Functional,PURE
+2001 - ctc network.pdf,The Incident GUI shall allow the user to enter incident or lane closure information without the use of a Center.,Functional,PURE
+2001 - ctc network.pdf,The Incident GUI shall allow the user to input detection time and response time for each incident.,Functional,PURE
+2001 - ctc network.pdf,The remote Center Control GUI shall be designed to execute on a public network.,Not Functional,PURE
+2001 - ctc network.pdf,The C2C Server shall execute in a Microsoft Windows NT environment.,Not Functional,PURE
+2001 - ctc network.pdf,The C2C shall be implemented in the C/C++ programming language.,Not Functional,PURE
+2001 - ctc network.pdf,The C2C shall be able to operate in normal mode and test mode.,Functional,PURE

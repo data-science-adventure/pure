@@ -1,0 +1,48 @@
+project_id,text,type,source
+1999 - dii.htm,"XML Services shall be segmented.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide infrastructure services for mission and support applications using XML technology.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide data management functions for access to distributed database management systems.",Functional,PURE
+1999 - dii.htm,"Data management services shall have the capability of being tuned by on-site personnel in the fixed mode of operation.",Functional,PURE
+1999 - dii.htm,"XML Services shall redefine or reset names of connect descriptors to database server instances in a dynamic environment.",Functional,PURE
+1999 - dii.htm,"The XML Services shall reset session time-out values in a degraded communications environment.",Functional,PURE
+1999 - dii.htm,"Session time-out values shall be user definable.",Functional,PURE
+1999 - dii.htm,"XML Services shall support managing various types of data and database architectures in Maintenance Mode.",Functional,PURE
+1999 - dii.htm,"The data management services shall provide production-equivalent processing in Training Mode.",Functional,PURE
+1999 - dii.htm,"XML Services shall receive XML registry forms.",Functional,PURE
+1999 - dii.htm,"XML Services shall submit metadata and related information resource artifacts.",Functional,PURE
+1999 - dii.htm,"XML Services shall produce and display submittal forms as part of the Information Resource Submittal Package from the web.",Functional,PURE
+1999 - dii.htm,"XML Services shall download Information Resource Submittal Package from the web.",Functional,PURE
+1999 - dii.htm,"XML Services shall submit prescribed metadata related to information resource type and status code.",Functional,PURE
+1999 - dii.htm,"XML Services shall submit metadata by an on-line interactive process.",Functional,PURE
+1999 - dii.htm,"XML Services shall submit metadata by an off-line and interactive batch process.",Functional,PURE
+1999 - dii.htm,"XML Services shall parse submitted XML Registry specification forms.",Functional,PURE
+1999 - dii.htm,"XML Services shall populate the XML Registry database.",Functional,PURE
+1999 - dii.htm,"XML Services shall modify specified terms and definitions of metadata.",Functional,PURE
+1999 - dii.htm,"XML Services shall associate Information Resources specified in Appendix A.",Functional,PURE
+1999 - dii.htm,"XML Services shall assemble registered information resources to form new components.",Functional,PURE
+1999 - dii.htm,"XML Services shall notify changes in Information Resources to authorized producers.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide a capability to post planned changes to a registry.",Functional,PURE
+1999 - dii.htm,"XML Services shall approve and reject submissions.",Functional,PURE
+1999 - dii.htm,"XML Services shall forward requests to different registries.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide the capability to view a Tag origin relationship.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide the capability to view a complex Container Tag parent/child relationship.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide the capability to view a tag data type.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide the capability to view an Information resource versioning relationship.",Functional,PURE
+1999 - dii.htm,"XML Services shall view XML Tags via a tree hierarchy structure or tabular format.",Functional,PURE
+1999 - dii.htm,"XML Services shall view XML Tags via multiple search options.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide capabilities to download the XML Tags.",Functional,PURE
+1999 - dii.htm,"XML Services shall process ANSI standard SQL as specified in FIPS PUB 127-2.",Functional,PURE
+1999 - dii.htm,"XML Services shall establish rules for semantic understanding of terms in an XML document.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide a capability to subscribe for notification of changes to Communities of Interest.",Functional,PURE
+1999 - dii.htm,"XML Services shall create and manage usernames and superusers.",Functional,PURE
+1999 - dii.htm,"XML Services shall monitor changes to data models recorded in the Registry.",Functional,PURE
+1999 - dii.htm,"XML Services shall validate tags against a style guide wizard.",Functional,PURE
+1999 - dii.htm,"XML Services shall generate a document that includes a schema.",Functional,PURE
+1999 - dii.htm,"XML Services shall develop a scheme for dynamic cross-referencing of XML objects.",Functional,PURE
+1999 - dii.htm,"XML Services shall check XML document conformance for well-formedness and validation.",Functional,PURE
+1999 - dii.htm,"XML Services shall disassemble documents to materialize query results into different tree structures.",Functional,PURE
+1999 - dii.htm,"XML Services shall transmit sufficient metadata to construct semantically-valid XSL views.",Functional,PURE
+1999 - dii.htm,"XML Services shall provide standard APIs for Registry Services as specified in Appendix B.",Functional,PURE
+1999 - dii.htm,"The Registry software shall be portable.",Not Functional,PURE
+1999 - dii.htm,"The Registry software shall execute on COE-compliant platforms.",Not Functional,PURE
+1999 - dii.htm,"The XS software shall be delivered in accordance with DII COE guidelines.",Not Functional,PURE
