@@ -1,0 +1,34 @@
+project_id,text,type,source
+2007 - central trading system.pdf,The Central Trading System shall complete the trading of stock.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall analyze instructions and divide them into several kinds.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall match instructions under specific prescripts.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall provide interfaces to send messages to other modules.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall receive instructions from the trade client serve.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall produce new messages to be sent to network message promulgating after processing instructions.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall permit the system manager to access information.,Functional,PURE
+2007 - central trading system.pdf,"The Central Trading System shall save 'buy' instructions upon receipt from the Transaction User Interface.",Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall match instructions with the same stock ID for buy transactions.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall modify information of matched instructions after a trade is made.,Functional,PURE
+2007 - central trading system.pdf,"The Central Trading System shall save 'sell' instructions upon receipt from the Transaction User Interface.",Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall match instructions with the same stock ID for sell transactions.,Functional,PURE
+2007 - central trading system.pdf,"The Central Trading System shall save 'cancel' instructions upon receipt from the Transaction User Interface.",Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall cancel the correlative instruction upon receipt of a valid cancel instruction.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall provide successful trade information to Security Account Management.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall implement queries received from the Trading Information Release system.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall structuralize queried data for the Trading Information Release system.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall send queried data to the information release module.,Functional,PURE
+2007 - central trading system.pdf,The instruction pretreatment module shall judge the validity of instructions.,Functional,PURE
+2007 - central trading system.pdf,The instruction pretreatment module shall freeze the fund in the user account according to the trade instruction.,Functional,PURE
+2007 - central trading system.pdf,The instruction pretreatment module shall write log files for incoming instructions.,Functional,PURE
+2007 - central trading system.pdf,The query manager shall refer to the Database or the instructions list to process query instructions.,Functional,PURE
+2007 - central trading system.pdf,The trade manager shall make a match in the instructions list for trade instructions.,Functional,PURE
+2007 - central trading system.pdf,"The buy instruction shall include five parameters: user ID, stock ID, quantity, respected price, and timestamp.",Not Functional,PURE
+2007 - central trading system.pdf,"The sell instruction shall include five parameters: user ID, stock ID, quantity, respected price, and timestamp.",Not Functional,PURE
+2007 - central trading system.pdf,"The user query instruction shall include three parameters: user ID, query content, and restrict parameters.",Not Functional,PURE
+2007 - central trading system.pdf,"The stock query instruction shall include three parameters: stock ID, query content, and restrict parameters.",Not Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall match instructions based on the price first principle and the time first principle.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall reject a trading instruction if the price is higher than the rising limit or lower than the falling limit.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall return the result for any trading instructions received.,Functional,PURE
+2007 - central trading system.pdf,The Central Trading System shall remove instructions that have not finished trading within one day.,Functional,PURE
+2007 - central trading system.pdf,The maintainers of the Central Trading System must be familiar with Java programming and Sockets.,Not Functional,PURE
+2007 - central trading system.pdf,The Central Trading System must include strategies to overcome system crashes when overhead exceeds capacity.,Not Functional,PURE

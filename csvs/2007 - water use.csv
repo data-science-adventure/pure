@@ -1,0 +1,71 @@
+project_id,text,type,source
+WUT_System,"The System shall track the acquisition of lapsed quantities by specific permits and wells.",Functional,PURE
+WUT_System,"The System shall identify the geographic location of all lapsed quantities.",Functional,PURE
+WUT_System,"The System shall record the reason for every lapsed quantity instance including expiration, cancellation, and retirement.",Functional,PURE
+WUT_System,"The System shall categorize lapsed quantities by their corresponding MFL zone.",Functional,PURE
+WUT_System,"The System shall track the relocation of active water use within the SWUCA caution area.",Functional,PURE
+WUT_System,"The System shall generate reports on the history of irrigation water conserving credits.",Functional,PURE
+WUT_System,"The System shall identify if expired permits have had quantities reallocated to active permits.",Functional,PURE
+WUT_System,"The System shall track alternative source projects including surface water, reclaimed water, and augmented surface water.",Functional,PURE
+WUT_System,"The System shall display a map showing the spatial impact of permit applications relative to existing active applications.",Functional,PURE
+WUT_System,"The System shall allow users to query permits by geographic area or permit number.",Functional,PURE
+WUT_System,"The System shall generate heat maps indicating the over-pumping status of permits based on use type.",Functional,PURE
+WUT_System,"The System shall display a heat map for water quality using the District WUPnet sentinel wells.",Functional,PURE
+WUT_System,"The System shall calculate the impact of water use on set MFL levels.",Functional,PURE
+WUT_System,"The System shall track net benefit changes for relocated permits and changes of use type.",Functional,PURE
+WUT_System,"The System shall report net benefit amounts in MGD for land use changes.",Functional,PURE
+WUT_System,"The System shall identify permits requiring quantity relocation to public supply utilities due to land use change.",Functional,PURE
+WUT_System,"The System shall create a map layer depicting cones of depression for MFL information.",Functional,PURE
+WUT_System,"The System shall report on water use amounts transferred between permits.",Functional,PURE
+WUT_System,"The System shall report the improvement percentage for mitigation of MFL impacts.",Functional,PURE
+WUT_System,"The System shall identify the source of benefit for water resource development projects.",Functional,PURE
+WUT_System,"The System shall track permit duration and expiration dates.",Functional,PURE
+WUT_System,"The System shall allow comparison of District GIS layers with adjacent water management district layers.",Functional,PURE
+WUT_System,"The System shall report compliance at the permit level.",Functional,PURE
+WUT_System,"The System shall identify competing applications including those in modification or expiring.",Functional,PURE
+WUT_System,"The System shall compare actual water levels to established MFL thresholds.",Functional,PURE
+WUT_System,"The System shall determine the availability of alternative supplies including reclaimed water and desalination.",Functional,PURE
+WUT_System,"The System shall report the reservation from use amounts allocated to participants.",Functional,PURE
+WUT_System,"The System shall track the ownership of withdrawal points over time.",Functional,PURE
+WUT_System,"The System shall link permitted quantities to actual pumpage quantities and resource management data.",Functional,PURE
+WUT_System,"The System shall identify when standby permits are reactivated due to loss of alternative quantities.",Functional,PURE
+WUT_System,"The System shall generate maps showing predominate use types by percentage for specified time periods.",Functional,PURE
+WUT_System,"The System shall provide a customizable map printing interface.",Functional,PURE
+WUT_System,"The System shall identify permits situated on land purchased by government agencies for retirement.",Functional,PURE
+WUT_System,"The System shall track water use changes relative to land use changes.",Functional,PURE
+WUT_System,"The System shall provide a permit search interface using issue date, expiration date, and use type.",Functional,PURE
+WUT_System,"The System shall generate a well package file for import into Groundwater Vistas modeling software.",Functional,PURE
+WUT_System,"The System shall associate permitted quantities and pumpage data at the well level.",Functional,PURE
+WUT_System,"The System shall track trends in land use and water use changes over time.",Functional,PURE
+WUT_System,"The System shall track withdrawal sources by aquifer or USGS water body.",Functional,PURE
+WUT_System,"The System shall display the rolling 12-month average, peak month, and max month pumpage for any selected well.",Functional,PURE
+WUT_System,"The System shall compare a permit's over-pumping percentage against the regional average for the same use type.",Functional,PURE
+WUT_System,"The System shall export selected water use data to an Excel spreadsheet.",Functional,PURE
+WUT_System,"The System shall generate monthly reports showing the difference in quantities permitted per month by geographic area.",Functional,PURE
+WUT_System,"The System shall calculate the relationship between rainfall and pumpage data.",Functional,PURE
+WUT_System,"The System shall categorize water use as groundwater, surface water, or re-use.",Functional,PURE
+WUT_System,"The System shall support spatial queries using graphics or polygon buffering.",Functional,PURE
+WUT_System,"The System shall track aquifer level and stream flow changes by area on a monthly basis.",Functional,PURE
+WUT_System,"The System shall display a map layer for Developments of Regional Impacts (DRI).",Functional,PURE
+WUT_System,"The System shall identify the status of stressed lakes.",Functional,PURE
+WUT_System,"The System shall flag permittees with consistent pumpage readings despite missing data.",Functional,PURE
+WUT_System,"The System shall identify permittees reporting zero on pumpage reports.",Functional,PURE
+WUT_System,"The System shall generate a map of permittees failing to submit required conditional reports.",Functional,PURE
+WUT_System,"The System shall report on permits out of compliance due to over-pumping.",Functional,PURE
+WUT_System,"The System shall compare the 10-year moving AFL to the MFL for aquifer saltwater intrusion.",Functional,PURE
+WUT_System,"The System shall compare Peace River minimum flows to established MFLs over a 3-year period.",Functional,PURE
+WUT_System,"The System shall compare long-term P50 and P10 levels to High Minimum Lake Levels.",Functional,PURE
+WUT_System,"The System shall publish charts comparing MFL to the running average of AFLs.",Functional,PURE
+WUT_System,"The System shall import estimated quantities for unmetered permits from the Water Use Estimates database.",Functional,PURE
+WUT_System,"The System shall provide access to population data aggregated by service area.",Functional,PURE
+WUT_System,"The System shall provide spatial and temporal access to crop report information.",Functional,PURE
+WUT_System,"The System shall link Water Use Permits to Environmental Resource Permits and Well Construction Permits.",Functional,PURE
+WUT_System,"The System shall replicate DB2 data to the Oracle database daily.",Not Functional,PURE
+WUT_System,"The System shall maintain data metadata in compliance with FGDC standards.",Not Functional,PURE
+WUT_System,"The System shall display actual data values instead of internal database codes.",Not Functional,PURE
+WUT_System,"The System shall utilize the existing District architecture including Oracle Spatial and ArcSDE.",Not Functional,PURE
+WUT_System,"The System shall provide on-line help and training materials for all users.",Not Functional,PURE
+WUT_System,"The System shall refresh screen displays within a reasonable time frame established by District performance standards.",Not Functional,PURE
+WUT_System,"The System shall support the creation of what-if scenarios for drought events.",Not Functional,PURE
+WUT_System,"The System shall allow users to download query results to external systems.",Not Functional,PURE
+WUT_System,"The System shall adhere to District programming and change management standards.",Not Functional,PURE

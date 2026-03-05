@@ -1,0 +1,35 @@
+project_id,text,type,source
+2007 - nlm.doc,"The system shall support the bulk ingest of material and ingest of individual objects.",Functional,PURE
+2007 - nlm.doc,"The system shall record all actions and decisions made concerning the submitted material in an audit trail.",Functional,PURE
+2007 - nlm.doc,"The system shall assign a unique internal identifier (UID) to each digital object.",Functional,PURE
+2007 - nlm.doc,"The system shall maintain the relationship between a parent object and any subsequent child objects.",Functional,PURE
+2007 - nlm.doc,"The system shall support the use of multiple languages and non-Roman scripts for ingest, maintenance, and access.",Functional,PURE
+2007 - nlm.doc,"The system shall perform virus checking on Submission Information Packages (SIPs).",Functional,PURE
+2007 - nlm.doc,"The system shall validate the successful transfer of a SIP to a staging area using Cyclic Redundancy Checks (CRCs) or checksums.",Functional,PURE
+2007 - nlm.doc,"The system shall provide a user-friendly GUI for NLM staff to perform manual quality control assurance on staged SIPs.",Functional,PURE
+2007 - nlm.doc,"The system shall generate statistical and error reports for the quality assurance process.",Functional,PURE
+2007 - nlm.doc,"The system shall transform SIPs into Archival Information Packages (AIPs) that conform to repository data formatting standards.",Functional,PURE
+2007 - nlm.doc,"The system shall allow entry and validation of descriptive, administrative, and structural metadata.",Functional,PURE
+2007 - nlm.doc,"The system shall store metadata in a database linked to corresponding objects via a unique identifier.",Functional,PURE
+2007 - nlm.doc,"The system shall transfer AIPs to Archival Storage and provide a storage confirmation.",Functional,PURE
+2007 - nlm.doc,"The system shall monitor and ensure that AIPs are not corrupted during internal transfers.",Functional,PURE
+2007 - nlm.doc,"The system shall conform to HHS/NIH security standards and software security policies.","Not Functional",PURE
+2007 - nlm.doc,"The system must be compatible with the NIH Consolidated Collocation Site (NCCS) off-site back-up facility.","Not Functional",PURE
+2007 - nlm.doc,"The system shall provide disaster recovery capabilities including data backup and recovery.",Functional,PURE
+2007 - nlm.doc,"The system shall perform routine and special data integrity checking using CRCs or checksums for each individual file.",Functional,PURE
+2007 - nlm.doc,"The system shall maintain the integrity of the Data Management database through referential integrity.",Functional,PURE
+2007 - nlm.doc,"The system shall allow query requests against all metadata used to manage the repository.",Functional,PURE
+2007 - nlm.doc,"The system shall support the production of management information reports and statistics triggered by a calendar or system event.",Functional,PURE
+2007 - nlm.doc,"The system shall allow online updates to individual records by authorized staff.",Functional,PURE
+2007 - nlm.doc,"The system shall provide a mechanism for deleting AIPs and their associated metadata from the repository.",Functional,PURE
+2007 - nlm.doc,"The system shall control access to data based on multiple permission levels including create, edit, read, and delete privileges.",Functional,PURE
+2007 - nlm.doc,"The system shall restrict access to materials based on licensing terms, embargo periods, and IP range restrictions.",Functional,PURE
+2007 - nlm.doc,"The system shall maintain audit logs of all actions performed by individual users.",Functional,PURE
+2007 - nlm.doc,"The system shall support federated searching across multiple repository sites.",Functional,PURE
+2007 - nlm.doc,"The search interface shall be web-accessible and Section 508 compliant.","Not Functional",PURE
+2007 - nlm.doc,"The system shall provide metadata and full-text searching using standard boolean and proximity functions.",Functional,PURE
+2007 - nlm.doc,"The system shall allow metadata harvesting by other institutions following OAI-PMH guidelines.",Functional,PURE
+2007 - nlm.doc,"The system shall retrieve AIPs from Archival Storage to generate Dissemination Information Packages (DIPs).",Functional,PURE
+2007 - nlm.doc,"The system shall allow users to save digital content to a hard drive and email documents.",Functional,PURE
+2007 - nlm.doc,"The system shall accept metadata in NLM DTD, Dublin Core, MARC21, MARCXML, ONIX, MODS, EAD, and TEI formats.",Functional,PURE
+2007 - nlm.doc,"The system shall automatically extract technical metadata from TIFF image file headers.",Functional,PURE

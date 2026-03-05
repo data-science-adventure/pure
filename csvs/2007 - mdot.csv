@@ -1,0 +1,74 @@
+project_id,text,type,source
+2007 - mdot.pdf,The DUAP System shall collect probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,"The DUAP data elements shall include probe vehicle data fields corresponding to the SAE J2735 format as enumerated in APPENDIX C.",Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect probe vehicle data from the VII Proof of Concept Probe Data Service using the X-031 interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect probe vehicle data from the Chrysler Fast Feedback fleet using the Chrysler telematics interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect probe vehicle data from Southeast Michigan Snow and Ice Management using the SEMSIM interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect probe vehicle data from the MDOT fleet using the MDOT probe vehicle data interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to collect weather data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect weather data from the Road Commission for Oakland County Road Weather Information Systems using the RCOC RWIS interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect Clarus weather data as enumerated in APPENDIX D.,Functional,PURE
+2007 - mdot.pdf,"The DUAP Input Services shall include weather condition fields corresponding to the SAE J2354 WeatherInformation structure as enumerated in APPENDIX E.",Functional,PURE
+2007 - mdot.pdf,The DUAP System shall collect roadway traffic data.,Functional,PURE
+2007 - mdot.pdf,"The DUAP data elements shall include roadway event information data fields corresponding to the SAE J2354 structure as enumerated in APPENDIX F.",Functional,PURE
+2007 - mdot.pdf,"The DUAP Input Services shall include roadway traffic data fields corresponding to the SAE J2354 structure as enumerated in APPENDIX G.",Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect roadway traffic data from the MITS Center using the MITS traffic data interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP Input Services shall be able to collect roadway traffic data from NAVTEQ Corporation's Traffic.com using the Traffic.com interface.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to collect road condition data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to collect work zone (lane closure) data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Input Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to organize the sequence of execution of computational modules.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow the system administrator to add modify and delete Input Services.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow the system administrator to add modify and delete Computational Services.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow the system administrator to add modify and delete Output Services.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow the system administrator to add modify and delete Presentation Services.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall restrict access to authorized users.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall keep records of user access.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow a system administrator to add modify and delete user access rights.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to log system operations.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Administrative Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache raw and derived probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache raw and derived traffic data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache raw and derived road weather data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache raw and derived road condition data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache data only if the record associates the data with its source a geo-referenced location and a timestamp.,Not Functional,PURE
+2007 - mdot.pdf,The DUAP System shall cache data for 1 week.,Not Functional,PURE
+2007 - mdot.pdf,The DUAP System shall allow data to be accessed as soon as it is cached.,Not Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Dynamic Data Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall derive traffic data from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to derive speed from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to derive congestion level based on volume to capacity from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to derive freeway queue length from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to derive travel time from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to infer incidents from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to infer incident occurrences from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to infer incident locations from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to derive road surface weather observations from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Computational Services shall be able to derive pothole location from probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to identify high risk locations.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to calculate measures of effectiveness.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall be able to perform data quality checking.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Computational Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall store geo-references for Michigan roadways.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall store DUAP system configuration data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall archive cached data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Persistent Data Services shall be able to archive cached raw and derived probe vehicle data.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Persistent Data Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall publish data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Output Services shall be able to publish traveler data in SAE J2354 format.,Functional,PURE
+2007 - mdot.pdf,The DUAP Output Services shall be able to publish traffic data to TMS using the TMS interface format.,Functional,PURE
+2007 - mdot.pdf,The DUAP Output Services shall be able to publish weather data elements as enumerated in APPENDIX D.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall publish alerts.,Functional,PURE
+2007 - mdot.pdf,The DUAP Output Services shall be able to publish alerts using the threshold exceeded alert interface format.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Output Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP Presentation Services shall present data published by Output Services.,Functional,PURE
+2007 - mdot.pdf,The DUAP Presentation Services shall include a user interface for browsing traffic information.,Functional,PURE
+2007 - mdot.pdf,The traffic information browser shall allow a user to query traffic-related information using a web browser supporting HTML 4.01 JavaScript and XML 1.0.,Functional,PURE
+2007 - mdot.pdf,The information browsers shall provide a map display which uses icons to identify the locations with associated data.,Functional,PURE
+2007 - mdot.pdf,The DUAP Presentation Services shall include a user interface for browsing incident information.,Functional,PURE
+2007 - mdot.pdf,The DUAP Presentation Services shall include a user interface for browsing weather information.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall require users to log in for system access.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall log Presentation Services data transactions.,Functional,PURE
+2007 - mdot.pdf,The DUAP System shall conform to IT standards established by the Michigan Department of Information Technology.,Not Functional,PURE
+2007 - mdot.pdf,The DUAP System shall handle database data requests through standard Structured Query Language commands.,Not Functional,PURE
+2007 - mdot.pdf,The DUAP System shall use Michigan Geographic Framework geo-references.,Not Functional,PURE

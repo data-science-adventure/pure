@@ -1,0 +1,31 @@
+project_id,text,type,source
+2007 - ertms.pdf,ETCS shall provide the driver with information to allow safe train operation.,Functional,PURE
+2007 - ertms.pdf,ETCS shall supervise train and shunting movements.,Functional,PURE
+2007 - ertms.pdf,"If supervision is performed by a Radio Block Centre (RBC), ETCS shall prevent traction unit movements not authorized by the RBC.",Functional,PURE
+2007 - ertms.pdf,ETCS shall be functional to a maximum train speed of 500 km/h.,Non-Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall indicate the current application level on the Driver-Machine Interface (DMI).,Functional,PURE
+2007 - ertms.pdf,ETCS shall apply the brake if the driver fails to acknowledge a level transition requested from trackside.,Functional,PURE
+2007 - ertms.pdf,ETCS shall be compatible with existing national systems listed in the Control-Command and Signalling (CCS) Technical Specification for Interoperability (TSI).,Non-Functional,PURE
+2007 - ertms.pdf,The ETCS trainborne equipment shall supervise operational states including Full Supervision and Shunting.,Functional,PURE
+2007 - ertms.pdf,ETCS shall initiate a brake application if the driver fails to acknowledge a required state transition.,Functional,PURE
+2007 - ertms.pdf,ETCS shall initiate a brake application if an equipped train passes a level transition to a level for which it is not equipped.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall indicate the current operational status on the DMI.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall use default national values if no valid values for the current location are available.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall perform an automatic self-test at start-up.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall indicate the self-test result on the DMI.,Functional,PURE
+2007 - ertms.pdf,ETCS shall require train data entry before allowing train movement.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall allow manual data entry or overwriting only when the train is stationary.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall store current train data until the traction unit is no longer operative.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall supervise shunting operation to a permitted national speed value.,Functional,PURE
+2007 - ertms.pdf,ETCS shall provide a train trip function if a shunting movement passes a stop signal.,Functional,PURE
+2007 - ertms.pdf,ETCS shall calculate the permitted speed for all locations of the authorized movement.,Functional,PURE
+2007 - ertms.pdf,ETCS shall calculate an emergency braking curve and a service braking curve based on relevant data.,Functional,PURE
+2007 - ertms.pdf,The ETCS trainborne equipment shall determine the location of the entire train.,Functional,PURE
+2007 - ertms.pdf,The ETCS trainborne equipment shall transmit the location of the entire train to the RBC on lines fitted with RBC.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall display the actual speed on the DMI.,Functional,PURE
+2007 - ertms.pdf,ETCS shall provide visual and acoustic warnings to the driver at least 5 seconds before a braking intervention.,Functional,PURE
+2007 - ertms.pdf,ETCS shall monitor the direction of movement to protect against roll away and unwanted reverse movements.,Functional,PURE
+2007 - ertms.pdf,The ETCS trainborne equipment shall record all data entered or received and all data indicated to the driver.,Functional,PURE
+2007 - ertms.pdf,ETCS shall trigger the emergency brake when a traction unit passes a stop signal without authorization.,Functional,PURE
+2007 - ertms.pdf,The ETCS trainborne equipment shall transmit its train identification to the RBC.,Functional,PURE
+2007 - ertms.pdf,The ETCS onboard equipment shall display plain text messages received from trackside.,Functional,PURE

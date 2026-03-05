@@ -1,0 +1,26 @@
+project_id,text,type,source
+2005 - triangle.pdf,"The system shall use a graphical user interface to display data to the user.",Functional,PURE
+2005 - triangle.pdf,"The system shall be used fully with a keyboard.",Functional,PURE
+2005 - triangle.pdf,"The system shall be used fully with a mouse.",Functional,PURE
+2005 - triangle.pdf,"The system shall support multiple games.",Functional,PURE
+2005 - triangle.pdf,"The system shall load additional games from an external source.",Functional,PURE
+2005 - triangle.pdf,"The system shall support multiple opening positions that can be applied to all games.",Functional,PURE
+2005 - triangle.pdf,"The system shall support two-player turn-based gaming.",Functional,PURE
+2005 - triangle.pdf,"The system shall provide a default artificial intelligence that plays using random moves.",Functional,PURE
+2005 - triangle.pdf,"The system shall provide an embedded AI that takes over from a player when requested.",Functional,PURE
+2005 - triangle.pdf,"The system shall load artificial intelligence implementations from external files.",Functional,PURE
+2005 - triangle.pdf,"The system shall prompt the user regarding the implementation of new AIs.",Functional,PURE
+2005 - triangle.pdf,"The system shall support the definition of new games without modifying the source code.",Functional,PURE
+2005 - triangle.pdf,"The system shall search an external source for games on startup and load them automatically.",Functional,PURE
+2005 - triangle.pdf,"The system shall terminate a game based on a pre-defined condition.",Functional,PURE
+2005 - triangle.pdf,"The system shall save the current state of a game to a file.",Functional,PURE
+2005 - triangle.pdf,"The system shall load a previously saved game from a file.",Functional,PURE
+2005 - triangle.pdf,"The system shall provide an embedded help file containing solutions and hints.",Functional,PURE
+2005 - triangle.pdf,"The system shall save all defined opening positions to ensure availability after a restart.",Functional,PURE
+2005 - triangle.pdf,"The system shall support solitaire games.",Functional,PURE
+2005 - triangle.pdf,"The user interface shall use one main window for game playing.",Not Functional,PURE
+2005 - triangle.pdf,"The system shall require the Java Runtime Environment version 1.4 or later.",Not Functional,PURE
+2005 - triangle.pdf,"The system shall utilize the Java Swing library for the graphical user interface.",Not Functional,PURE
+2005 - triangle.pdf,"The artificial intelligence shall calculate the next move within 10 seconds.",Not Functional,PURE
+2005 - triangle.pdf,"The system shall prompt the user for confirmation before overwriting an existing file.",Not Functional,PURE
+2005 - triangle.pdf,"The system shall run on both Linux and Windows operating systems.",Not Functional,PURE

@@ -1,0 +1,41 @@
+project_id,text,type,source
+Project ZNIX,The ZNIX Framework shall provide an object-based information management system.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall expose lower level functionality through a public API.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall include a proxy mechanism to enable ZNIX-unaware applications to utilize Framework capabilities.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall support systems with 256 megabytes of RAM.,Not Functional,PURE
+Project ZNIX,The ZNIX Framework shall provide a centralized archive for user information.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall provide a hierarchical model for managing archived information.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall allow the user to add arbitrary pieces of information without disrupting the hierarchy.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall allow the user to remove arbitrary pieces of information without disrupting the hierarchy.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall allow the user to modify arbitrary pieces of information without disrupting the hierarchy.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall allow the user to back up arbitrary pieces of information to removable storage devices without disrupting the hierarchy.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall automate data capturing tasks to assist the user in building information hierarchies.,Functional,PURE
+Project ZNIX,The ZNIX Framework shall automate data categorizing tasks to assist the user in building information hierarchies.,Functional,PURE
+Project ZNIX,The browser GUI shall be designed for manipulation by casual users with basic IT skills.,Not Functional,PURE
+Project ZNIX,The system design must be compatible with Intel Pentium III or compatible 1-GHz PC hardware.,Not Functional,PURE
+Project ZNIX,The Framework shall capture information from Outlook Express version 6.0.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Outlook 2003 version 11.5.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Address Book version 6.0.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Internet Explorer version 6.0.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Opera version 7.5.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Firefox version 1.0.,Functional,PURE
+Project ZNIX,The Framework shall capture information from Word 2003 version 11.5.,Functional,PURE
+Project ZNIX,The Framework shall intercept outbound email before it is dispatched to the SMTP server.,Functional,PURE
+Project ZNIX,The Framework shall fetch inbound email from the POP3 server.,Functional,PURE
+Project ZNIX,The Framework shall create an Associate to contain the email message body.,Functional,PURE
+Project ZNIX,The Framework shall link created Associates to corresponding People Entities.,Functional,PURE
+Project ZNIX,The Framework shall permanently store web sites visited during a user-specified research project.,Functional,PURE
+Project ZNIX,The Framework shall provide a GUI that allows users to create relationships between textual documents and Entities.,Functional,PURE
+Project ZNIX,The Framework shall automatically save documents to disk in a manner reflecting their relationships to Entities.,Functional,PURE
+Project ZNIX,The Framework shall include a browser capable of displaying the information hierarchy in a UI similar to Windows Explorer.,Functional,PURE
+Project ZNIX,The Framework shall leave residue on the data store to indicate when a portion of data has been archived to removable media.,Functional,PURE
+Project ZNIX,The public API shall provide functionality to create Entities and Entity groups.,Functional,PURE
+Project ZNIX,The public API shall provide functionality to delete Entities and Entity groups.,Functional,PURE
+Project ZNIX,The public API shall provide functionality to modify Entities and Entity groups.,Functional,PURE
+Project ZNIX,The public API shall provide functionality to list and access Entities.,Functional,PURE
+Project ZNIX,The public API shall provide functionality to execute queries for the retrieval of Entities.,Functional,PURE
+Project ZNIX,The mean time between failures (MTBF) shall exceed 3 months.,Not Functional,PURE
+Project ZNIX,The Framework Shell should not utilize more than 40 megabytes of RAM.,Not Functional,PURE
+Project ZNIX,The Framework must guard against malicious scripts on remote websites accessing its information.,Not Functional,PURE
+Project ZNIX,The Framework must guard against unintended corruption of information by the user.,Not Functional,PURE
+Project ZNIX,The system shall conform to ISO 10646 (Unicode UTF-8) standards for character set encoding.,Not Functional,PURE

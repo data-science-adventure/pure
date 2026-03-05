@@ -1,0 +1,62 @@
+project_id,text,type,source
+2005 - pontis.pdf,"The Pontis 5.0 application shall provide the ability to view data stored in the Physical Inventory tables through a graphical user interface.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the user to switch between predefined structure lists.",Functional,PURE
+2005 - pontis.pdf,"The system shall enable the selection of structures by structure ID, district, county, administrative area, ownership, custodianship, functional class, NHS status, on/off system, inspector, bridge group, inspection due dates, and environment/elements.",Functional,PURE
+2005 - pontis.pdf,"The system shall restrict data queries based on user privileges.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the user to find structures based on structure ID, name, feature intersected, facility carried, route number, LRS Inventory Route, mile posts, structure types, design types, materials, and notes fields.",Functional,PURE
+2005 - pontis.pdf,"The application shall allow users with appropriate privileges to run SQL WHERE clause queries against bridges and projects in the database.",Functional,PURE
+2005 - pontis.pdf,"The system shall display data in the unit of measurement configured as a permanent modal setting for the application.",Functional,PURE
+2005 - pontis.pdf,"The user shall be able to select bridges or projects on a supported map display to generate lists for use within the application.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide the ability to view data stored in the Project Planning tables through the graphical user interface.",Functional,PURE
+2005 - pontis.pdf,"The system shall enable filtering and selection of projects by structure ID, project ID, program, action type, status, treatment, and dates.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide the ability to execute predefined reports for bridge data, project data, preservation models, simulations, and configuration.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the creation and review of reports using a .NET compliant report generator.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide the ability to save reports in PDF, HTML, and XML formats.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the creation of a new structure using a user-defined bridge key.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the creation of a new structure by copying all data from an existing structure.",Functional,PURE
+2005 - pontis.pdf,"The system shall support the import of structure data from PDI, NBI, and XML file types.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide the ability to mark a bridge with status values such as inactive or closed and automatically filter displays based on these values.",Functional,PURE
+2005 - pontis.pdf,"The user shall be able to renumber the bridge key identifier globally subject to user privilege restrictions.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow the creation of a new inspection by copying a previous inspection selected by date, type, inspector, or control group.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide a short-form interface for inspection data entry that displays NBI and element data.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow privileged users to edit NBI data, element inspection data, and notes.",Functional,PURE
+2005 - pontis.pdf,"The system shall store notes in plain text and XML formats with configurable field sizes.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide a tool for managing multimedia file links and inspection scheduling.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide the capability to lock down an inspection record once signed and sealed to prevent modification.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide a tiled presentation to compare data from any two inspections for a single bridge.",Functional,PURE
+2005 - pontis.pdf,"The system shall calculate NBI condition ratings using the FHWA NBI Translator.",Functional,PURE
+2005 - pontis.pdf,"The system shall calculate and store bridge Sufficiency Ratings and Appraisal Ratings.",Functional,PURE
+2005 - pontis.pdf,"The system shall calculate Structurally Deficient/Functionally Obsolete (SD/FO) status.",Functional,PURE
+2005 - pontis.pdf,"The system shall prompt users to recalculate ratings when dependent fields are modified.",Functional,PURE
+2005 - pontis.pdf,"The system shall store parameter information for the NBI Translator within the database rather than on local workstations.",Functional,PURE
+2005 - pontis.pdf,"The system shall update transition probabilities and preservation action costs based on expert elicitations or historical inspection data.",Functional,PURE
+2005 - pontis.pdf,"The system shall develop an optimal preservation policy using transition probabilities and costs.",Functional,PURE
+2005 - pontis.pdf,"The system shall support multiple cost and deterioration models concurrently.",Functional,PURE
+2005 - pontis.pdf,"The system shall determine the long-term cost of achieving an average health index target for structures.",Functional,PURE
+2005 - pontis.pdf,"The user shall be able to specify simulation characteristics including timeframe, thresholds, project types, and annual budget.",Functional,PURE
+2005 - pontis.pdf,"The system shall run program simulations for selected structures and store results in the database.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide a Bridge Analysis Dashboard for choosing work items and performing life-cycle cost analysis.",Functional,PURE
+2005 - pontis.pdf,"The user shall be able to assign work recommendations and candidates to a project or remove them.",Functional,PURE
+2005 - pontis.pdf,"The system shall allow splitting a project into multiple projects or combining them into a master project.",Functional,PURE
+2005 - pontis.pdf,"The system shall perform batch update of characteristics for multiple projects simultaneously.",Functional,PURE
+2005 - pontis.pdf,"The system shall warn users if a project budget exceeds available funding.",Functional,PURE
+2005 - pontis.pdf,"The system shall perform single-field and cross-field validation on NBI data items in batch mode.",Functional,PURE
+2005 - pontis.pdf,"The system shall perform configurable input range checks using a data dictionary during data entry.",Functional,PURE
+2005 - pontis.pdf,"The system shall ensure atomic database transactions using standard .NET transaction management.",Functional,PURE
+2005 - pontis.pdf,"The system shall utilize the TransXML schema for data exchange once established.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide a selection/filter capability to restrict archiving operations to active, inactive, or all structures.",Functional,PURE
+2005 - pontis.pdf,"The system shall use timestamps in the database to log when rows were last changed.",Functional,PURE
+2005 - pontis.pdf,"The administrator shall be able to create, edit, and assign application roles and permissions.",Functional,PURE
+2005 - pontis.pdf,"The system shall validate user name and password during the login process.",Functional,PURE
+2005 - pontis.pdf,"The system shall support Windows Authentication for database access.",Functional,PURE
+2005 - pontis.pdf,"The system shall support single-sign-on authentication based on Active Directory or LDAP standards.",Functional,PURE
+2005 - pontis.pdf,"The administrator shall be able to configure field-level security and mandatory input fields.",Functional,PURE
+2005 - pontis.pdf,"The system shall provide an interface to communicate with external services using Web services and SOAP.",Functional,PURE
+2005 - pontis.pdf,"The repository shall support a capacity of at least 50,000 bridges and 50,000 projects.",Not Functional,PURE
+2005 - pontis.pdf,"The system shall achieve 98 percent up time during normal operation hours.",Not Functional,PURE
+2005 - pontis.pdf,"The system shall be available for use 18 hours per day, 353 days per year.",Not Functional,PURE
+2005 - pontis.pdf,"The application shall be developed using Microsoft .NET technologies.",Not Functional,PURE
+2005 - pontis.pdf,"The system shall support Oracle, Microsoft SQL Server, and Sybase Adaptive Server Anywhere databases.",Not Functional,PURE
+2005 - pontis.pdf,"The thin-client interface shall be designed for Microsoft Internet Explorer.",Not Functional,PURE
+2005 - pontis.pdf,"The system shall conform to World Wide Web Consortium (W3C) design guidelines.",Not Functional,PURE
+2005 - pontis.pdf,"The system shall support internationalization using standard Windows/.NET support.",Not Functional,PURE

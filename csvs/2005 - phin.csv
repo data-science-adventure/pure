@@ -1,0 +1,76 @@
+project_id,text,type,source
+2005 - phin.pdf,The system shall offer configuration flexibility to add new data fields and entities.,Functional,PURE
+2005 - phin.pdf,The system shall offer configuration flexibility to add new entity types and relationship types.,Functional,PURE
+2005 - phin.pdf,The system shall support structured data entry for common forms and fields.,Functional,PURE
+2005 - phin.pdf,The system should support multiple deployment options including client server and disconnected modes.,Not Functional,PURE
+2005 - phin.pdf,The system should provide the ability for computers in disconnected mode to reconnect to a server to share data.,Functional,PURE
+2005 - phin.pdf,The system should synchronize data so all instances working from the same server use the same data.,Functional,PURE
+2005 - phin.pdf,The system should electronically record and store data from remote devices for upload to an aggregating system.,Functional,PURE
+2005 - phin.pdf,The system should use configurable domain-specific vocabulary.,Functional,PURE
+2005 - phin.pdf,The system shall capture demographic data about persons including Subject ID and name.,Functional,PURE
+2005 - phin.pdf,The system shall capture demographic data about persons including address and date of birth.,Functional,PURE
+2005 - phin.pdf,The system shall capture demographic data about persons including gender and phone number.,Functional,PURE
+2005 - phin.pdf,The system shall capture demographic data about persons including race and ethnicity.,Functional,PURE
+2005 - phin.pdf,The system shall capture demographic data about persons including country of citizenship.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about organizations including name and location.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about organizations including contact information.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about locations including name and type.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about locations including street address and city.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about locations including state and zip code.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about locations including country and GPS coordinates.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about animals including type and age.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about animals including gender and species.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about animals including owner name and address.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about objects including name and type.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about objects including physical descriptors and identification number.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about conveyances including type and route.,Functional,PURE
+2005 - phin.pdf,The system shall capture data about gatherings including time and location.,Functional,PURE
+2005 - phin.pdf,The system shall capture an entity travel history.,Functional,PURE
+2005 - phin.pdf,The system shall assign a unique event identifier to each health event investigation.,Functional,PURE
+2005 - phin.pdf,The system should record the case definition for a health event.,Functional,PURE
+2005 - phin.pdf,The system should capture changes to the case definition as the health event evolves.,Functional,PURE
+2005 - phin.pdf,The system shall collect detailed conveyance data including carrier identifier and vehicle identification number.,Functional,PURE
+2005 - phin.pdf,The system shall avoid capturing redundant entity demographic information during case and exposure data entry.,Functional,PURE
+2005 - phin.pdf,The system shall capture case data including Case ID and suspected agent.,Functional,PURE
+2005 - phin.pdf,The system shall capture case data including case diagnosis and health status.,Functional,PURE
+2005 - phin.pdf,The system shall capture case data including case status and clinical history.,Functional,PURE
+2005 - phin.pdf,The system shall capture case data including symptom onset date and priority.,Functional,PURE
+2005 - phin.pdf,The system shall provide a means to update the case diagnosis manually or automatically.,Functional,PURE
+2005 - phin.pdf,The system shall capture dynamic event-specific case investigation data.,Functional,PURE
+2005 - phin.pdf,The system shall record and link all exposed entities to a case.,Functional,PURE
+2005 - phin.pdf,The system shall capture the jurisdiction investigating the event and the jurisdiction reporting the case.,Functional,PURE
+2005 - phin.pdf,The system shall capture exposure levels and type of exposure.,Functional,PURE
+2005 - phin.pdf,The system shall capture place and length of time of exposure.,Functional,PURE
+2005 - phin.pdf,The system shall capture the source of exposure and the exposed entity data.,Functional,PURE
+2005 - phin.pdf,The system shall support capturing dynamic event-specific contact data.,Functional,PURE
+2005 - phin.pdf,The system should support monitoring and follow-up activities for isolated or quarantined individuals.,Functional,PURE
+2005 - phin.pdf,The system shall assign a unique Specimen ID to each collected specimen.,Functional,PURE
+2005 - phin.pdf,The system shall link the subject of a specimen to the specimen via a unique Subject ID.,Functional,PURE
+2005 - phin.pdf,The system shall store specimen collection data including purpose and collection date.,Functional,PURE
+2005 - phin.pdf,The system should support bar-coding for specimen data capture.,Functional,PURE
+2005 - phin.pdf,The system shall capture chain of custody information for forensic and select agent samples.,Functional,PURE
+2005 - phin.pdf,The system shall create a laboratory test request for a specimen or group of specimens.,Functional,PURE
+2005 - phin.pdf,The system shall store laboratory results and link them to the original test request.,Functional,PURE
+2005 - phin.pdf,The system shall link laboratory results to the specimen collection record via Specimen ID.,Functional,PURE
+2005 - phin.pdf,The system should capture prophylaxis and treatment data including name and dosage.,Functional,PURE
+2005 - phin.pdf,The system should support activity logs for investigators to track actions.,Functional,PURE
+2005 - phin.pdf,The system shall develop and validate electronic questionnaires.,Functional,PURE
+2005 - phin.pdf,The system shall control the configuration of and revisions to investigation-specific questionnaires.,Functional,PURE
+2005 - phin.pdf,The system shall publish investigation-specific questionnaires and implementation guides.,Functional,PURE
+2005 - phin.pdf,The system shall support dynamically defined associations between entities.,Functional,PURE
+2005 - phin.pdf,The system shall link Entity ID to Event ID within the investigation scope.,Functional,PURE
+2005 - phin.pdf,The system shall support contact exposure tracing by linking one contact to multiple cases.,Functional,PURE
+2005 - phin.pdf,The system shall support contact exposure tracing by linking multiple contacts to a single case.,Functional,PURE
+2005 - phin.pdf,The system shall print questionnaires for field use and phone interviews.,Functional,PURE
+2005 - phin.pdf,The system shall aggregate data including number of cases and number of treatments administered.,Functional,PURE
+2005 - phin.pdf,The system shall accept data from other partner systems supporting outbreak management.,Functional,PURE
+2005 - phin.pdf,The system shall create and send messages for laboratory test requests.,Functional,PURE
+2005 - phin.pdf,The system shall receive and process messages for laboratory results.,Functional,PURE
+2005 - phin.pdf,The system shall exchange messages for case classifications with surveillance systems.,Functional,PURE
+2005 - phin.pdf,The system shall exchange messages for investigations and exposure contacts.,Functional,PURE
+2005 - phin.pdf,The system shall receive and process messages for administered countermeasures.,Functional,PURE
+2005 - phin.pdf,The system shall create and send messages for countermeasure administration requests.,Functional,PURE
+2005 - phin.pdf,The system shall record any known inconsistencies across its architecture models and views.,Not Functional,PURE
+2005 - phin.pdf,The system shall include each correspondence rule applying to the architecture description.,Not Functional,PURE
+2005 - phin.pdf,The system shall include a rationale for each included architecture viewpoint.,Not Functional,PURE
+2005 - phin.pdf,The system shall protect outbreak management data from corruption and unauthorized access.,Not Functional,PURE

@@ -1,0 +1,51 @@
+project_id,text,type,source
+2007 - eirene fun 7.pdf,The EIRENE network shall comply with all mandatory requirements specified in the EIRENE FRS and SRS.,Functional,PURE
+2007 - eirene fun 7.pdf,The EIRENE system shall comply with all mandatory requirements specified in the EIRENE FRS and SRS.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support point-to-point voice calls between any two call parties.,Functional,PURE
+2007 - eirene fun 7.pdf,Point-to-point voice calls shall allow both parties to talk simultaneously.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall allow a user to make public emergency point-to-point voice calls.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall support broadcast voice calls.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall allow the modification of call group compositions.,Functional,PURE
+2007 - eirene fun 7.pdf,A single user shall be able to be a member of one or more call groups.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall allow the modification of the local area over which broadcast calls are implemented.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall permit only the initiator of a broadcast call to talk.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall support group voice calls.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall allow the modification of the local area over which group calls are implemented.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall permit controllers to speak at any time during a group call.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall provide a mechanism to arbitrate between users wishing to speak within a group call.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall support multi-party voice communications between up to six different parties.,Functional,PURE
+2007 - eirene fun 7.pdf,All parties involved in a multi-party voice call shall be able to talk simultaneously.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support point-to-point data communications.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support data rates of at least 2.4 kbit/s.,Not Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support data communications for ERTMS/ETCS level 2 or 3 where implemented.,Functional,PURE
+2007 - eirene fun 7.pdf,The equipment shall display the identity of the called or calling party as a standard telephone number.,Functional,PURE
+2007 - eirene fun 7.pdf,The equipment shall display the identity of the called or calling party as a textual description of their function.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall provide a mechanism to assign calls one of five different priority levels.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall allow calls with a higher priority to pre-empt existing calls of a lower priority.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall limit the group of users who may access EIRENE facilities.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall forward an incoming call or data message to another user.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall allow a user to put an existing call on hold.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall provide the ability to inform a user of incoming call attempts during an existing call.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall provide facilities to prevent individual users from making or receiving unauthorized calls.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support functional addressing including registration and deregistration.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support location dependent addressing.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support Railway emergency calls.,Functional,PURE
+2007 - eirene fun 7.pdf,The network shall support all EIRENE-compliant mobiles.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall provide communications for mobiles traveling at speeds up to 500 km/h.,Not Functional,PURE
+2007 - eirene fun 7.pdf,The system shall achieve required call set-up times in 95% of cases.,Not Functional,PURE
+2007 - eirene fun 7.pdf,Railway emergency calls shall achieve a call set-up time of less than 2 seconds.,Not Functional,PURE
+2007 - eirene fun 7.pdf,The system shall include the time for functional number translation within the set-up time.,Not Functional,PURE
+2007 - eirene fun 7.pdf,Mobiles configured for Railway emergency calls shall automatically join an ongoing emergency call upon entering the call area.,Functional,PURE
+2007 - eirene fun 7.pdf,Cab Radios shall automatically join an ongoing 'all drivers' call upon entering the area unless involved in a higher priority call.,Functional,PURE
+2007 - eirene fun 7.pdf,The mobile equipment shall function in the 900 MHz railway frequency bands and public GSM networks.,Not Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall provide a function to call the primary controller.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall provide a function to send a Railway emergency call.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall provide a function to confirm receipt of a Railway emergency call.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall support the registration and deregistration of a train number.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall support at least ten different languages.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall provide an emergency call button that is red and protected against accidental use.,Not Functional,PURE
+2007 - eirene fun 7.pdf,The activation of the driver safety device shall trigger the Cab radio to send a data message to the primary controller.,Functional,PURE
+2007 - eirene fun 7.pdf,The Cab radio shall provide a standardized interface to ERTMS/ETCS.,Not Functional,PURE
+2007 - eirene fun 7.pdf,Operational radios shall support the initiation of a Railway emergency call using a single red button.,Functional,PURE
+2007 - eirene fun 7.pdf,The functional number shall remain valid as a user roams between networks.,Functional,PURE
+2007 - eirene fun 7.pdf,The system shall prevent the allocation of duplicate functional numbers.,Functional,PURE

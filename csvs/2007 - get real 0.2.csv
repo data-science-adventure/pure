@@ -1,0 +1,25 @@
+project_id,text,type,source
+Get Real Website,"The website shall provide information about careers in computer science to Oregon high school students.",Functional,PURE
+Get Real Website,"The website shall include personal and career information from a broad spectrum of CS professionals.",Functional,PURE
+Get Real Website,"The website shall provide CS course and other information from OUS campuses.",Functional,PURE
+Get Real Website,"The website shall include a call to action and plans for students to follow to prepare for a CS career.",Functional,PURE
+Get Real Website,"The website shall adhere to CSS and style conventions established in Get Real version 1.",Not Functional,PURE
+Get Real Website,"The website shall provide a listing of computer science offerings from Oregon University System campuses and other Oregon colleges.",Functional,PURE
+Get Real Website,"The website shall provide answers to questions regarding societal contributions and potential earnings with a computer science degree.",Functional,PURE
+Get Real Website,"The website shall include a Real People section featuring profiles of recent CS graduates and experienced professionals.",Functional,PURE
+Get Real Website,"The website shall profile women computer scientists and engineers in the Women in Computing section.",Functional,PURE
+Get Real Website,"The website shall provide a list of pre-college technology programs and courses for high school students.",Functional,PURE
+Get Real Website,"The website shall include an 'I'm Looking For...' section with focused questions and links regarding money, people, and colleges.",Functional,PURE
+Get Real Website,"The website shall display a list of external articles related to computer science careers.",Functional,PURE
+Get Real Website,"The website shall provide recommended high school curricula for students interested in CS.",Functional,PURE
+Get Real Website,"The website shall include an internal search function to search the Get Real site.",Functional,PURE
+Get Real Website,"The website shall provide an external search function for outside CS related sites.",Functional,PURE
+Get Real Website,"The website shall provide a listing with links to professional organizations including ACM and IEEE.",Functional,PURE
+Get Real Website,"The website shall provide RSS feeds of current CS information from the chancellor's office.",Functional,PURE
+Get Real Website,"The website shall include an FAQ section for questions asked to graduates or professors.",Functional,PURE
+Get Real Website,"The website shall provide information on the value of a CS minor for other professions.",Functional,PURE
+Get Real Website,"The website shall be compatible with and tested against IE, Firefox, and Netscape.",Not Functional,PURE
+Get Real Website,"The website shall be hosted on a server that provides response times comparable to the current OUS site.",Not Functional,PURE
+Get Real Website,"The website shall implement the same copyright and security measures as the OUS site.",Not Functional,PURE
+Get Real Website,"The website shall track and evaluate user hits and time spent on the site.",Not Functional,PURE
+Get Real Website,"The website shall utilize design conventions consistent with OUS site standards to accommodate short reader attention spans.",Not Functional,PURE

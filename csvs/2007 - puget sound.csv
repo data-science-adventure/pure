@@ -1,0 +1,23 @@
+project_id,text,type,source
+2007 - puget sound.pdf,"The system shall allow for multiple file upload to be configured on a per-page basis.",Functional,PURE
+2007 - puget sound.pdf,"The system shall allow actors to organize their voice clips into a portfolio.",Functional,PURE
+2007 - puget sound.pdf,"The system shall allow actors to download their voice clips in a format such as MPEG Audio (mp3).",Functional,PURE
+2007 - puget sound.pdf,"The system shall store audio clips in a format optimized for speech.",Not Functional,PURE
+2007 - puget sound.pdf,"The system shall allow actors to delete recorded clips.",Functional,PURE
+2007 - puget sound.pdf,"The system shall allow web feeds to be turned on or off on a per-page basis.",Functional,PURE
+2007 - puget sound.pdf,"The system shall allow an actor to search through pages in a course.",Functional,PURE
+2007 - puget sound.pdf,"The system shall display a search box on every page after an actor has logged in.",Functional,PURE
+2007 - puget sound.pdf,"The system shall allow a course administrator to grade an assignment.",Functional,PURE
+2007 - puget sound.pdf,"The system should display grade information to the appropriate actor.",Functional,PURE
+2007 - puget sound.pdf,"The system should maintain a history of grades for a particular assignment.",Functional,PURE
+2007 - puget sound.pdf,"The system shall provide a wiki where actors can collaboratively create networks of documents.",Functional,PURE
+2007 - puget sound.pdf,"The system shall provide a blog engine.",Functional,PURE
+2007 - puget sound.pdf,"The system shall provide both e-mail and SMS notifications for pages.",Functional,PURE
+2007 - puget sound.pdf,"The system should provide a simple and responsive interface.",Not Functional,PURE
+2007 - puget sound.pdf,"The system shall be backed up on a nightly basis.",Not Functional,PURE
+2007 - puget sound.pdf,"The system shall restore back-up data within six hours.",Not Functional,PURE
+2007 - puget sound.pdf,"The system should be available 24 hours a day and 7 days a week.",Not Functional,PURE
+2007 - puget sound.pdf,"The system should support at least 1000 concurrent users.",Not Functional,PURE
+2007 - puget sound.pdf,"The system shall be maintainable without substantial modification.",Not Functional,PURE
+2007 - puget sound.pdf,"The system shall provide relevant online documentation for users on each page.",Functional,PURE
+2007 - puget sound.pdf,"The system shall provide system administrators with access to comprehensive and searchable documentation.",Functional,PURE

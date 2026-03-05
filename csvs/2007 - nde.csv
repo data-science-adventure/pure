@@ -1,0 +1,110 @@
+project_id,text,type,source
+2007 - nde.pdf,The System shall provide the capability to operate in an Open Mode within which authorized customers shall be allowed read-only access to requested Data Products.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to operate in a Degraded System Mode within which the system generates a subset of products based upon priority and availability of system resources.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to notify customers upon the NPOESS Ground System entering and leaving a Degraded Operations Mode.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to operate in a Restricted Access Mode within which only users meeting certain criteria will be authorized access to the data.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to send an electronic notification to authorized users when they receive restricted access data.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of defining Data Products for Ingest.,Functional,PURE
+2007 - nde.pdf,"The System shall be capable of integrating System Elements including Scientific Algorithms, Product Tailoring Tools, Data Format Translation Tools, and other pre-defined transformation utilities.",Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to support functional and performance tests of system elements without impacting operational product generation.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of maintaining records of at least 30 days worth of Ingest history.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to control the execution of Scientific Algorithms.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of generating Data Products.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for an authorized user to adjust Product Generation priorities.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of rendering Platte Carre projections.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of rendering Mercator projections.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of rendering Polar Stereographic projections.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of aggregating Data Products up to and including one orbit.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of producing time-averaged Data Products.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of generating NOAA-Unique and Tailored Data Products with Government-specified grid spacing.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reformatting Data Products into BUFR.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reformatting Data Products into GRIB2.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reformatting Data Products into GeoTIFF.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reformatting Data Products into HDF5.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reformatting Data Products into netCDF.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of compressing Data Products with the GZIP algorithm.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of compressing Data Products with the ZIP algorithm.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of compressing Data Products with the RICE algorithm.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of compressing images of Data Products with the JPEG algorithm.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of compressing animated images of Data Products with the MPEG algorithm.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of generating Data Products within a time frame not to exceed the maximum user-specified shelf-life of the Data Product.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of making Data Products available to registered users.,Functional,PURE
+2007 - nde.pdf,"The System shall provide an online capability for registered users to request subscriptions to xDRs, Ancillary, NOAA-Unique, and Tailored Data Products.",Functional,PURE
+2007 - nde.pdf,"The System shall provide an online capability for the Government to approve subscription requests for xDRs, Ancillary, NOAA-Unique, and Tailored Data Products.",Functional,PURE
+2007 - nde.pdf,The System shall be capable of distributing NOAA-Unique Data Products to the CLASS Long-Term Archive.,Functional,PURE
+2007 - nde.pdf,The System shall provide a list of files distributed to CLASS.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability to receive an electronic delivery acknowledgement message from CLASS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of delivering NDE Data Products to registered user's computer systems.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of notifying registered users of the status of their orders.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of notifying registered users of the status of the System.,Functional,PURE
+2007 - nde.pdf,The System shall ensure that NDE information is accessible only to those authorized to have access.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of registering Users for the purpose of controlling their access to System Elements and Data Products.,Functional,PURE
+2007 - nde.pdf,"The System shall provide a mechanism for reporting performance related to resource utilization, communications, product latencies, and hardware.",Functional,PURE
+2007 - nde.pdf,The System shall provide an automatic failover capability that will re-create a fully functioning configuration from a failed configuration.,Functional,PURE
+2007 - nde.pdf,The System Test Environment shall be capable of delivering products within the same throughput and latency parameters as the operational system during an OPS failover.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of monitoring the integrity of all data received from external sources.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for an authorized user to define data input integrity checks.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of executing and recording the results of data input integrity checks and initiate actions based on those results.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of making products available for distribution according to customer-specified latencies.,Not Functional,PURE
+2007 - nde.pdf,"The System shall have the capability to monitor, record statistics, and deliver reports on its performance.",Functional,PURE
+2007 - nde.pdf,The System shall be capable of retaining logs of all performance data for no less than 90 consecutive calendar days.,Not Functional,PURE
+2007 - nde.pdf,"The System shall provide the capability to generate custom reports from data collected during data receipt, processing, and distribution.",Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving data and products from IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of requesting and accepting all xDRs generated by the IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving SARSAT Telemetry from the IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving A-DCS data and telemetry from the IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall provide an operator console capable of utilizing IDPS client software for submitting subscriptions for Data Products to the IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving Data Delivery Reports from the IDPS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving Ancillary Data Products from the Environmental Satellite Processing Center.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of ingesting and processing archived data.,Functional,PURE
+2007 - nde.pdf,The System shall provide an operator console capable of requesting Data Products from the Comprehensive Large Array-data Stewardship System.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of receiving Data Products delivered from CLASS.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of sending a Data Receipt to CLASS for each Data Product received from CLASS.,Functional,PURE
+2007 - nde.pdf,The System shall provide an operator console capable of interfacing with the NPOESS trouble ticketing system.,Functional,PURE
+2007 - nde.pdf,The System shall provide an operator console capable of interfacing with the ESPC trouble ticketing system.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of executing tasks according to a schedule.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of executing tasks initiated by events.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of executing 99% of its scheduled tasks in any consecutive 30 day period.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of executing 99% of its event driven tasks in any consecutive 30 day period.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of adjusting the priorities of scheduled and event-driven tasks.,Functional,PURE
+2007 - nde.pdf,The System shall have the capacity to store 4 Terabytes of data for testing purposes.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of reporting on all data according to FGDC Content Standard for Digital Geospatial Metadata.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of storing product quality information in the metadata of products created.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of retaining Data Products for a configurable period of time not to exceed 96 hours.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of accepting technology updates without System downtime.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of adding additional capacity without redesign of its infrastructure.,Not Functional,PURE
+2007 - nde.pdf,The System shall comply with ESPC procedures and policies as stated in the NOAA IT Security Manual 212-1300.,Not Functional,PURE
+2007 - nde.pdf,"The System shall be capable of generating backups for all NDE data, procedures, and software.",Functional,PURE
+2007 - nde.pdf,The System shall be capable of implementing automated backup procedures.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of returning to nominal operations following a restoration from system backups.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of protecting the integrity of NDE data in the event of human errors.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of protecting the integrity of NDE data in the event of computer to computer transmission errors.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of protecting the integrity of NDE data from software bugs.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of protecting the integrity of NDE data in the event of a natural disaster.,Not Functional,PURE
+2007 - nde.pdf,The NDE System shall be accessed only with the authorization of the Government.,Not Functional,PURE
+2007 - nde.pdf,The System shall be constructed using existing hardware where it is possible and practical.,Not Functional,PURE
+2007 - nde.pdf,The System shall be constructed using existing software where it is possible and practical.,Not Functional,PURE
+2007 - nde.pdf,The System shall be constructed using COTS and Open Source software where it is possible and practical.,Not Functional,PURE
+2007 - nde.pdf,The NDE System Elements shall be designed to be reused in other Satellite Data Processing applications.,Not Functional,PURE
+2007 - nde.pdf,The NDE System shall be designed so that Scientific Algorithms are invoked as objects.,Not Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for operators to log and track events.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for operators to update a summary log for tracking significant events.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for operators to sort and search on summary log events.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of reporting on summary log events.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for operators to quiesce and restart the System.,Functional,PURE
+2007 - nde.pdf,The System shall implement operational quality monitoring procedures to detect and report the acceptability of xDR metadata.,Functional,PURE
+2007 - nde.pdf,The System shall implement operational quality monitoring procedures to detect and report the acceptability of output product metadata.,Functional,PURE
+2007 - nde.pdf,The System shall be capable of changing system status to reflect the condition of NPOESS.,Functional,PURE
+2007 - nde.pdf,The System shall provide the capability for operators to forward NDE System Elements to CLASS for permanent archive.,Functional,PURE
+2007 - nde.pdf,The NDE Ingest capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period.,Not Functional,PURE
+2007 - nde.pdf,The NDE Product Generation capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period.,Not Functional,PURE
+2007 - nde.pdf,The NDE Distribution capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period.,Not Functional,PURE
+2007 - nde.pdf,The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period.,Not Functional,PURE
+2007 - nde.pdf,The System shall be capable of accessing data delivered by IDPS within no more than ten seconds of notification.,Not Functional,PURE
+2007 - nde.pdf,The System shall deliver SARSAT Telemetry data from IDPS to US Mission Control Center within 1 minute of receipt.,Not Functional,PURE
+2007 - nde.pdf,The System shall deliver A-DCS Telemetry data from IDPS to the US Global Processing Center within 1 minute of receipt.,Not Functional,PURE
+2007 - nde.pdf,The System shall deliver A-DCS Data Products from IDPS to the US Global Processing Center within 1 minute of receipt.,Not Functional,PURE
+2007 - nde.pdf,The System shall support product volumes of 4 Terabytes per day of input and 8 Terabytes per day of output during the NPP mission.,Not Functional,PURE
+2007 - nde.pdf,The System shall be compliant with the OMB Federal Enterprise Architecture.,Not Functional,PURE

@@ -1,0 +1,63 @@
+project_id,text,type,source
+2007 - e-store.doc,The system shall display all the products that can be configured.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to select the product to configure.,Functional,PURE
+2007 - e-store.doc,The system shall display all available components of the product to configure.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to add one or more components to the configuration.,Functional,PURE
+2007 - e-store.doc,The system shall notify the user about any conflict in the current configuration.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to update the configuration to resolve conflicts.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to confirm the completion of the current configuration.,Functional,PURE
+2007 - e-store.doc,The system shall display detailed information of the selected products.,Functional,PURE
+2007 - e-store.doc,The system shall provide browsing options to view product details.,Functional,PURE
+2007 - e-store.doc,The system shall display detailed product categorization to the user.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to enter search text on the screen.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to select multiple options on the screen to search.,Functional,PURE
+2007 - e-store.doc,The system shall display all matching products based on the search.,Functional,PURE
+2007 - e-store.doc,The system shall display exactly 10 matching results on the current screen.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to navigate between search results.,Functional,PURE
+2007 - e-store.doc,The system shall notify the user when no matching product is found.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to create a profile and set credentials.,Functional,PURE
+2007 - e-store.doc,The system shall authenticate user credentials to view the profile.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to update profile information.,Functional,PURE
+2007 - e-store.doc,The system shall display active and completed order history in the customer profile.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to select an order from the order history.,Functional,PURE
+2007 - e-store.doc,The system shall display detailed information about the selected order.,Functional,PURE
+2007 - e-store.doc,The system shall display most frequently searched items in the user profile.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to register for newsletters and surveys.,Functional,PURE
+2007 - e-store.doc,The system shall provide online help and FAQs for customer support.,Functional,PURE
+2007 - e-store.doc,The system shall display customer support contact numbers on the screen.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to enter a contact number for support personnel to call.,Functional,PURE
+2007 - e-store.doc,The system shall maintain customer email information as a required part of the profile.,Functional,PURE
+2007 - e-store.doc,The system shall send an order confirmation to the user through email.,Functional,PURE
+2007 - e-store.doc,The system shall display a detailed invoice for the current order upon confirmation.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to print the invoice.,Functional,PURE
+2007 - e-store.doc,The system shall provide a shopping cart facility during online purchase.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to add or remove products in the shopping cart.,Functional,PURE
+2007 - e-store.doc,The system shall display shipping options provided by the shipping department.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to select the shipping method during the payment process.,Functional,PURE
+2007 - e-store.doc,The system shall display shipping charges and tentative duration.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to enter order information for tracking.,Functional,PURE
+2007 - e-store.doc,The system shall display current tracking information about the order.,Functional,PURE
+2007 - e-store.doc,The system shall calculate and display tax information for the order.,Functional,PURE
+2007 - e-store.doc,The system shall display available payment methods for selection.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to cancel an order.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to change shipping and payment methods for eligible orders.,Functional,PURE
+2007 - e-store.doc,The system shall notify the user about any changes made to an order.,Functional,PURE
+2007 - e-store.doc,The system shall display product reviews and ratings when a product is selected.,Functional,PURE
+2007 - e-store.doc,The system shall enable the user to enter reviews and ratings.,Functional,PURE
+2007 - e-store.doc,The system shall display available financing options and notify the user about financing requests.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to view a detailed sitemap.,Functional,PURE
+2007 - e-store.doc,The system shall display and allow selection of available promotions and rewards.,Functional,PURE
+2007 - e-store.doc,The system shall allow the user to confirm a purchase and enter payment information.,Functional,PURE
+2007 - e-store.doc,The system shall provide a uniform look and feel across all web pages.,Not Functional,PURE
+2007 - e-store.doc,The system shall provide a digital image for each product in the catalog.,Not Functional,PURE
+2007 - e-store.doc,The system shall provide multi-language support.,Not Functional,PURE
+2007 - e-store.doc,The system shall store all databases on redundant computers with automatic switchover.,Not Functional,PURE
+2007 - e-store.doc,The system shall provide T3 internet access with 99.9999% availability via contractual agreement.,Not Functional,PURE
+2007 - e-store.doc,The system shall use secure sockets for all transactions containing confidential information.,Not Functional,PURE
+2007 - e-store.doc,The system shall automatically log out customers after a period of inactivity.,Not Functional,PURE
+2007 - e-store.doc,The system must not store user passwords or confidential information in cookies.,Not Functional,PURE
+2007 - e-store.doc,The system must encrypt back-end databases.,Not Functional,PURE
+2007 - e-store.doc,The system shall load the product in no longer than five minutes.,Not Functional,PURE
+2007 - e-store.doc,The system shall use HTTP protocol on Port 80 for internet communication.,Not Functional,PURE
+2007 - e-store.doc,The system shall communicate with an external Tax system to calculate tax.,Functional,PURE
+2007 - e-store.doc,The system shall communicate with a shipping system for tracking and updating methods.,Functional,PURE
