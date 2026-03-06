@@ -1,0 +1,48 @@
+project_id,text,type,source
+2010 - blit draft.pdf,"The [system name] system shall display a stable environment, automated decisions, and streamlined workflows using industry standard coding and documentation practices.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall maintain security and confidentiality requirements as dictated by HIPAA and FDA regulatory standards.",Not Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display hyperlinks and descriptions for the user to perform functions as specified in the related UIS.",Functional,PURE
+2010 - blit draft.pdf,"The user shall be able to view the hyperlinks and descriptions listed.",Functional,PURE
+2010 - blit draft.pdf,"The user shall be able to choose a function by clicking the hyperlink.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display the desired operational page after the user clicks a hyperlink.",Functional,PURE
+2010 - blit draft.pdf,"A user with admin privileges shall be able to Add/Create a new user and associate the user with specified roles.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display an error message if the new user already exists in the system.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display an error message if the new user is not active in the Active Directory.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display the xxx tab as the default tab.",Functional,PURE
+2010 - blit draft.pdf,"The user shall be able to create or add a new user manually or from a template.",Functional,PURE
+2010 - blit draft.pdf,"The user record shall inherit all specified role settings in the template when created from a user template.",Functional,PURE
+2010 - blit draft.pdf,"The user shall be able to add additional roles manually while creating a new user from a template.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall save user info to the database with specified roles associated with divisions.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall perform a search on display name and user name columns to verify user existence.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall perform a search in Active Directory to verify user status when creating a new user.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall generate a standard confirmation message after saving data.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall generate warning or caution messages after the cancel or close button is clicked.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall mark all required fields with a red asterisk.",Not Functional,PURE
+2010 - blit draft.pdf,"The user shall be able to save data after creating a new user or cancel to abort the process.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall clear data if the user clicks the Cancel button during user creation.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall direct the user to the xxx Page if the close button is clicked without data entry.",Functional,PURE
+2010 - blit draft.pdf,"The user must associate at least one role, division, designator code, and lab location when creating a new user.",Functional,PURE
+2010 - blit draft.pdf,"The user must fill in the User Name and Display Name fields in the User Information section.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall generate an error/warning message if the user attempts to save without required associations or fields.",Functional,PURE
+2010 - blit draft.pdf,"The Project Team must demonstrate mockups of UI changes to stakeholders early in the development process.",Not Functional,PURE
+2010 - blit draft.pdf,"The Project Team shall schedule updates to the production environment only on Tuesdays between 7pm and 7am.",Not Functional,PURE
+2010 - blit draft.pdf,"The Project Team must perform appropriate testing against new functionality prior to production release.",Not Functional,PURE
+2010 - blit draft.pdf,"The Development Team shall define and consistently follow coding standards for the application.",Not Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall log errors, warnings, and informational messages to an external log file.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall log an error message to the external data file when directing users to the error page.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall send a notification email to Client Services if a user is directed to the xxx error page.",Functional,PURE
+2010 - blit draft.pdf,"The Development Team shall develop functionalities using the supported .NET 3.5 Platform.",Not Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall continue to use a single SQL Server 2008 database.",Not Functional,PURE
+2010 - blit draft.pdf,"The Technical Owner shall provide signoff before any build is deployed to production.",Not Functional,PURE
+2010 - blit draft.pdf,"The Technical Lead shall perform code reviews of every system change before commitment to source control.",Not Functional,PURE
+2010 - blit draft.pdf,"The QA/QC Team must perform regression testing against all scheduled builds.",Not Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display a hypertext link labeled Help at the top right corner of each user screen.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall provide a pop-up window displaying page information and help links upon selecting Help.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display the Overview page as the default help topic upon selecting the Help link.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system must allow users to navigate help topics via a left-frame hypertext link.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall display the [company name] logo in the top right side of each help page.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system must exhibit help pages using a specified color scheme and background.",Not Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall provide searching ability for users to find specific topic material in the help tool.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall provide an index for in-depth search of topic contents in the help tool.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall provide a Glossary for industry-related terms through the online help tool.",Functional,PURE
+2010 - blit draft.pdf,"The [system name] system shall retain existing HIPAA compliance capabilities.",Not Functional,PURE

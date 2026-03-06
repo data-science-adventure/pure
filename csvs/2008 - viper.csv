@@ -1,0 +1,33 @@
+project_id,text,type,source
+2008 - viper.doc,The system shall provide a Customer service management process.,Functional,PURE
+2008 - viper.doc,The system shall maintain a Procurement process.,Functional,PURE
+2008 - viper.doc,The system shall manage Product development and commercialization.,Functional,PURE
+2008 - viper.doc,The system shall coordinate with customer relationship management to identify customer-articulated needs.,Functional,PURE
+2008 - viper.doc,The system shall select materials and suppliers in conjunction with procurement.,Functional,PURE
+2008 - viper.doc,The system shall maintain Manufacturing flow management processes.,Functional,PURE
+2008 - viper.doc,The system shall manage Physical distribution.,Functional,PURE
+2008 - viper.doc,The system shall maintain Outsourcing and Partnerships.,Functional,PURE
+2008 - viper.doc,"The system shall maintain Performance measurement for Cost, Productivity, Assets, and Quality.",Functional,PURE
+2008 - viper.doc,The system must be web-based.,Not Functional,PURE
+2008 - viper.doc,The system must be compliant with .Net technologies.,Not Functional,PURE
+2008 - viper.doc,The system must use ASP.NET and C# as the programming languages.,Not Functional,PURE
+2008 - viper.doc,The system must use MS SQL as the Database Management System.,Not Functional,PURE
+2008 - viper.doc,The system shall integrate with Ejada's framework and two additional modules.,Functional,PURE
+2008 - viper.doc,"The system shall provide a login page containing text fields for username, password and a domain list box.",Functional,PURE
+2008 - viper.doc,The system shall redirect the user to an error page if the username or password is incorrect.,Functional,PURE
+2008 - viper.doc,"The system shall allow a Coordinator to add, view, edit, and delete customers.",Functional,PURE
+2008 - viper.doc,"The system shall allow a Coordinator to add, view, edit, and delete items.",Functional,PURE
+2008 - viper.doc,"The system shall allow a Coordinator to add, view, edit, and delete suppliers.",Functional,PURE
+2008 - viper.doc,"The system shall allow a Coordinator to add, view, edit, and delete requests.",Functional,PURE
+2008 - viper.doc,"The system shall allow a Coordinator to add, view, edit, and delete resource locations.",Functional,PURE
+2008 - viper.doc,"The system shall allow a Customer to add, view, edit, and delete their own requests.",Functional,PURE
+2008 - viper.doc,The system shall allow a Customer to edit their profile.,Functional,PURE
+2008 - viper.doc,The system shall allow a Supplier to view pending supply requests and their details.,Functional,PURE
+2008 - viper.doc,The system shall allow a Supplier to send feedback on a request.,Functional,PURE
+2008 - viper.doc,The system shall allow a Supplier to edit their profile.,Functional,PURE
+2008 - viper.doc,The system shall use TCP/IP as the communication protocol.,Not Functional,PURE
+2008 - viper.doc,The system shall handle at least 100 concurrent users.,Not Functional,PURE
+2008 - viper.doc,The system shall complete 90% of transactions in less than 1 second.,Not Functional,PURE
+2008 - viper.doc,The system shall back up all data automatically every day.,Not Functional,PURE
+2008 - viper.doc,The system shall be available 100% of the time.,Not Functional,PURE
+2008 - viper.doc,"The system shall restrict access based on three roles: coordinator, supplier, and customer.",Not Functional,PURE

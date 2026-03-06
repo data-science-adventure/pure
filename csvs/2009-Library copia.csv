@@ -1,0 +1,49 @@
+project_id,text,type,source
+2009 - library - copia.pdf,"The System Administration Module shall operate on a Linux or Solaris server.",Not Functional,PURE
+2009 - library - copia.pdf,"The System Administration Module shall be accessible through a web-browser or a Windows-compatible client.",Not Functional,PURE
+2009 - library - copia.pdf,"The System Administration Module shall support Microsoft Internet Explorer (v.6.0 and later) and Mozilla Firefox (v.2.0 and later) if web-browser based.",Not Functional,PURE
+2009 - library - copia.pdf,"The System Administration Module shall be accessible with screen-reading and screen-magnification software.",Not Functional,PURE
+2009 - library - copia.pdf,The System Administration Module shall use a fully relational database back-end.,Not Functional,PURE
+2009 - library - copia.pdf,The System Administration Module shall produce standards-compliant HTML.,Not Functional,PURE
+2009 - library - copia.pdf,The System Administration Module shall provide a development and training environment with the ability to migrate configurations to production.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide an online hierarchical and cross-linked help system in HTML.,Functional,PURE
+2009 - library - copia.pdf,The system shall run on a fully relational SQL-based database system.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall allow SQL queries against any table in the database.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide database access as an ODBC source.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide real-time processing for pull lists and shelf reading.,Functional,PURE
+2009 - library - copia.pdf,The system shall allow multiple staff members and patrons to simultaneously access and update patron and item records.,Functional,PURE
+2009 - library - copia.pdf,The system shall identify the location and user for any locked patron or item record.,Functional,PURE
+2009 - library - copia.pdf,The system shall support individual and shared staff login accounts with role-based access control.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide access to all configuration files.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide full access to all log files without stopping the system.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide access to the root shell.,Functional,PURE
+2009 - library - copia.pdf,The system shall support the creation of custom dashboards for performance and transaction data.,Functional,PURE
+2009 - library - copia.pdf,The system shall support SNMP for monitoring system resources.,Functional,PURE
+2009 - library - copia.pdf,The system shall send configurable alerts via dashboards and email and text messages.,Functional,PURE
+2009 - library - copia.pdf,The system shall allow administrators to unlock records from a central console.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a performance dashboard identifying processes by ID and resource utilization.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a server management console with shutdown and restart utilities.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a management console for workstations running client software.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a circulation dashboard showing key performance indicators.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a single interface for reviewing and controlling scheduled tasks.,Functional,PURE
+2009 - library - copia.pdf,The system shall support SMTP for email transport.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall support restrictions on deleting records based on business rules.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide customizable rules for record suppression in staff and public interfaces.,Functional,PURE
+2009 - library - copia.pdf,The system shall allow the creation and modification of requesting rules for holds.,Functional,PURE
+2009 - library - copia.pdf,The system shall allow the creation and modification of loan rules for check-outs and renewals.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide data validation and automatic formatting for any field.,Functional,PURE
+2009 - library - copia.pdf,The system shall perform live incremental and full backups of data and transaction logs.,Functional,PURE
+2009 - library - copia.pdf,The system shall log data changes and provide undo functionality.,Functional,PURE
+2009 - library - copia.pdf,The system shall support server clustering for failover capability.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall support secure protocols including SFTP and SSL and SSH.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall support batch import and export of MARC bibliographic and authority records.,Functional,PURE
+2009 - library - copia.pdf,The system shall support an unlimited number of record sets for batch updates and deletions.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide dedicated interfaces for creating staff and patron accounts.,Functional,PURE
+2009 - library - copia.pdf,The system shall support administrator-programmable and user-programmable keyboard macros.,Functional,PURE
+2009 - library - copia.pdf,The system shall support central management of client software installation and updates.,Functional,PURE
+2009 - library - copia.pdf,The system shall store all client configuration files on the server.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall allow customization of report layouts and output to CSV and Excel formats.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide a query tool with Boolean operators and regular expression support.,Functional,PURE
+2009 - library - copia.pdf,The system shall provide fine-grained permissions for running specific or ad hoc reports.,Functional,PURE
+2009 - library - copia.pdf,The system shall support receipt and standard and label and forms printers.,Not Functional,PURE
+2009 - library - copia.pdf,The system shall provide the ability to print to a file or FTP or email or printer.,Functional,PURE

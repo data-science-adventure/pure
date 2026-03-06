@@ -1,0 +1,68 @@
+project_id,text,type,source
+GOG_SRS_2009,"The GOG system shall simulate catalog data, auxiliary data, and intermediate main database data for Gaia instruments.",Functional,PURE
+GOG_SRS_2009,The GOG system shall use error models to provide simulations of mission data.,Functional,PURE
+GOG_SRS_2009,The GOG system shall utilize the GaiaSimu library for Universe and spacecraft models.,Functional,PURE
+GOG_SRS_2009,The GOG system shall provide an option to add calibration errors to simulated data.,Functional,PURE
+GOG_SRS_2009,The GOG system shall output simulated data according to the Gaia Main Database Interface Control Document.,Functional,PURE
+GOG_SRS_2009,The GOG system shall remain modular to accommodate continuous evolution of error models.,Functional,PURE
+GOG_SRS_2009,The GOG system shall be configurable through an input configuration file.,Functional,PURE
+GOG_SRS_2009,The GOG system shall generate source data from the GaiaSimu library Universe model.,Functional,PURE
+GOG_SRS_2009,The GOG system shall generate source data from a user-provided input object catalog.,Functional,PURE
+GOG_SRS_2009,The GOG system shall process astronomical sources on a source-by-source basis.,Functional,PURE
+GOG_SRS_2009,The GOG system shall adjust error models based on local source density if specified by the user.,Functional,PURE
+GOG_SRS_2009,The GOG system shall produce Universe Model catalog data as a system output.,Functional,PURE
+GOG_SRS_2009,The GOG system shall produce main database epoch data for each transit of a source.,Functional,PURE
+GOG_SRS_2009,The GOG system shall produce main database combined data for all source transits.,Functional,PURE
+GOG_SRS_2009,The GOG system shall calculate end-of-mission data based on a user-specified number of transits.,Functional,PURE
+GOG_SRS_2009,The GOG system shall provide user-selectable noise generation effects.,Functional,PURE
+GOG_SRS_2009,The GOG system shall simulate instrumental noise from the observation process.,Functional,PURE
+GOG_SRS_2009,The GOG system shall simulate reduction noise added during scientific content extraction.,Functional,PURE
+GOG_SRS_2009,The GOG system shall provide identical results for identical input configuration parameters.,Functional,PURE
+GOG_SRS_2009,The GOG system shall be executable from a command line.,Not Functional,PURE
+GOG_SRS_2009,The GOG system should operate within cluster or grid environments.,Not Functional,PURE
+GOG_SRS_2009,The GOG system shall be built as a standalone Java application.,Not Functional,PURE
+GOG_SRS_2009,The GOG system shall be deployable as a JAR file.,Not Functional,PURE
+GOG_SRS_2009,The GOG system shall execute in single thread mode on grid environments.,Not Functional,PURE
+GOG_SRS_2009,"The GOG system shall support execution on Linux, Unix, and Mac computers.",Not Functional,PURE
+GOG_SRS_2009,The GOG system shall generate data for at least 20 percent of the expected final Gaia catalogue.,Not Functional,PURE
+GOG_SRS_2009,The GOG system shall process one complete source in a maximum of 2 CPU seconds.,Not Functional,PURE
+GOG_SRS_2009,The Initialisation Module shall load and store the simulation configuration.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module shall provide a common interface to access configuration values.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module should read input source information from the Universe Model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module should read input source information from user-provided sources.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include the Galaxy model within the universe model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include the SkyBackground model within the universe model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include the Extinction Law model within the universe model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include the selected scanning law within the instrument model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include instrument dead time within the instrument model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include noise models within the instrument model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include instrument effect subtraction within the reduction model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module must include scientific content extraction noise within the reduction model.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module shall define the simulation output parameters for spectrum and astrometry.,Functional,PURE
+GOG_SRS_2009,The Initialisation Module shall define the simulation output parameters for physical parameters and flags.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall determine transit times for epoch data.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall determine field angles in each CCD for epoch data.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall calculate mean transit times for each source transit.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall account for gate activation during astrometric parameter calculation.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall account for signal loss due to window cutoff.,Functional,PURE
+GOG_SRS_2009,"The Epoch Parameters Module shall determine epoch photometry including G, GRP, GBP, and GRVS magnitudes.",Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall determine the epoch radial velocity including instrumental and reduction errors.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall determine epoch flags.,Functional,PURE
+GOG_SRS_2009,The Epoch Parameters Module shall determine epoch physical parameters including effective temperature and surface gravity.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall compute astrometric combined data using all previous transits.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall compute parallax and proper motion errors.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine the covariance matrix for combined astrometry.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine estimated errors for astrometric parameters at the mean epoch.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine the combined data photometry including mean G and GRP.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine the mean radial velocity.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine the final mission flags for variability and non-single stars.,Functional,PURE
+GOG_SRS_2009,The Combined Parameters Module shall determine mean physical parameters including iron abundance and iron-to-hydrogen ratio.,Functional,PURE
+GOG_SRS_2009,The Spectrum Simulation Module shall simulate low-resolution and high-resolution spectra.,Functional,PURE
+GOG_SRS_2009,The Spectrum Simulation Module shall add flux noise including Poisson and detection noise to simulated spectra.,Functional,PURE
+GOG_SRS_2009,The Spectrum Simulation Module shall add CCD combination noise for RVS spectra.,Functional,PURE
+GOG_SRS_2009,The Spectrum Simulation Module shall add wavelength calibration noise to simulated spectra.,Functional,PURE
+GOG_SRS_2009,The Spectrum Simulation Module should add multi-transit combination noise for combined spectral data.,Functional,PURE
+GOG_SRS_2009,The Output Module shall write universe model catalog data in accordance with the Universe Model ICD.,Functional,PURE
+GOG_SRS_2009,The Output Module should use the GaiaSimu library to write output formats.,Functional,PURE
+GOG_SRS_2009,The Output Module shall follow the MDB data model for simulation output.,Functional,PURE
+GOG_SRS_2009,The Output Module shall distribute data extracts to the Data Processing Centers.,Functional,PURE

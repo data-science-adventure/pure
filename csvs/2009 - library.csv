@@ -1,0 +1,49 @@
+project_id,text,type,source
+2009 - library.doc,The Management Processes shall operate on a Linux or Solaris server.,Not Functional,PURE
+2009 - library.doc,The Management Processes shall be accessible through a web-browser or a Windows-compatible client.,Not Functional,PURE
+2009 - library.doc,The Management Processes shall be accessible through Microsoft Internet Explorer (v.6.0 and later) and Mozilla Firefox (v.2.0 and later) if the system is web-browser based.,Not Functional,PURE
+2009 - library.doc,"The Management Processes shall be accessible with screen-reading software, screen-magnification software, and other software programs designed to increase accessibility.",Not Functional,PURE
+2009 - library.doc,The Management Processes shall use a fully relational database back-end.,Not Functional,PURE
+2009 - library.doc,The Management Processes shall produce standards-compliant HTML.,Not Functional,PURE
+2009 - library.doc,The Management Processes shall provide a development and training environment with the ability to migrate configurations to a production environment.,Functional,PURE
+2009 - library.doc,The system shall control user rights and privileges through security groups or roles.,Functional,PURE
+2009 - library.doc,"The software developer shall provide complete data specifications for authority records, bibliographic records, order records, item records, hold/request records, and other records.",Not Functional,PURE
+2009 - library.doc,"The system shall provide an online, hierarchical, and cross-linked help system in HTML that describes and illustrates all system functions.",Not Functional,PURE
+2009 - library.doc,The system shall provide high-level error reporting and feedback to users.,Functional,PURE
+2009 - library.doc,The system shall support streamlined staff login methods including card swipes and individual login credentials.,Functional,PURE
+2009 - library.doc,System administrators shall have the ability to create report templates that are available to staff.,Functional,PURE
+2009 - library.doc,The system shall allow administrators to limit the filters and display fields that can be altered in a report template.,Functional,PURE
+2009 - library.doc,The system shall provide distinct permission levels for creating and cloning reports.,Functional,PURE
+2009 - library.doc,System administrators shall have the ability to create shared folders to manage staff access to specific reports.,Functional,PURE
+2009 - library.doc,The system shall provide a user-friendly interface for designing queries against all record types.,Functional,PURE
+2009 - library.doc,"The system shall allow staff to select query fields, picklist values, regular expressions, and Boolean operators.",Functional,PURE
+2009 - library.doc,The system shall provide pre-defined reports for library boards including basic statistics and activity reports.,Functional,PURE
+2009 - library.doc,"The system shall archive transactions in a form that protects patron privacy according to State Law while providing demographic statistics.",Functional,PURE
+2009 - library.doc,The system shall provide the query selections along with the report results.,Functional,PURE
+2009 - library.doc,The system shall provide the ability to view the status of a report in the processing queue.,Functional,PURE
+2009 - library.doc,The system shall produce statistics to predict patron behavior and use of materials.,Functional,PURE
+2009 - library.doc,The system shall produce anonymized demographic statistics including transactions by geographical region and age range.,Functional,PURE
+2009 - library.doc,The system shall report on the volume of material in a library based on new acquisitions and items in circulation.,Functional,PURE
+2009 - library.doc,The system shall provide an interface showing the capacity of all library branches.,Functional,PURE
+2009 - library.doc,"The system shall compare the percentage of total circulations, percentage of collection, and percentage of total shelf space for each genre and format.",Functional,PURE
+2009 - library.doc,The system shall support inventory control and transaction counting for uncataloged material.,Functional,PURE
+2009 - library.doc,The system shall provide a utility for transferring batches of items between branches.,Functional,PURE
+2009 - library.doc,The system shall provide reports of missing and damaged items per branch.,Functional,PURE
+2009 - library.doc,The system shall generate a list of items that have been in-transit for more than a configurable number of days.,Functional,PURE
+2009 - library.doc,The system shall provide a utility for identifying and purging item records based on customizable criteria.,Functional,PURE
+2009 - library.doc,The system shall count and track record deletions per location and per system.,Functional,PURE
+2009 - library.doc,The system shall allow queries and reports to be limited or grouped by patron characteristics.,Functional,PURE
+2009 - library.doc,The system shall generate a list of patrons with no activity in a configurable number of days.,Functional,PURE
+2009 - library.doc,The system shall maintain transaction history for a configurable number of days.,Functional,PURE
+2009 - library.doc,The system shall maintain monthly and annual aggregate information indefinitely.,Functional,PURE
+2009 - library.doc,The system shall count all types of check-in and check-out individually and cumulatively.,Functional,PURE
+2009 - library.doc,The system shall count all hold requests by the method used to place the hold.,Functional,PURE
+2009 - library.doc,The system shall generate a report of the monetary value of items in the collection.,Functional,PURE
+2009 - library.doc,All reports and data archiving must comply with standard accounting practice and auditing requirements.,Not Functional,PURE
+2009 - library.doc,The system shall track fines waived and payments made per library.,Functional,PURE
+2009 - library.doc,The system shall provide financial reports including account balances and charges accrued per time period.,Functional,PURE
+2009 - library.doc,The system shall maintain a ledger of patron payments to facilitate financial reconciliation.,Functional,PURE
+2009 - library.doc,The system shall provide the ability to send reports to specified email addresses.,Functional,PURE
+2009 - library.doc,The system shall provide the ability to cancel a report that is scheduled or currently running.,Functional,PURE
+2009 - library.doc,The system shall support real-time reporting.,Functional,PURE
+2009 - library.doc,The system shall include all null and blank fields in report results regardless of filters.,Functional,PURE

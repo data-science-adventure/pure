@@ -1,0 +1,30 @@
+project_id,text,type,source
+PeaZip,The software shall provide a cross-platform graphical interface for Open Source archiving and compression utilities.,Functional,PURE
+PeaZip,The software shall support the creation of compressed archives.,Functional,PURE
+PeaZip,The software shall support the updating of existing compressed archives.,Functional,PURE
+PeaZip,The software shall support the extraction of content from compressed archives.,Functional,PURE
+PeaZip,The software shall provide file management tools including robust copy and split and join.,Functional,PURE
+PeaZip,The software shall provide secure deletion of files and folders.,Functional,PURE
+PeaZip,The software shall perform byte to byte comparison between two files.,Functional,PURE
+PeaZip,The software shall calculate checksums and hashes over selected files.,Functional,PURE
+PeaZip,The software shall support two-factor authentication using a password and a keyfile.,Functional,PURE
+PeaZip,The software shall allow users to modify function parameters via a settings menu.,Functional,PURE
+PeaZip,The software shall provide a file manager interface for browsing computer system areas and objects.,Functional,PURE
+PeaZip,"The software shall allow object selection based on extension, attributes, size, and date.",Functional,PURE
+PeaZip,"The software shall provide a navigation bar with back, forward, up, and refresh buttons.",Functional,PURE
+PeaZip,"The software shall include system disk utilities for cleaning, defragmenting, and management.",Functional,PURE
+PeaZip,The software shall provide a system benchmark utility to rate the host system in MIPS.,Functional,PURE
+PeaZip,"The software shall support extraction for formats including 7z, RAR, ZIP, TAR, and ISO.",Functional,PURE
+PeaZip,"The software shall support archive creation for formats including 7z, ARC, BZ2, GZ, PEA, and ZIP.",Functional,PURE
+PeaZip,The software shall support drag and drop of objects between the computer system and the application interface.,Functional,PURE
+PeaZip,The software shall support dragging objects from the application to the computer system specifically on MS Windows operating systems.,Functional,PURE
+PeaZip,The software shall provide a graphic display of the progress of currently executed functions via PeaLauncher.,Functional,PURE
+PeaZip,The software shall allow the user to change the application language via localization settings.,Functional,PURE
+PeaZip,The software shall require an x-86 compatible CPU for operation.,Not Functional,PURE
+PeaZip,The software shall be compatible with 64-bit and 32-bit versions of Microsoft Windows.,Not Functional,PURE
+PeaZip,The software shall be compatible with POSIX-compliant operating systems including Linux and BSD.,Not Functional,PURE
+PeaZip,The software shall be licensed under the LGPL license.,Not Functional,PURE
+PeaZip,The software shall function without the installation of additional programs.,Not Functional,PURE
+PeaZip,The software shall provide help messages to the user in case of data insertion or setting errors.,Not Functional,PURE
+PeaZip,The software shall prohibit the extraction of encrypted archives without the correct password or keyfile.,Not Functional,PURE
+PeaZip,The software shall ensure no data remains on the storage area after a secure deletion procedure is completed.,Not Functional,PURE

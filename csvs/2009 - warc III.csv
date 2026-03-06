@@ -1,0 +1,51 @@
+project_id,text,type,source
+WARC Tools Phase III,The migration workflow shall provide a clear Application Programming Interface (API) to handle the migration process and default configuration.,Functional,PURE
+WARC Tools Phase III,The migration API shall require the inclusion of only one header file.,Functional,PURE
+WARC Tools Phase III,The user shall provide a migration configuration explicitly.,Functional,PURE
+WARC Tools Phase III,The user shall be able to provide metadata related to the conversion for storage in the converted files.,Functional,PURE
+WARC Tools Phase III,The system shall store automatically generated migration metadata in the converted files upon request.,Functional,PURE
+WARC Tools Phase III,The migration workflow shall be able to call external tools and services.,Functional,PURE
+WARC Tools Phase III,The migration process shall use persistent unique global identifiers for records access.,Functional,PURE
+WARC Tools Phase III,The system shall use an external tool to scan files before conversion.,Functional,PURE
+WARC Tools Phase III,The migration API shall allow external tools to be used for file format identification.,Functional,PURE
+WARC Tools Phase III,The ARC to WARC migration tool shall be able to run on multiple machines.,Functional,PURE
+WARC Tools Phase III,The system shall allow logging during the migration to be toggled on or off at any time.,Functional,PURE
+WARC Tools Phase III,The system shall provide software checkpoints during processing for managing atomic transactions.,Functional,PURE
+WARC Tools Phase III,The system shall be able to perform a dry-run migration.,Functional,PURE
+WARC Tools Phase III,The system shall find and report WARC records with duplicate checksums.,Functional,PURE
+WARC Tools Phase III,The validation tool shall use metadata in the WARC files to match records with their corresponding ARC files.,Functional,PURE
+WARC Tools Phase III,The system shall use payload checksum comparisons for core validation.,Functional,PURE
+WARC Tools Phase III,The validation tool shall provide a sampling option to validate a random percentage of records.,Functional,PURE
+WARC Tools Phase III,The system shall use an external ARC reader to double check the conversion.,Functional,PURE
+WARC Tools Phase III,The system shall be able to perform a round trip validation by migrating WARC files back to ARC.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall filter records based on URL regular expressions.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall filter records based on MIME-Types.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall filter records based on size.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall filter records based on timestamp.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall filter records based on any field in the WARC specification.,Functional,PURE
+WARC Tools Phase III,The repackaging tool shall allow pre and post record file and job operations.,Functional,PURE
+WARC Tools Phase III,Each repackaged WARC file shall include a user-defined metadata record describing the extraction context.,Functional,PURE
+WARC Tools Phase III,The migration framework shall provide tools to build reports from WARC files.,Functional,PURE
+WARC Tools Phase III,The system shall export summaries in XML or CSV formats.,Functional,PURE
+WARC Tools Phase III,The WARC browser shall display aggregated WARC summaries in the user interface.,Functional,PURE
+WARC Tools Phase III,The WARC browser shall display a manifest of WARC files and their locations.,Functional,PURE
+WARC Tools Phase III,The system shall provide a diff tool to compare WARC sets based on defined criteria.,Functional,PURE
+WARC Tools Phase III,The system shall provide a tool to draw difference graphs between WARC collections.,Functional,PURE
+WARC Tools Phase III,The system shall provide a method to view crawl deltas for quality assurance.,Functional,PURE
+WARC Tools Phase III,The system shall implement WARC browser server-side rewriting.,Functional,PURE
+WARC Tools Phase III,The system shall integrate a proxy mode inside the WARC browser.,Functional,PURE
+WARC Tools Phase III,The system shall integrate the full-text search module with the WARC browser.,Functional,PURE
+WARC Tools Phase III,The tools shall be able to process a set of multiple WARC files simultaneously.,Not Functional,PURE
+WARC Tools Phase III,The tools shall scale to process large collections using distributed processing and data transport.,Not Functional,PURE
+WARC Tools Phase III,The tools shall offer best possible performance to correctly process large collections.,Not Functional,PURE
+WARC Tools Phase III,The tools shall be able to run on multiple machines.,Not Functional,PURE
+WARC Tools Phase III,The tools shall avoid unnecessary technology dependencies.,Not Functional,PURE
+WARC Tools Phase III,The tools shall be compliant with Java development environments.,Not Functional,PURE
+WARC Tools Phase III,The tools shall provide logging facilities to follow command progression.,Not Functional,PURE
+WARC Tools Phase III,The tools shall provide shell script wrappers for major commands to enhance usability.,Not Functional,PURE
+WARC Tools Phase III,The tools shall be able to operate in modes that restrict effects to selected collection subsets.,Not Functional,PURE
+WARC Tools Phase III,The workflow system shall have a configurable management strategy for migration from ARCs to WARCs.,Not Functional,PURE
+WARC Tools Phase III,The migration workflow system shall be driven by command line tools and scripts.,Not Functional,PURE
+WARC Tools Phase III,The system shall provide a Web User Interface to build migration configurations.,Not Functional,PURE
+WARC Tools Phase III,The system shall provide a Web User Interface to monitor pause and restart active migrations.,Not Functional,PURE
+WARC Tools Phase III,The system shall provide pre and post conversion actions at each level of the migration.,Not Functional,PURE

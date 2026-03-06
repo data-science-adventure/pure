@@ -1,0 +1,13 @@
+project_id,text,type,source
+2010 - gparted.pdf,"GParted shall allow users to create a partition table on a disk device.",Functional,PURE
+2010 - gparted.pdf,"GParted shall enable users to enable or disable partition flags such as boot, hidden, and lba.",Functional,PURE
+2010 - gparted.pdf,"GParted shall allow users to set or change a partition label.",Functional,PURE
+2010 - gparted.pdf,"GParted shall allow users to set or change a partition UUID.",Functional,PURE
+2010 - gparted.pdf,"GParted shall perform partition actions including creating, deleting, resizing, moving, checking, and labeling.",Functional,PURE
+2010 - gparted.pdf,"GParted shall support partition manipulation for file systems including btrfs, ext2, ext3, ext4, fat16, fat32, hfs, hfs+, jfs, nilfs2, ntfs, reiserfs, reiser4, ufs, and xfs.",Functional,PURE
+2010 - gparted.pdf,"GParted shall require a minimum of 256 MB of RAM to operate all features.",Not Functional,PURE
+2010 - gparted.pdf,"GParted shall function as a GNOME application.",Not Functional,PURE
+2010 - gparted.pdf,"GParted shall use libparted to detect and manipulate devices and partition tables.",Not Functional,PURE
+2010 - gparted.pdf,"GParted should provide an optional graphical user interface for ease of use.",Not Functional,PURE
+2010 - gparted.pdf,"The GParted application shall be licensed under the GNU General Public License.",Not Functional,PURE
+2010 - gparted.pdf,"GParted shall support the use of various storage devices including Hard Disk Drives, Flash Memory Devices, and RAID Devices.",Functional,PURE

@@ -1,0 +1,48 @@
+project_id,text,type,source
+Model Manager,The MM shall allow the user to configure model jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to schedule model jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to run model jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to monitor model jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to stop model jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to restart or resume model jobs.,Functional,PURE
+Model Manager,The MM shall automate the setup and monitoring of model jobs.,Functional,PURE
+Model Manager,The MM shall provide an automated node management system.,Functional,PURE
+Model Manager,The MM shall be accessible via a web-based GUI.,Functional,PURE
+Model Manager,The MM shall be accessible via a command line tool.,Functional,PURE
+Model Manager,The MM shall operate in conjunction with MetVault.,Functional,PURE
+Model Manager,The MM shall operate as a stand-alone application without MetVault.,Functional,PURE
+Model Manager,The MM shall manage jobs on one or more clusters.,Functional,PURE
+Model Manager,The MM shall allocate nodes across managed clusters.,Functional,PURE
+Model Manager,The MM shall select the cluster for job execution based on system state.,Functional,PURE
+Model Manager,The MM shall allow the user to specify a specific cluster for customized jobs.,Functional,PURE
+Model Manager,The MM shall provide a Job-Setup module for model and post-processing job configuration.,Functional,PURE
+Model Manager,The MM shall support the submission of 'by-hand' jobs.,Functional,PURE
+Model Manager,The MM shall support job submission via a job configuration file.,Functional,PURE
+Model Manager,The MM shall allow the user to retrieve and resubmit previously saved job configurations.,Functional,PURE
+Model Manager,The MM shall provide a default GMOD job configuration.,Functional,PURE
+Model Manager,The MM shall accept and run custom GMOD jobs using user-supplied input data or processors.,Functional,PURE
+Model Manager,The MM shall allow the user to select between MM5 or WRF models.,Functional,PURE
+Model Manager,The MM shall require the user to define a unique JOBID for each job.,Functional,PURE
+Model Manager,The MM shall allow the user to define model domains.,Functional,PURE
+Model Manager,The MM shall prompt the user to specify 'case study' or 're-run' if the cycle time is in the past.,Functional,PURE
+Model Manager,The MM shall allow the user to specify cycle interval and forecast length.,Functional,PURE
+Model Manager,The MM shall allow the user to specify restart file write frequency.,Functional,PURE
+Model Manager,The MM shall allow the user to choose between predefined or custom sigma-level configurations.,Functional,PURE
+Model Manager,"The MM shall send email notifications upon job start, end, and termination.",Functional,PURE
+Model Manager,The MM shall support standard IC/BC data sources including ETA and GFS.,Functional,PURE
+Model Manager,The MM shall require a specified data source and time period for off-line jobs.,Functional,PURE
+Model Manager,The MM shall allow the user to provide custom IC/BC pre-processing scripts.,Functional,PURE
+Model Manager,The MM shall support standard observation data sources including WMO and MADIS.,Functional,PURE
+Model Manager,The MM shall present MM5-executables based on domain size and node count.,Functional,PURE
+Model Manager,The MM shall allow the user to run Final Analysis for re-runs and case studies.,Functional,PURE
+Model Manager,The MM shall allow the user to save model output to the MetVault.,Functional,PURE
+Model Manager,The MM shall support ClimoFDDA job integration.,Functional,PURE
+Model Manager,The MM shall allow the user to specify destination hosts for post-processing output products.,Functional,PURE
+Model Manager,The MM shall require a job id and script location for 'by-hand' job registration.,Functional,PURE
+Model Manager,The MM shall display a job table containing user id and job status.,Functional,PURE
+Model Manager,The MM shall allow a super user to stop any running job.,Functional,PURE
+Model Manager,The MM shall record any known inconsistencies across its architecture models.,Not Functional,PURE
+Model Manager,The MM shall uniquely identify every software requirement.,Not Functional,PURE
+Model Manager,The MM shall provide 95% of transaction processing in less than 1 second.,Not Functional,PURE
+Model Manager,The MM shall include a rationale for each included architecture viewpoint.,Not Functional,PURE
+Model Manager,The MM shall protect software from unauthorized access via security factors.,Not Functional,PURE

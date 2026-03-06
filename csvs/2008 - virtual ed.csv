@@ -1,0 +1,33 @@
+project_id,text,type,source
+Virtual-ED,"""The System shall display the real-time online status of all users in the contact list.""",Functional,PURE
+Virtual-ED,"""The System shall initiate a text chat window upon the user double-clicking an online contact.""",Functional,PURE
+Virtual-ED,"""The System shall allow users to invite additional online participants to a text conversation.""",Functional,PURE
+Virtual-ED,"""The System shall transmit local files to the conversation recipient upon the user clicking the file button.""",Functional,PURE
+Virtual-ED,"""The System shall broadcast live audio and video streams between faculty and students.""",Functional,PURE
+Virtual-ED,"""The System shall initiate a call to the recipient computer upon the user clicking the Audio Button.""",Functional,PURE
+Virtual-ED,"""The System shall terminate the conversation upon the user clicking the hang up button.""",Functional,PURE
+Virtual-ED,"""The System shall allow users to record an introductory video for their profile page.""",Functional,PURE
+Virtual-ED,"""The System shall restrict student profile access to users enrolled in the same class.""",Functional,PURE
+Virtual-ED,"""The System shall allow only the profile owner to modify personal information.""",Functional,PURE
+Virtual-ED,"""The System shall allocate 1 gigabyte of storage space per student for assignment uploads.""",Functional,PURE
+Virtual-ED,"""The System shall block file uploads that exceed the user's allocated disk space quota.""",Functional,PURE
+Virtual-ED,"""The System shall display a file tree diagram of the user's uploaded documents.""",Functional,PURE
+Virtual-ED,"""The System shall initiate a test timer upon the completion of a test file download.""",Functional,PURE
+Virtual-ED,"""The System shall provide an 'Upload Test' button only for the duration of the exam timer.""",Functional,PURE
+Virtual-ED,"""The System shall calculate the score for objective test questions immediately upon submission.""",Functional,PURE
+Virtual-ED,"""The System shall save the user's custom layout configuration upon logout.""",Functional,PURE
+Virtual-ED,"""The System shall display a check mark next to toolbars selected for view in the GUI.""",Functional,PURE
+Virtual-ED,"""The System shall synchronize the host's desktop display to all participants in Whiteboard-Edu.""",Functional,PURE
+Virtual-ED,"""The System shall lock editing tools in a shared document upon the host's command.""",Functional,PURE
+Virtual-ED,"""The System shall provide audio lectures in the MP3 format for podcasting.""",Functional,PURE
+Virtual-ED,"""The System shall remove content identified as inflammatory or derogatory from the portal.""",Functional,PURE
+Virtual-ED,"""The System shall enforce a password complexity of 8 to 12 characters.""",Functional,PURE
+Virtual-ED,"""The System shall require a password update from the user every three months.""",Functional,PURE
+Virtual-ED,"""The System shall process 95% of user transactions in less than 1 second.""",Not Functional,PURE
+Virtual-ED,"""The System must operate on a Microsoft Server 2003 platform or later.""",Not Functional,PURE
+Virtual-ED,"""The System must restrict access to Internet Explorer, Firefox, and Safari browsers.""",Not Functional,PURE
+Virtual-ED,"""The System must utilize IIS 6.0 and the.Net Framework 2.0 or later.""",Not Functional,PURE
+Virtual-ED,"""The System must maintain a maximum capacity of 250 concurrent user sessions.""",Not Functional,PURE
+Virtual-ED,"""The System must require users to enable JavaScript and pop-up windows.""",Not Functional,PURE
+Virtual-ED,"""The User should maintain a minimum download speed of 1.5 Mbps for streaming.""",Not Functional,PURE
+Virtual-ED,"""The System should notify users of scheduled maintenance 24 hours in advance.""",Not Functional,PURE

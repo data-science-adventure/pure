@@ -1,0 +1,23 @@
+project_id,text,type,source
+2008 - peering.pdf,"The Web server shall replicate content on-demand from the origin server.",Functional,PURE
+2008 - peering.pdf,"The Web server shall initiate a request to trigger peering in the event of a Web hotspot.",Functional,PURE
+2008 - peering.pdf,"The Web services host shall deliver content to end-users based on negotiated policies.",Functional,PURE
+2008 - peering.pdf,"The policy agent shall determine which resources are delegatable.",Functional,PURE
+2008 - peering.pdf,"The SLA-allocator shall perform provisioning and reservation of Web server resources including CPU, bandwidth, and storage.",Functional,PURE
+2008 - peering.pdf,"The SLA-allocator shall enforce the terms of local and delegated SLAs.",Functional,PURE
+2008 - peering.pdf,"The Mediator shall generate service requirements as the basis for negotiated relationships.",Functional,PURE
+2008 - peering.pdf,"The Mediator shall pass service requirements to the Peering Agent.",Functional,PURE
+2008 - peering.pdf,"The Mediator shall discover external resources in conjunction with the local Peering Agent.",Functional,PURE
+2008 - peering.pdf,"The Mediator shall control the redirection of end-user requests to peered Web servers.",Functional,PURE
+2008 - peering.pdf,"The Service Registry shall encapsulate resource and service information for each CDN.",Functional,PURE
+2008 - peering.pdf,"The Service Registry shall enable Web servers to register and publish resource, service, and policy details.",Functional,PURE
+2008 - peering.pdf,"The Service Registry shall supply local resource information to the Mediator during traffic surges.",Functional,PURE
+2008 - peering.pdf,"The Policy Repository shall virtualize all policies within a peering arrangement including Web server-specific, mediator, and peering policies.",Functional,PURE
+2008 - peering.pdf,"The Policy Repository shall provide rules to the Mediator for managing resource access.",Functional,PURE
+2008 - peering.pdf,"The Peering Agent shall exchange policy, resource information, and service requirements with external Peering Agents.",Functional,PURE
+2008 - peering.pdf,"The system shall perform load distribution by disseminating aggregated load information between CDN gateways.",Functional,PURE
+2008 - peering.pdf,"The system shall perform request assignment and redirection at the DNS and gateway levels.",Functional,PURE
+2008 - peering.pdf,"The system shall detect and reject malicious requests.",Not Functional,PURE
+2008 - peering.pdf,"The system shall support bi-directional message passing over IP networks using TCP/IP.",Not Functional,PURE
+2008 - peering.pdf,"The system shall use HTTP or FTP for interaction among surrogates.",Not Functional,PURE
+2008 - peering.pdf,"The system shall communicate load information using distributed load indices such as Distributed Hash Tables.",Not Functional,PURE

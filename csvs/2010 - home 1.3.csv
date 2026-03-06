@@ -1,0 +1,53 @@
+project_id,text,type,source
+DigitalHome,The general user shall be able to monitor and control the home environment.,Functional,PURE
+DigitalHome,A Master user shall be able to change the system configuration.,Functional,PURE
+DigitalHome,A Master user shall be able to add a user account.,Functional,PURE
+DigitalHome,A Master user shall be able to change default parameter settings.,Functional,PURE
+DigitalHome,The DH Technician shall be able to set up and maintain the system configuration.,Functional,PURE
+DigitalHome,The DH Technician shall be able to start and stop the DH System operation.,Functional,PURE
+DigitalHome,The DH System shall establish an individual home web server hosted on a home computer.,Functional,PURE
+DigitalHome,The DH home web server shall provide interaction with and control of the DH elements.,Functional,PURE
+DigitalHome,The DH home web server shall provide storage of DH plans and data.,Functional,PURE
+DigitalHome,The DH home web server shall maintain DH User Accounts.,Functional,PURE
+DigitalHome,The DH home web server shall provide backup service for user account information and plans.,Functional,PURE
+DigitalHome,The DH Gateway device shall provide communication with all DigitalHome devices.,Functional,PURE
+DigitalHome,The DH Gateway device shall connect with a broadband Internet connection.,Functional,PURE
+DigitalHome,The DH Gateway device shall include an RF Module for wireless communication with sensors and controllers.,Functional,PURE
+DigitalHome,The DH Gateway device shall operate up to a 1000-foot range for indoor transmission.,Not Functional,PURE
+DigitalHome,The system shall include digital programmable thermostats to monitor and regulate temperature.,Functional,PURE
+DigitalHome,The thermostat shall provide a reading of the current temperature.,Functional,PURE
+DigitalHome,The thermostat shall provide a set point temperature to control heating or cooling devices.,Functional,PURE
+DigitalHome,The thermostat sensor shall have a sensitivity range between 14°F and 104°F.,Not Functional,PURE
+DigitalHome,The system shall include digital programmable humidistats to monitor and regulate humidity.,Functional,PURE
+DigitalHome,The humidistat shall provide a reading of the current humidity.,Functional,PURE
+DigitalHome,The humidistat shall provide a set point humidity to control humidifiers and dehumidifiers.,Functional,PURE
+DigitalHome,The system shall include magnetic alarm contact switches to monitor entry through doors or windows.,Functional,PURE
+DigitalHome,The system shall include security sound and light alarms activated by a security breach.,Functional,PURE
+DigitalHome,The system shall include digital programmable power switches to monitor appliance states.,Functional,PURE
+DigitalHome,The system shall change the state of an appliance using a power switch.,Functional,PURE
+DigitalHome,The DH user shall be able to read the temperature at a thermostat position.,Functional,PURE
+DigitalHome,The DH user shall be able to set thermostat temperatures between 60°F and 80°F inclusive in one degree increments.,Functional,PURE
+DigitalHome,The system shall support up to eight thermostats per home.,Not Functional,PURE
+DigitalHome,The system shall schedule up to twenty-four one-hour thermostat settings per day for every day of the week.,Functional,PURE
+DigitalHome,The system shall support Fahrenheit and Celsius temperature values.,Functional,PURE
+DigitalHome,The DH user shall be able to read the humidity at a humidistat position.,Functional,PURE
+DigitalHome,The DH user shall be able to set the humidity level from 30% to 60% inclusive in 1% increments.,Functional,PURE
+DigitalHome,The system shall support up to eight humidistats per home.,Not Functional,PURE
+DigitalHome,The system shall schedule up to twenty-four one-hour humidistat settings per day for every day of the week.,Functional,PURE
+DigitalHome,The DH system shall manage up to fifty door and window contact sensors.,Not Functional,PURE
+DigitalHome,The Appliance Manager shall manage up to one hundred power switches.,Not Functional,PURE
+DigitalHome,The DH Planner shall provide the capability to set preset parameters for specific time periods.,Functional,PURE
+DigitalHome,The DH Planner shall provide a monthly plan for up to four daily time periods.,Functional,PURE
+DigitalHome,"The system shall provide a report on home management for any month in the past two years.",Functional,PURE
+DigitalHome,"The month report shall contain daily average, maximum, and minimum values for temperature and humidity.",Functional,PURE
+DigitalHome,The month report shall provide the day and time of any security breaches.,Functional,PURE
+DigitalHome,The month report shall indicate periods when the DH System was not in operation.,Functional,PURE
+DigitalHome,The system shall update environmental condition displays at least every two seconds.,Not Functional,PURE
+DigitalHome,Environmental sensors shall have a minimum data acquisition rate of 10 Hz.,Not Functional,PURE
+DigitalHome,"The DH System shall have no more than 1 failure per 10,000 hours of operation.",Not Functional,PURE
+DigitalHome,The DH System shall backup all system data on a daily basis.,Functional,PURE
+DigitalHome,The system recovery mechanism shall restore system data from the most recent backup after a failure.,Functional,PURE
+DigitalHome,The system shall respond with a clear descriptive message when an exceptional condition occurs.,Not Functional,PURE
+DigitalHome,The DH web system shall provide authentication and information encryption using Transport Layer Security.,Not Functional,PURE
+DigitalHome,The system shall require an account name and a password for login.,Functional,PURE
+DigitalHome,The DH system shall provide online documentation including an FAQ section.,Functional,PURE

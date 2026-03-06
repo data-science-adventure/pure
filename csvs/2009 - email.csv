@@ -1,0 +1,120 @@
+project_id,text,type,source
+AEIT_SRS_2009,"The system shall provide the user the capability to send e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to receive e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to delete e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall support the transmission of e-mail attachments. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to reply to e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to forward e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to print e-mail messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a text editor for the formatting of e-mail content. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to establish automatic reply rules. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to establish out-of-office notification rules. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to establish rules for the temporary transfer of e-mail. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to move e-mails into inbox folders. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a spell check function for e-mail content creation. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to organize e-mail content into personal folders. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to migrate existing public folders into the enterprise system. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to create public folders for information sharing. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to manage public folders for information sharing. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to create contact lists. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to import contact lists from external sources. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to export contact lists. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to share contact lists. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to share address books. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to create distribution lists. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to share distribution lists. ",Functional,PURE
+AEIT_SRS_2009,"The system shall create query-based distribution lists from LDAP-compliant directory services. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to create multiple calendars. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to customize calendar views. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to schedule conference room resources. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to schedule teleconference resources. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to create reminders. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to create tasks. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to provision e-mail accounts. ",Functional,PURE
+AEIT_SRS_2009,"The system shall integrate e-mail account provisioning with LDAP-compliant directory services. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to search for e-mails based on age and size. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to search for e-mails based on sender and recipient. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to search for e-mails based on subject and keyword. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to search for e-mails based on attachment content. ",Functional,PURE
+AEIT_SRS_2009,"The system shall auto-enforce standard conventions for account creation. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall auto-enforce standard conventions for distribution list creation. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to control message size limits. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to create generic e-mail accounts for multi-user access. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to customize the client application view by arranging fields. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to archive e-mails at the desktop. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin a server-based archiving solution. ",Functional,PURE
+AEIT_SRS_2009,"The system shall archive e-mail data at regularly defined intervals. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to search the archive repository. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to forward items from the archive. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to print items from the archive. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to restore archive items in bulk. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide archiving filters based on sender, recipient, date, and subject. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide archiving filters based on content, attachments, and keywords. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a long-term retention repository separate from the active e-mail system. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide users the capability to search their specific portion of the archive repository. ",Functional,PURE
+AEIT_SRS_2009,"The system must comply with federal regulations for retention including HIPAA and Sarbanes-Oxley. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to satisfy legal discovery requests. ",Functional,PURE
+AEIT_SRS_2009,"The system shall capture all e-mails sent and received within the organization into the archive. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to set retention periods for specific e-mails. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a search capability for the e-mail header including Date, From, Subject, To, and CC. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a search capability for the e-mail body text. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a full-text search capability including headers, bodies, and attachments. ",Functional,PURE
+AEIT_SRS_2009,"The system shall produce responsive e-mails into a specified location for redaction. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to move older data to tiered storage. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to import data from PST and NSF files into the archive. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to place discovery search results on legal hold. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide authorized users the capability to review and mark discovery search results. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide search capability using Boolean fields. ",Functional,PURE
+AEIT_SRS_2009,"The system shall perform archiving based on policy definitions including e-mail address and group. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to flag e-mails for deletion meeting retention per s.119.021(2)(c). ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to flag individual e-mails to be excluded from archiving. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to recover data at the file level. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to recover all system messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to recover a specific e-mail message. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to recover data by mailbox. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to recover data based on a specific time. ",Functional,PURE
+AEIT_SRS_2009,"The system shall maintain event logs for backup and restore activities. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to restore backups without service interruption. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide pre-emptive e-mail virus protection via scanning prior to server delivery. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide pre-emptive e-mail content filtering prior to server delivery. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to whitelist senders by domain or IP address. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to blacklist senders by domain or IP address. ",Functional,PURE
+AEIT_SRS_2009,"The system shall block e-mail messages based on multiple message attributes. ",Functional,PURE
+AEIT_SRS_2009,"The system shall allow e-mail messages based on multiple message attributes. ",Functional,PURE
+AEIT_SRS_2009,"The system shall integrate antispam and antivirus services with LDAP-compliant directory services. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide statistical reports for antispam and antivirus activities. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to encrypt outbound e-mail. ",Functional,PURE
+AEIT_SRS_2009,"The system shall establish TLS encryption with specified businesses or customers. ",Functional,PURE
+AEIT_SRS_2009,"The system shall protect the reputation of outbound mail gateways. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall protect internal e-mail customer identity. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user secure web-based access to the mailbox, calendar, and address book. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user secure client-based access to the mailbox, calendar, and address book. ",Functional,PURE
+AEIT_SRS_2009,"The system shall support e-mail access using Blackberry devices. ",Functional,PURE
+AEIT_SRS_2009,"The system shall support e-mail access using non-Blackberry mobile data devices. ",Functional,PURE
+AEIT_SRS_2009,"The system shall support the ActiveSync mobile device protocol. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to manage Blackberry accounts. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide access to mailbox components via a web browser over an encrypted connection. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to send e-mails within workflow applications. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to receive e-mails within workflow applications. ",Functional,PURE
+AEIT_SRS_2009,"The system shall integrate resource reservations into the e-mail system. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide an SMTP bridgehead for agency applications. ",Functional,PURE
+AEIT_SRS_2009,"The system shall integrate agency applications into the e-mail and mobile messaging environments. ",Functional,PURE
+AEIT_SRS_2009,"The system shall perform real-time replication of e-mail data to an alternate site. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall perform near-time replication of e-mail data to an alternate site. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to fail-over the mail system to an alternate site. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the data center admin the capability to fail-over e-mail clients to an alternate site. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the user the capability to manually archive e-mails to the server. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the agency admin the capability to electronically redact information from archives. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to digitally certify archive search results. ",Functional,PURE
+AEIT_SRS_2009,"The system shall catalog responsive e-mail by case for electronic certification of production. ",Functional,PURE
+AEIT_SRS_2009,"The system shall maintain markings for privileged search results. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide a full audit trail of the discovery and review process. ",Not Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to retrieve quarantined messages. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to add digital signatures to e-mail. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide user access to the e-mail archive. ",Functional,PURE
+AEIT_SRS_2009,"The system shall support wireless services integrated with GIS. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a fax service integrated into e-mail. ",Functional,PURE
+AEIT_SRS_2009,"The system shall integrate telephone messaging (VOIP) into the e-mail environment. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide a List Server option for internal and external report publishing. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide the capability to integrate directory services with external systems. ",Functional,PURE
+AEIT_SRS_2009,"The system shall provide RSS feeds. ",Functional,PURE

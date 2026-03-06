@@ -1,0 +1,27 @@
+project_id,text,type,source
+CAISO_BCP_V2.1,The Black Start Unit shall initiate startup without any source of off-site electric power.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall deliver energy to the grid without assistance from the electrical system.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall maintain frequency within +/- 0.1 Hz during islanded restoration operations.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall maintain voltage within emergency voltage limits from no load to full external load.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall utilize an isochronous governor during system restoration.,Functional,PURE
+CAISO_BCP_V2.1,The Hydroelectric Unit shall synchronize to the grid within 30 minutes of initiation.,Functional,PURE
+CAISO_BCP_V2.1,The Combustion Gas Turbine shall synchronize to the grid within 30 minutes of initiation.,Functional,PURE
+CAISO_BCP_V2.1,The Industrial Gas Turbine shall synchronize to the grid within 60 minutes of initiation.,Functional,PURE
+CAISO_BCP_V2.1,The Hot Steam-Driven Turbine shall synchronize to the grid within 150 minutes of initiation.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Test shall maintain a minimum synchronized generation duration of 10 minutes.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall produce reactive power resources as specified in the RMR contract voltage support section.,Functional,PURE
+CAISO_BCP_V2.1,The Black Start Unit shall maintain 99% of the Requested MW during the four-hour availability test.,Not Functional,PURE
+CAISO_BCP_V2.1,The Generator Protection System shall remain operational during abnormal grid restoration conditions.,Not Functional,PURE
+CAISO_BCP_V2.1,The Unit Owner shall notify the CAISO RT Dispatcher by phone within 24 hours of conducting a test.,Not Functional,PURE
+CAISO_BCP_V2.1,The Unit Owner shall file a formal letter with CAISO within 14 days of test completion.,Not Functional,PURE
+CAISO_BCP_V2.1,The Unit Owner shall submit ambient temperature data to CAISO by 11:00 the next business day after a test.,Not Functional,PURE
+CAISO_BCP_V2.1,The CAISO shall annually verify that the location and size of units meet WECC restoration requirements.,Not Functional,PURE
+CAISO_BCP_V2.1,The CAISO shall document Cranking Paths between each Black Start unit and the units to be started.,Not Functional,PURE
+CAISO_BCP_V2.1,The Voluntary Unit Owner shall demonstrate performance at least every five years through simulation or testing.,Not Functional,PURE
+CAISO_BCP_V2.1,"The CAISO shall maintain a database including unit name, location, capacity, type, and latest test date.",Not Functional,PURE
+CAISO_BCP_V2.1,The Real-time Grid Operators shall receive annual training for system restoration using black start units.,Not Functional,PURE
+CAISO_BCP_V2.1,The CAISO shall review and update the Black Start Capability Plan at least every five years.,Not Functional,PURE
+CAISO_BCP_V2.1,The Participant shall submit a CAISO market schedule for any energy generated during a Black Start test.,Not Functional,PURE
+CAISO_BCP_V2.1,The CAISO shall not request a Black Start Test for a hydroelectric Unit during periods of water constraint.,Not Functional,PURE
+CAISO_BCP_V2.1,The Black Start Test should include SCADA and telephone communications as primary operating aids.,Not Functional,PURE
+CAISO_BCP_V2.1,The Unit Owner shall provide a corrective action plan within 30 days if the unit fails the testing criteria.,Not Functional,PURE

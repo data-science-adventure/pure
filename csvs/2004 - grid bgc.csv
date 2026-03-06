@@ -23,8 +23,8 @@ Grid-BGC Application Version 1.0,The system shall allow portal administrators to
 Grid-BGC Application Version 1.0,The system shall allow portal administrators to terminate any running jobs.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall assign the scientist role to all new user accounts by default.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall prevent users from changing object or project values once used in a model run.,Functional,PURE
-Grid-BGC Application Version 1.0,The system shall support unlocked, locked, and invalidated states for objects.,Functional,PURE
-Grid-BGC Application Version 1.0,The system shall support List, Grid, and Parameterization object types.,Functional,PURE
+Grid-BGC Application Version 1.0,"The system shall support unlocked, locked, and invalidated states for objects.",Functional,PURE
+Grid-BGC Application Version 1.0,"The system shall support List, Grid, and Parameterization object types.",Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to share specific objects with other users.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to create new datasets by merging existing objects of the same type.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to specify a project type as either List or Grid during setup.,Functional,PURE
@@ -32,11 +32,11 @@ Grid-BGC Application Version 1.0,The system shall restrict project references to
 Grid-BGC Application Version 1.0,The system shall provide templates to share expert knowledge within the portal.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow any user to use an existing template.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall prevent the editing of a template once it has been submitted.,Functional,PURE
-Grid-BGC Application Version 1.0,The system shall support Geographic, UTM, Albers Conical Equal Area, Lambert Conformal Conic, Lambert Azimuthal Equal Area, Interrupted Goode Homolosine, and Interrupted Mollweide projection types.,Functional,PURE
+Grid-BGC Application Version 1.0,"The system shall support Geographic, UTM, Albers Conical Equal Area, Lambert Conformal Conic, Lambert Azimuthal Equal Area, Interrupted Goode Homolosine, and Interrupted Mollweide projection types.",Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to upload NetCDF data files for Surface Observation Objects.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to extract subsets of data from existing Site Data Objects.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall provide a user interface to manage all Daymet parameterization values.,Functional,PURE
-Grid-BGC Application Version 1.0,The system shall allow users to start, monitor, and control model runs.,Functional,PURE
+Grid-BGC Application Version 1.0,"The system shall allow users to start, monitor, and control model runs.",Functional,PURE
 Grid-BGC Application Version 1.0,The system shall display a list of available computational resources for model execution.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall provide an approximate execution time estimate for selected resources.,Not Functional,PURE
 Grid-BGC Application Version 1.0,The system shall monitor Daymet model runs on a tile by tile basis.,Functional,PURE
@@ -48,5 +48,5 @@ Grid-BGC Application Version 1.0,The system shall provide a graphical user inter
 Grid-BGC Application Version 1.0,The system shall support Fire and Deforestation event types in Disturbance Objects.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall allow users to define simulation topologies ranging from 1 Site x 1 PFT to All Sites x All PFTs.,Functional,PURE
 Grid-BGC Application Version 1.0,The system shall provide portal administrators with functions to validate that file references correspond to actual files on the storage system.,Functional,PURE
-Grid-BGC Application Version 1.0,The system shall be usable in Internet Explorer 6.0, Netscape 7.1, and Safari 1.2.1.,Not Functional,PURE
+Grid-BGC Application Version 1.0,"The system shall be usable in Internet Explorer 6.0, Netscape 7.1, and Safari 1.2.1.",Not Functional,PURE
 Grid-BGC Application Version 1.0,The system shall require users to enable cookies.,Not Functional,PURE

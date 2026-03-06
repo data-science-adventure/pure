@@ -1,0 +1,125 @@
+project_id,text,type,source
+2009 - peppol.pdf,A standard representation of common criteria of qualitative selection and exclusion shall be defined according to Articles 45-50 of Directive 2004/18/EC.,Functional,PURE
+2009 - peppol.pdf,"The right granularity and consistency of criteria shall be found through testing and iterative re-definition in order to ensure legitimacy and to retrieve adequate mapping results.",Functional,PURE
+2009 - peppol.pdf,National requirements for qualitative selection and exclusion shall correspond to the EC criteria given in Article 45-50.,Functional,PURE
+2009 - peppol.pdf,A template that ensures comparable and reliable mappings between criteria for qualitative selection and exclusion and national attestations shall be defined.,Functional,PURE
+2009 - peppol.pdf,The members of this work package shall perform the mapping between national attestations and European criteria of qualitative selection and exclusion.,Functional,PURE
+2009 - peppol.pdf,Legitimacy of standard representation of common criteria of qualitative selection and exclusion shall be ensured.,Not Functional,PURE
+2009 - peppol.pdf,Legitimacy of standard mapping template shall be ensured.,Not Functional,PURE
+2009 - peppol.pdf,Legitimacy of mapping between national attestations and common criteria for qualitative selection and exclusion shall be ensured.,Not Functional,PURE
+2009 - peppol.pdf,A decision to deploy either a centralised or a decentralized infrastructure that provides the mapping service shall be made.,Not Functional,PURE
+2009 - peppol.pdf,Technical means to provide the mapping service shall be defined.,Not Functional,PURE
+2009 - peppol.pdf,An entity that hosts the mapping facility shall be defined in dependence of the type of infrastructure and the dedicated governing model.,Not Functional,PURE
+2009 - peppol.pdf,"A governing model with the necessary status and power shall be formally defined in order to ensure fulfilment of functions like liability, sustainability and maintainability.",Not Functional,PURE
+2009 - peppol.pdf,Liability of organisation that governs the infrastructure and mapping facility shall be defined.,Not Functional,PURE
+2009 - peppol.pdf,The mapping facility shall ensure sustainability of the system over time based on commonly agreed mapping schemes.,Not Functional,PURE
+2009 - peppol.pdf,A formal procedure to make changes to the system shall be defined.,Not Functional,PURE
+2009 - peppol.pdf,"The mapping facility shall be accessible to all relevant key stakeholders such as economic operators, contracting authorities, certifiers and national service providers.",Functional,PURE
+2009 - peppol.pdf,Identity and access management shall provide a functionality to register an economic operator in a formal procedure in order to create a VCD account.,Functional,PURE
+2009 - peppol.pdf,Identity and access management shall provide an interface to submit sensitive economic operator data in order to allow the economic operator to apply for the creation of a VCD account.,Functional,PURE
+2009 - peppol.pdf,Sensitive economic operator data shall be verified through a formal procedure by an officer.,Functional,PURE
+2009 - peppol.pdf,Sensitive economic operator data shall be placed to a VCD account by an officer.,Functional,PURE
+2009 - peppol.pdf,Identity and access management shall provide a functionality that enables the economic operator to receive his log-in data.,Functional,PURE
+2009 - peppol.pdf,A change procedure shall be defined in order to modify sensitive economic operator data that is connected to the VCD account.,Functional,PURE
+2009 - peppol.pdf,The economic operator shall be able to delete his account.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality to check through identity and access management whether an economic operator has sufficient user rights to access his account.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide an interface where the economic operator can provide non-sensitive economic operator data.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide an interface where tender-specific data can be either fetched from or be provided through.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide an interface where the economic operator can request the creation of a VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall have an interface to receive and process the information provided by the pre-VCD mapping tool.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality that suggests a possible compilation of the VCD to the economic operator according to the tender-specific criteria.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality where the economic operator can decide which particular attestation services should be invoked and collected.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality that displays the attestation services that cannot be invoked automatically and that have to be manually added by the economic operator.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall have an interface/technical access to retrieve attestations that can be automatically retrieved from issuing bodies.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall have a functionality to extract structural data of evidence from attestations that can be retrieved automatically.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall have an interface to submit/upload evidence that have to be provided manually by the economic operator.,Functional,PURE
+2009 - peppol.pdf,The evidence submitted to the VCD system shall correspond to the mapping information suggested by the VCD system.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide an interface where an economic operator can add structural data of evidence that belong to specific evidence.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide an interface where the economic operator can initiate the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality to compile various data formats from various sources into a single VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add structural VCD package data to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add tender-specific data to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add economic operator data to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add structural data of evidence to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add evidences to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD package shall provide a functionality to add translations to the VCD package and VCD system during the compilation process.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality to notify the economic operator when the compilation process is finished.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide interfaces to deliver the VCD to the economic operator.,Functional,PURE
+2009 - peppol.pdf,VCD system shall be operated by at least one national VCD service provider.,Not Functional,PURE
+2009 - peppol.pdf,The VCD system shall have the status of a trusted system.,Not Functional,PURE
+2009 - peppol.pdf,Direct access to attestations issued by issuing bodies shall be established through organisational agreements.,Not Functional,PURE
+2009 - peppol.pdf,The compilation suggestion that is given to the economic operator by the VCD system shall be reliable with regard to fulfilment of tender-specific requirements.,Not Functional,PURE
+2009 - peppol.pdf,User rights for the VCD system shall be defined.,Functional,PURE
+2009 - peppol.pdf,Structural data of evidence shall be defined.,Functional,PURE
+2009 - peppol.pdf,The evidence submitted to the VCD system shall be eligible for the requirements mentioned by §§45-46 of European Directive 2004/18/EC.,Functional,PURE
+2009 - peppol.pdf,"The VCD transportation system shall provide a functionality that enables both parties involved, contracting authorities and economic operators, to authenticate to the VCD transportation system before using it.",Functional,PURE
+2009 - peppol.pdf,The VCD transportation system shall provide a functionality that enables the economic operator to find an electronic address of a contracting authority for receiving VCD packages.,Functional,PURE
+2009 - peppol.pdf,The VCD transportation system shall have an interface to connect to it in order to submit the VCD package to a contracting authority.,Functional,PURE
+2009 - peppol.pdf,The VCD transportation system shall provide a functionality that supports the economic operator in submitting the VCD package to a contracting authority.,Functional,PURE
+2009 - peppol.pdf,The transportation system shall provide an interface that enables contracting authorities to receive a VCD.,Functional,PURE
+2009 - peppol.pdf,"Both parties involved, contracting authorities and economic operators, shall have an electronic address for receiving/sending VCD packages.",Not Functional,PURE
+2009 - peppol.pdf,The transport of a VCD package shall be initiated by the economic operator.,Functional,PURE
+2009 - peppol.pdf,The choice of how to submit the VCD package to the contracting authority shall be the one that is preferred by the economic operator.,Functional,PURE
+2009 - peppol.pdf,The transportation system shall ensure that the VCD package is being delivered to the contracting authority.,Not Functional,PURE
+2009 - peppol.pdf,The transport of a VCD package shall be confidential.,Not Functional,PURE
+2009 - peppol.pdf,The transport of a VCD package shall be reliable.,Not Functional,PURE
+2009 - peppol.pdf,The transport of a VCD package shall be secure.,Not Functional,PURE
+2009 - peppol.pdf,The transport of a VCD package shall ensure that the package has not been altered or modified during transportation or validation.,Not Functional,PURE
+2009 - peppol.pdf,Non-repudiation of origin of a VCD package shall be supported.,Not Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall provide a functionality to authenticate contracting authorities to view the data contained within a VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall provide an interface that adequately displays various types of data formats contained within a single VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display structural VCD package data contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display tender-specific data contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display economic operator data contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display structural data of evidence contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display evidences contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,The VCD viewing system shall display translations of evidences contained in the VCD package.,Functional,PURE
+2009 - peppol.pdf,Any standard representation of the different types of data shall be agreed upon the pilot partners.,Not Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide functionality to collect and process context specific data for evidence that has to be provided manually or semi-automatically.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide functionality to collect and process context specific data for evidence that has to be provided automatically by the issuing body.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide IT-interfaces to issuing bodies which provide evidences in machine interpretable format.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall interact with the issuing bodies which provide evidences in machine interpretable format through IT-interfaces.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a user interface to the issuing body to provide context specific data for an evidence in a structured form.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality to validate the provided context specific data during the submission process.,Functional,PURE
+2009 - peppol.pdf,Interfaces shall be defined to retrieve context specific data from issuing bodies either automatically or semi-automatically.,Functional,PURE
+2009 - peppol.pdf,The rule set derived from legal requirements concerning evidence checking shall be defined.,Functional,PURE
+2009 - peppol.pdf,The rule set allowing for a Stage 3 mapping among concepts expressed by the context specific data shall be defined.,Functional,PURE
+2009 - peppol.pdf,The rule set derived from legal requirements concerning subcontracting and other consortium constellations shall be defined.,Functional,PURE
+2009 - peppol.pdf,Any VCD advanced package shall follow a common standard schema of context specific data.,Not Functional,PURE
+2009 - peppol.pdf,Context specific data shall be machine interpretable.,Not Functional,PURE
+2009 - peppol.pdf,Evidences that have a simple structure and limited variety of contents shall be included into the common standard schema first.,Functional,PURE
+2009 - peppol.pdf,A semantic definition of each element/class of the common standard schema of context specific data shall be created.,Functional,PURE
+2009 - peppol.pdf,A semantic definition of each element/class of the common standard schema of context specific data shall ensure that these data is mutually recognized.,Not Functional,PURE
+2009 - peppol.pdf,A method and agreement procedure to develop a common standard schema of context specific data shall be defined.,Not Functional,PURE
+2009 - peppol.pdf,Any common standard schema of context specific data classes shall be agreed upon the pilot partners.,Not Functional,PURE
+2009 - peppol.pdf,Every pilot partner shall follow the common standard schema of context specific data by defining a national version of it.,Not Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a user-interface to the economic operator to initiate the creation of a VCD advanced package.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a user-interface to the economic operator to provide existing VCD packages of other economic operators.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a functionality to check whether the structural VCD package data of existing VCD packages are consistent with the VCD advanced package schema.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a functionality to check whether the tender specific data of existing VCD packages are consistent with other VCD packages.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide functionality to merge data from several existing VCD packages of other economic operators.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide functionality to compile the data which result from the evidence collection process.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a user-interface to the economic operator to initiate the re-compilation of an existing VCD package.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a user-interface to the economic operator for uploading an existing VCD package.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a functionality to decompose an existing VCD package.,Functional,PURE
+2009 - peppol.pdf,A VCD system shall provide a functionality to identify outdated or obsolete evidences.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide functionality and an interface to the economic operator that enables him to mandate a certain contracting authority to request attestations.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall detect which attestations can be used by the mandate feature.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality that enables National VCD Service Providers to store attestations.,Functional,PURE
+2009 - peppol.pdf,A functionality for referencing to attestations shall be implemented within the VCD system.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall ensure that a contracting authority is able to request attestations via the provided reference.,Functional,PURE
+2009 - peppol.pdf,The functionality for referencing to attestations within the VCD shall be implemented either VCD-specific or contracting authority-specific.,Functional,PURE
+2009 - peppol.pdf,VCD-specific or contracting authority-specific reference to attestations shall be stored within the VCD system.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionally to check whether a contracting authority has sufficient rights and has been mandated to retrieve attestations.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality and an interface that enables contracting authorities to retrieve the attestation from the storage.,Functional,PURE
+2009 - peppol.pdf,The VCD system shall ensure that the attestation that is requested by the contracting authority is still valid at the time of awarding.,Not Functional,PURE
+2009 - peppol.pdf,The VCD system shall provide a functionality that initiates a conflict resolution process between economic operator and contracting authority.,Functional,PURE
+2009 - peppol.pdf,There shall be an access policy issued by the economic operator that mandates a contracting authority to request attestation on demand.,Not Functional,PURE
+2009 - peppol.pdf,A general reference structure and syntax shall be defined.,Not Functional,PURE
+2009 - peppol.pdf,National and local political commitments and service-level agreements shall ensure that consensuses on roles and responsibilities are built.,Not Functional,PURE
+2009 - peppol.pdf,There shall be a service-level agreement between the parties involved about the response time of a delivery of attestations and data availability.,Not Functional,PURE
+2009 - peppol.pdf,There shall be a service-level agreement between the parties involved about conflict resolution.,Not Functional,PURE
+2009 - peppol.pdf,Legal systems shall ensure that context specific data and validation values have an equivalent value to conventional attestations.,Not Functional,PURE
+2009 - peppol.pdf,The national procurement law shall ensure that National Service Provider can act as national validation points.,Not Functional,PURE
+2009 - peppol.pdf,Liability issues of the National Service Providers shall be clarified when they act as national validation points.,Not Functional,PURE
+2009 - peppol.pdf,National procedures with regard to Article 52 (1) of Directive 2004/18/EC shall be mutually recognized and trusted across borders.,Not Functional,PURE

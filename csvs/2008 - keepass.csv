@@ -1,0 +1,29 @@
+project_id,text,type,source
+2008 - keepass.pdf,"""The system shall provide an interface for the user to input a Master Password during the database creation process.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall permit the entry of Master Passwords exceeding 100 characters in length.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall require the user to retype the Master Password in a confirmation field before finalizing the database.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall display a 'file not found' error message if the user selects a non-existent database file path.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall display an 'invalid/wrong key' error message if the Master Password does not match the database header.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall prompt the user to save changes if a database is closed with unsaved modifications.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall generate a unique 128-bit initialization vector for every database save operation.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall encrypt all stored passwords in process memory using the ARC4 algorithm with a 12-byte key.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall clear all data from the Windows clipboard exactly 10 seconds after a user copy operation.""",Not Functional,PURE
+2008 - keepass.pdf,"""The system must utilize the Advanced Encryption Standard (AES) with a 256-bit key size for file encryption.""",Not Functional,PURE
+2008 - keepass.pdf,"""The system must utilize the Twofish encryption algorithm with a 128-bit block size as a secondary cipher option.""",Not Functional,PURE
+2008 - keepass.pdf,"""The system shall employ the SHA-256 hash algorithm to transform the Master Password into a 256-bit key.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall disable the 'Add Subgroup' command unless a primary group is currently selected in the sidebar.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall prepend the string '' to the title field of all entries generated via the TAN Wizard.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall invalidate a TAN entry immediately after it is successfully utilized for an authentication event.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall provide a Global Hot Key (Ctrl+Alt+K) to restore the application window to the foreground.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall simulate a keyboard sequence of {USERNAME}{TAB}{PASSWORD}{ENTER} by default during Auto-Type.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall limit Auto-Type sequences defined in the notes field to a single line of 59 characters.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall provide a 'Repair' utility within the Tools menu to restore databases with corrupted headers.""",Functional,PURE
+2008 - keepass.pdf,"""The system must maintain compatibility with 32-bit Microsoft Windows (95, 98, NT, 2000, XP) architectures.""",Not Functional,PURE
+2008 - keepass.pdf,"""The system shall permit the importation of data from CSV, XML, Code Wallet, and Password Safe file formats.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall generate random passwords based on user-defined character sets, patterns, or specific complexity rules.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall lock the workspace and require Master Key re-entry whenever the application window is minimized.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall prevent the saving of an entry if the 'Password' and 'Repeat Password' fields are not identical.""",Functional,PURE
+2008 - keepass.pdf,"""The system must operate as a standalone executable from removable USB storage without registry modifications.""",Not Functional,PURE
+2008 - keepass.pdf,"""The system shall allow the user to select specific fields, including Title and URL, for inclusion in a printed report.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall display all entries containing a character sequence match across all searchable fields in the database.""",Functional,PURE
+2008 - keepass.pdf,"""The system shall store all configuration settings in a local file rather than the host machine's system registry.""",Functional,PURE

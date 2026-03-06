@@ -1,0 +1,31 @@
+project_id,text,type,source
+2010 - fishing.pdf,"The ELSS shall capture all data necessary for recording the fishing activities undertaken by a UK fishing vessel.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall output the data as an XML file for transmission to the UK fisheries administrations' ERS system.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall validate data against the UK XML/XSD before transmission from the fishing vessel.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall transmit data at the required times specified in Section 2.5.1.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall process DAT data operations to capture and deliver formatted ELSS data for transmission.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall process DEL delete operations to capture and deliver formatted deletion requests.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall process COR correction operations to capture and deliver formatted correction requests.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall match received acknowledgements with original messages and provide a record of transmission status.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall provide data capture screens for the entry of logbook, transhipment, and landing declaration data.",Functional,PURE
+2010 - fishing.pdf,"The ELSS shall use English (UK) localizations for all UK Electronic Logbook features.",Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall use UTC for all dates and times.,Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall provide the ability to print ELSS logbook data using an onboard printer.,Functional,PURE
+2010 - fishing.pdf,"The ELSS shall protect electronic print files to prevent modification once generated and distributed.",Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall transmit data as an XML document attached to an email with a standard Subject header.,Functional,PURE
+2010 - fishing.pdf,"The ELSS shall encrypt all XML documents attached to emails using PGP.",Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall generate and transmit data automatically at least on a daily basis not later than 24:00.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall transmit data immediately after the last fishing operation has been completed.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall transmit data immediately on departing port.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall transmit data immediately after a transhipment.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall transmit data immediately on completion of the Landing declaration.,Functional,PURE
+2010 - fishing.pdf,"The ELSS shall transmit the entire report containing all corrected items when performing a data correction.",Functional,PURE
+2010 - fishing.pdf,The ELSS shall identify all corrections and deletions within the user interface.,Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall only permit correction and deletion messages for reports sent during the current trip prior to the End of Fishing report.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall receive and process RET acknowledgement messages from the ERS system.,Functional,PURE
+2010 - fishing.pdf,"The ELSS shall retain all logbook reports and corrections until the end of each trip.",Functional,PURE
+2010 - fishing.pdf,The ELSS shall provide a unique username and password for the owner of each vessel.,Non Functional,PURE
+2010 - fishing.pdf,The ELSS shall record the username in each report completed and transmission made.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall include a unique internal number in each transmission to identify the software instance.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall alert the Master if no acknowledgement is received within a pre-set time limit.,Functional,PURE
+2010 - fishing.pdf,The ELSS shall use the filename syntax [RSSNumber][YYYYMMDD][999999] for Electronic Logbook files.,Non Functional,PURE

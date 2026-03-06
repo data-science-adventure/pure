@@ -1,0 +1,31 @@
+project_id,text,type,source
+2008 - vub.pdf,"The PMS shall manage a database with bibliographical information.",Functional,PURE
+2008 - vub.pdf,"The PMS shall save the entire text of a publication in PDF and Postscript formats.",Functional,PURE
+2008 - vub.pdf,"The PMS shall automatically retrieve bibliographical information from the complete text of a publication.",Functional,PURE
+2008 - vub.pdf,"The PMS shall provide a manual interface to correct retrieved bibliographical information.",Functional,PURE
+2008 - vub.pdf,"The PMS shall recognize specific authors to allow manual linking of different name variations to a single entity.",Functional,PURE
+2008 - vub.pdf,"The PMS shall provide a bulk update function for importing multiple publications or abstracts simultaneously.",Functional,PURE
+2008 - vub.pdf,"The PMS shall support access control for publication contents based on user privileges.",Functional,PURE
+2008 - vub.pdf,"The PMS shall be accessible through a Command Line Interface (CLI).",Functional,PURE
+2008 - vub.pdf,"The PMS shall be accessible through a web browser.",Functional,PURE
+2008 - vub.pdf,"The system shall interface with a MySQL database.",Not Functional,PURE
+2008 - vub.pdf,"The web interface shall comply with the W3C XHTML 1.0 Transitional standard.",Not Functional,PURE
+2008 - vub.pdf,"The PMS shall log internal errors and notify the Administrator.",Functional,PURE
+2008 - vub.pdf,"The PMS shall communicate via HTTP using TCP/IP port 80.",Not Functional,PURE
+2008 - vub.pdf,"The PMS shall run under a Linux-based environment.",Not Functional,PURE
+2008 - vub.pdf,"The PMS shall be developed using the Ruby programming language.",Not Functional,PURE
+2008 - vub.pdf,"The system shall require Guest users to provide a first name, last name, password, and valid email address to register.",Functional,PURE
+2008 - vub.pdf,"The PMS shall send a validation email to confirm the registration of a new user account.",Functional,PURE
+2008 - vub.pdf,"The system shall allow users to search for publications by title, author, and institute.",Functional,PURE
+2008 - vub.pdf,"The PMS shall recognize VUB-Network Users by their IP address.",Functional,PURE
+2008 - vub.pdf,"The PMS shall allow Publishers to upload publications in PDF and PS formats following BibTeX or RIS standards.",Functional,PURE
+2008 - vub.pdf,"The PMS shall allow Moderators to edit or delete departmental publications.",Functional,PURE
+2008 - vub.pdf,"The PMS shall allow Administrators to upgrade, downgrade, or delete any user account.",Functional,PURE
+2008 - vub.pdf,"The PMS shall provide a search function supporting logical expressions such as AND, OR, and NOT.",Functional,PURE
+2008 - vub.pdf,"The PMS shall allow users to order search results by title, author, and year of publication.",Functional,PURE
+2008 - vub.pdf,"The system shall allow users to export publication references in BibTeX and RIS formats.",Functional,PURE
+2008 - vub.pdf,"The PMS shall encrypt user passwords during submission and storage.",Not Functional,PURE
+2008 - vub.pdf,"The system shall maintain database consistency at all times.",Not Functional,PURE
+2008 - vub.pdf,"The PMS shall provide a backup structure to save all stored data.",Functional,PURE
+2008 - vub.pdf,"The system shall restrict direct database access to Administrators via the CLI.",Not Functional,PURE
+2008 - vub.pdf,"The PMS shall display an error message to visitors stating the system is down during maintenance or failure.",Functional,PURE
